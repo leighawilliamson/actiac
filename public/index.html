@@ -1,0 +1,23 @@
+<html>
+ <head>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <title>Image Server</title>
+ </head>
+
+ <body>
+    <!-- display static background image -->
+    <div class="container"><img  src="./background.jpg" style="background-size: contain; width: 100%;"/></div>
+ </body>
+
+ <script>
+   var SM_CONFIG = {
+     apiKey: 'YOUR_API_KEY',
+   };
+
+   !function(){var e=window,t=document,n=t.createElement("script");n.type="text/javascript",n.async=!1,n.defer=!0,n.src="https://static.soulmachines.com/soulmachines-latest.js",n.onload=()=>{e.sm.configure(SM_CONFIG)},e.addEventListener("DOMContentLoaded",(()=>{var e=t.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)}))}();
+ </script>
+ 
+</html>
