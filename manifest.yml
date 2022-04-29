@@ -1,0 +1,4 @@
+applications:
+- name: actiac-app
+  memory: 128M
+  instances: 1
