@@ -1,0 +1,4457 @@
+﻿{
+    "Speakers": [
+        {
+            "Speaker ID": "158960",
+            "First Name": "Leanne",
+            "Last Name": " Libby",
+            "Title": "Director of Communications",
+            "Company": "Corpus Christi ISD",
+            "List of Session ID(s)": "6168",
+            "Email": "leanne.libby@ccisd.us"
+        },
+        {
+            "Speaker ID": "147556",
+            "First Name": "Robert",
+            "Last Name": "Abel",
+            "Title": "Chief of Human Capital Management",
+            "Company": "Dallas ISD",
+            "List of Session ID(s)": "6031",
+            "Email": "rabel@dallasisd.org"
+        },
+        {
+            "Speaker ID": "181176",
+            "First Name": "Julie",
+            "Last Name": "Abram",
+            "Title": "Executive Director, Teaching and Professional Learning",
+            "Company": "La Porte ISD",
+            "List of Session ID(s)": "6005",
+            "Email": "abramj@lpisd.org"
+        },
+        {
+            "Speaker ID": "163729",
+            "First Name": "Jason",
+            "Last Name": "Adams",
+            "Title": "Area Director",
+            "Company": "Garland ISD",
+            "List of Session ID(s)": "5999",
+            "Email": "jmadam2@garlandisd.net"
+        },
+        {
+            "Speaker ID": "183262",
+            "First Name": "Rachel",
+            "Last Name": "Alex",
+            "Title": "Senior Education Specialist",
+            "Company": "ESC Region 4",
+            "List of Session ID(s)": "5941",
+            "Email": "rachel.alex@esc4.net"
+        },
+        {
+            "Speaker ID": "160683",
+            "First Name": "Tamika",
+            "Last Name": "Alford-Stephens",
+            "Title": "Chief Business and Operations Officer",
+            "Company": "Aldine ISD",
+            "List of Session ID(s)": "6089",
+            "Email": "tralford-stephens@aldineisd.org"
+        },
+        {
+            "Speaker ID": "148103",
+            "First Name": "Lindsie",
+            "Last Name": "Almquist",
+            "Title": "Director of Human Capital",
+            "Company": "Hutto ISD",
+            "List of Session ID(s)": "6010",
+            "Email": "lindsiealmquist@gmail.com"
+        },
+        {
+            "Speaker ID": "183244",
+            "First Name": "Tana",
+            "Last Name": "Althaus",
+            "Title": "Principal ",
+            "Company": "Kerrville ISD",
+            "List of Session ID(s)": "6109",
+            "Email": "tana.althaus@kerrvilleisd.net"
+        },
+        {
+            "Speaker ID": "170330",
+            "First Name": "Nancy",
+            "Last Name": "Alvarez",
+            "Title": "Principal",
+            "Company": "Celina ISD",
+            "List of Session ID(s)": "5974",
+            "Email": "nancyalvarez@celinaisd.com"
+        },
+        {
+            "Speaker ID": "173752",
+            "First Name": "Lucas",
+            "Last Name": "Anderson",
+            "Title": "Privacy and Cyber Risk Consultant",
+            "Company": "Texas Association of School Boards (TASB)",
+            "List of Session ID(s)": "6096",
+            "Email": "lucas.anderson@tasb.org"
+        },
+        {
+            "Speaker ID": "159401",
+            "First Name": "Susan",
+            "Last Name": "Ard",
+            "Title": "Director, Communications",
+            "Company": "Cleveland ISD",
+            "List of Session ID(s)": "6049",
+            "Email": "sard@clevelandisd.org"
+        },
+        {
+            "Speaker ID": "179021",
+            "First Name": "Staci",
+            "Last Name": "Ashley",
+            "Title": "Executive Director for Human Resources",
+            "Company": "Ector County ISD",
+            "List of Session ID(s)": "6003",
+            "Email": "staci.ashley@ectorcountyisd.org"
+        },
+        {
+            "Speaker ID": "132778",
+            "First Name": "Dawn",
+            "Last Name": "Ayers-Rodriguez",
+            "Title": "Chief of Strategic Initiatives and Accountability",
+            "Company": "Aldine ISD",
+            "List of Session ID(s)": "5913",
+            "Email": "dnayers@aldineisd.org"
+        },
+        {
+            "Speaker ID": "116835",
+            "First Name": "Christine",
+            "Last Name": "Badillo",
+            "Title": "Attorney",
+            "Company": "Walsh Gallegos Trevino Kyle & Robinson P.C.",
+            "List of Session ID(s)": "5994",
+            "Email": "cbadillo@wabsa.com"
+        },
+        {
+            "Speaker ID": "145874",
+            "First Name": "Christopher",
+            "Last Name": "Bailey",
+            "Title": "Principal",
+            "Company": "Abilene ISD",
+            "List of Session ID(s)": "6029",
+            "Email": "christopher.bailey@abileneisd.org"
+        },
+        {
+            "Speaker ID": "156748",
+            "First Name": "Sarah",
+            "Last Name": "Ballew",
+            "Title": "Instructional Specialist ",
+            "Company": "Willis ISD",
+            "List of Session ID(s)": "6033",
+            "Email": "sballew@willisisd.org"
+        },
+        {
+            "Speaker ID": "183513",
+            "First Name": "Tasha ",
+            "Last Name": "Barker",
+            "Title": "Assistant Superintendent ",
+            "Company": "Diboll ISD",
+            "List of Session ID(s)": "6106",
+            "Email": "lbarker@dibollisd.org"
+        },
+        {
+            "Speaker ID": "179617",
+            "First Name": "Diego",
+            "Last Name": "Barrera",
+            "Title": "Senior Associate/Senior Designer",
+            "Company": "Stantec",
+            "List of Session ID(s)": "6167",
+            "Email": "diego.barrera@stantec.com"
+        },
+        {
+            "Speaker ID": "122416",
+            "First Name": "Joy",
+            "Last Name": "Baskin",
+            "Title": "Director of Legal Services",
+            "Company": "Texas Association of School Boards (TASB)",
+            "List of Session ID(s)": "5995",
+            "Email": "joy.baskin@tasb.org"
+        },
+        {
+            "Speaker ID": "166552",
+            "First Name": "Steffany",
+            "Last Name": "Batik",
+            "Title": "Director of School and District Development",
+            "Company": "Frisco ISD",
+            "List of Session ID(s)": "5921",
+            "Email": "sbatik@newtechnetwork.org"
+        },
+        {
+            "Speaker ID": "159066",
+            "First Name": "Shannon",
+            "Last Name": "Beasley",
+            "Title": "Board Member",
+            "Company": "Medina Valley ISD",
+            "List of Session ID(s)": "6102",
+            "Email": "shannon.beasley@mvisd.com"
+        },
+        {
+            "Speaker ID": "182849",
+            "First Name": "Monea",
+            "Last Name": "Beene",
+            "Title": "Assistant Principal",
+            "Company": "Spring ISD",
+            "List of Session ID(s)": "5916;6078",
+            "Email": "mbeene@springisd.org"
+        },
+        {
+            "Speaker ID": "176458",
+            "First Name": "Michelle ",
+            "Last Name": "Benard",
+            "Title": "Executive Assistant to the Dean",
+            "Company": "Lamar University",
+            "List of Session ID(s)": "6218",
+            "Email": "cbenard@lamar.edu"
+        },
+        {
+            "Speaker ID": "113225",
+            "First Name": "Missy",
+            "Last Name": "Bender",
+            "Title": "Trustee-in-Residence",
+            "Company": "Raise Your Hand Texas",
+            "List of Session ID(s)": "6180",
+            "Email": "mbender@ryht.org"
+        },
+        {
+            "Speaker ID": "101590",
+            "First Name": "Amy",
+            "Last Name": "Beneski",
+            "Title": "Deputy Executive Director, Governmental Relations",
+            "Company": "TASA",
+            "List of Session ID(s)": "6176",
+            "Email": "abeneski@tasanet.org"
+        },
+        {
+            "Speaker ID": "126930",
+            "First Name": "Natalie",
+            "Last Name": "Benke",
+            "Title": "Principal",
+            "Company": "Medina Valley ISD",
+            "List of Session ID(s)": "6102"
+        },
+        {
+            "Speaker ID": "120570",
+            "First Name": "Tyson",
+            "Last Name": "Bennett",
+            "Title": "Assistant Superintendent, Finance & Operations",
+            "Company": "Sherman ISD",
+            "List of Session ID(s)": "6174",
+            "Email": "tbennett@shermanisd.net"
+        },
+        {
+            "Speaker ID": "183699",
+            "First Name": "Jamie",
+            "Last Name": "Benson",
+            "Title": "Director, Special Education",
+            "Company": "Willis ISD",
+            "List of Session ID(s)": "5924",
+            "Email": "jbenson@willisisd.org"
+        },
+        {
+            "Speaker ID": "163377",
+            "First Name": "Matt",
+            "Last Name": "Bentz",
+            "Title": "Chief Academic Officer",
+            "Company": "Leander ISD",
+            "List of Session ID(s)": "6104",
+            "Email": "matt.bentz@leanderisd.org"
+        },
+        {
+            "Speaker ID": "170009",
+            "First Name": "Sarah",
+            "Last Name": "Berman",
+            "Title": "Regional Account Director",
+            "Company": "K12 Insight",
+            "List of Session ID(s)": "5936;6168",
+            "Email": "sberman@k12insight.com"
+        },
+        {
+            "Speaker ID": "116425",
+            "First Name": "Andy",
+            "Last Name": "Berning",
+            "Title": "President",
+            "Company": "The Renaissance Institute",
+            "List of Session ID(s)": "6058",
+            "Email": "andy@teacherinfo.com"
+        },
+        {
+            "Speaker ID": "118936",
+            "First Name": "Denise",
+            "Last Name": "Beutel",
+            "Title": "Executive Director, Teaching and Learning Services",
+            "Company": "Richardson ISD",
+            "List of Session ID(s)": "5915",
+            "Email": "denise.beutel@risd.org"
+        },
+        {
+            "Speaker ID": "183091",
+            "First Name": "Gregory",
+            "Last Name": "Bicknell",
+            "Title": "Assistant Director of Student Services",
+            "Company": "Birdville ISD",
+            "List of Session ID(s)": "5969",
+            "Email": "greg.bicknell@birdvilleschools.net"
+        },
+        {
+            "Speaker ID": "152664",
+            "First Name": "Jennifer",
+            "Last Name": "Biundo",
+            "Title": "Director of Policy and Data",
+            "Company": "The Texas Campaign to Prevent Teen Pregnancy",
+            "List of Session ID(s)": "5988",
+            "Email": "jen@txcampaign.org"
+        },
+        {
+            "Speaker ID": "172612",
+            "First Name": "Michael",
+            "Last Name": "Bland",
+            "Title": "Principal",
+            "Company": "Garland ISD",
+            "List of Session ID(s)": "5933",
+            "Email": "mlbland@garlndisd.net"
+        },
+        {
+            "Speaker ID": "154404",
+            "First Name": "Jill",
+            "Last Name": "Blankenship",
+            "Title": "Regional Vice President - Cardonex",
+            "Company": "Education Advanced, Inc.",
+            "List of Session ID(s)": "5996;6173",
+            "Email": "jill@educationadvanced.com"
+        },
+        {
+            "Speaker ID": "116275",
+            "First Name": "Celina",
+            "Last Name": "Bley",
+            "Title": "Associate Director",
+            "Company": "Texas School Safety Center",
+            "List of Session ID(s)": "5976",
+            "Email": "celina.bley@txstate.edu"
+        },
+        {
+            "Speaker ID": "184053",
+            "First Name": "Paul",
+            "Last Name": "Bloomberg",
+            "Title": "Founder & Chief Learning Officer",
+            "Company": "The Core Collaborative",
+            "List of Session ID(s)": "6199"
+        },
+        {
+            "Speaker ID": "183476",
+            "First Name": "Shawneequa",
+            "Last Name": "Blount",
+            "Title": "Director of Early Childhood Programs",
+            "Company": "Crowley ISD",
+            "List of Session ID(s)": "6067",
+            "Email": "shawneequa.blount@crowley.k12.tx.us"
+        },
+        {
+            "Speaker ID": "183650",
+            "First Name": "Cynthia",
+            "Last Name": "Bode",
+            "Title": "Director, Student Services",
+            "Company": "Belton ISD",
+            "List of Session ID(s)": "5998",
+            "Email": "(254) 215-2029"
+        },
+        {
+            "Speaker ID": "123231",
+            "First Name": "Greg",
+            "Last Name": "Bonewald",
+            "Title": "Deputy Superintendent",
+            "Company": "Victoria ISD",
+            "List of Session ID(s)": "5918",
+            "Email": "gregory.bonewald@visd.net"
+        },
+        {
+            "Speaker ID": "137463",
+            "First Name": "Sara",
+            "Last Name": "Borchgardt",
+            "Title": "Director of Educator Talent Development ",
+            "Company": "Galveston ISD",
+            "List of Session ID(s)": "5941;5951",
+            "Email": "saraborchgardt@gisd.org"
+        },
+        {
+            "Speaker ID": "104951",
+            "First Name": "Susan",
+            "Last Name": "Borg",
+            "Title": "Senior Associate",
+            "Company": "N2 Learning",
+            "List of Session ID(s)": "6012",
+            "Email": "susan.borg@n2learning.org"
+        },
+        {
+            "Speaker ID": "153424",
+            "First Name": "Nicole",
+            "Last Name": "Bosworth",
+            "Title": "Director of District Partnerships",
+            "Company": "EveryDay Labs",
+            "List of Session ID(s)": "5961",
+            "Email": "nicole@everydaylabs.com"
+        },
+        {
+            "Speaker ID": "177985",
+            "First Name": "Craig",
+            "Last Name": "Boyan",
+            "Title": "President & COO",
+            "Company": "HEB",
+            "List of Session ID(s)": "6205",
+            "Email": "boyan.craig@heb.com"
+        },
+        {
+            "Speaker ID": "182833",
+            "First Name": "Sharon",
+            "Last Name": "Bradley",
+            "Title": "Director of Family and Social Services",
+            "Company": "Plano ISD",
+            "List of Session ID(s)": "5960",
+            "Email": "sharon.bradley@pisd.edu"
+        },
+        {
+            "Speaker ID": "165069",
+            "First Name": "Adam",
+            "Last Name": "Bramlett",
+            "Title": "High School Principal",
+            "Company": "Eastland ISD",
+            "List of Session ID(s)": "6060",
+            "Email": "abramlett@eastland.esc14.net"
+        },
+        {
+            "Speaker ID": "170422",
+            "First Name": "Duana",
+            "Last Name": "Brashear",
+            "Title": "Principal",
+            "Company": "Splendora ISD",
+            "List of Session ID(s)": "6111",
+            "Email": "dbrashear@splendoraisd.org"
+        },
+        {
+            "Speaker ID": "171172",
+            "First Name": "Melinda",
+            "Last Name": "Brasher",
+            "Title": "Executive Director, Communications",
+            "Company": "Georgetown ISD",
+            "List of Session ID(s)": "6168",
+            "Email": "brasherm@georgetownisd.org"
+        },
+        {
+            "Speaker ID": "183261",
+            "First Name": "CyLynn",
+            "Last Name": "Braswell",
+            "Title": "Senior Analytics Advisor",
+            "Company": "Forecast5 Analytics (A Frontline Education Company)",
+            "List of Session ID(s)": "6170",
+            "Email": "cbraswell@forecast5analytics.com"
+        },
+        {
+            "Speaker ID": "120412",
+            "First Name": "Charles",
+            "Last Name": "Breithaupt",
+            "Title": "Executive Director",
+            "Company": "University Interscholastic League, University of Texas at Austin",
+            "List of Session ID(s)": "5990",
+            "Email": "director@uiltexas.org"
+        },
+        {
+            "Speaker ID": "171432",
+            "First Name": "Barbara",
+            "Last Name": "Brown",
+            "Title": "Sr. Director of Technology",
+            "Company": "Prestonwood Christian Academy",
+            "List of Session ID(s)": "6115",
+            "Email": "bbrown@prestonwoodchristian.org"
+        },
+        {
+            "Speaker ID": "127766",
+            "First Name": "Gradyne",
+            "Last Name": "Brown",
+            "Title": "Assistant Superintendent of Human Resources",
+            "Company": "Garland ISD",
+            "List of Session ID(s)": "5999",
+            "Email": "gebrown@garlandisd.net"
+        },
+        {
+            "Speaker ID": "160995",
+            "First Name": "Lauren",
+            "Last Name": "Brown",
+            "Title": "Principal",
+            "Company": "VLK Architects",
+            "List of Session ID(s)": "6067",
+            "Email": "lbrown@vlkarchitects.com"
+        },
+        {
+            "Speaker ID": "102658",
+            "First Name": "Doug",
+            "Last Name": "Brubaker",
+            "Title": "Superintendent",
+            "Company": "Texarkana ISD",
+            "List of Session ID(s)": "6052",
+            "Email": "Doug.Brubaker@txkisd.net"
+        },
+        {
+            "Speaker ID": "168122",
+            "First Name": "Jolene",
+            "Last Name": "Bruce",
+            "Title": "Teacher",
+            "Company": "Temple ISD",
+            "List of Session ID(s)": "5955",
+            "Email": "JoleneBBruce@yahoo.com"
+        },
+        {
+            "Speaker ID": "159422",
+            "First Name": "Adi",
+            "Last Name": "Bryant",
+            "Title": "Chief Communications Officer",
+            "Company": "Royse City ISD",
+            "List of Session ID(s)": "6050",
+            "Email": "jo.bryant@rcisd.org"
+        },
+        {
+            "Speaker ID": "164886",
+            "First Name": "Janet",
+            "Last Name": "Bubert",
+            "Title": "Attorney",
+            "Company": "Underwood Law Firm",
+            "List of Session ID(s)": "5995",
+            "Email": "janet.bubert@uwlaw.com"
+        },
+        {
+            "Speaker ID": "101520",
+            "First Name": "Shannon",
+            "Last Name": "Buerk",
+            "Title": "Chief Executive Officer",
+            "Company": "engage2learn",
+            "List of Session ID(s)": "6169",
+            "Email": "shannon@engage2learn.org"
+        },
+        {
+            "Speaker ID": "101445",
+            "First Name": "Becky",
+            "Last Name": "Bunte",
+            "Title": "Deputy Executive Director",
+            "Company": "Texas Association of School Business Officials (TASBO)",
+            "List of Session ID(s)": "6123",
+            "Email": "bbunte@tasbo.org"
+        },
+        {
+            "Speaker ID": "131415",
+            "First Name": "Jeff",
+            "Last Name": "Burke",
+            "Title": "Superintendent",
+            "Company": "Splendora ISD",
+            "List of Session ID(s)": "5914;6099",
+            "Email": "jburke@splendoraisd.org"
+        },
+        {
+            "Speaker ID": "117149",
+            "First Name": "Karla",
+            "Last Name": "Burkholder",
+            "Title": "Director, Technology",
+            "Company": "Schertz-Cibolo-Universal City ISD",
+            "List of Session ID(s)": "5981;6013;6115",
+            "Email": "techiequeen@gmail.com"
+        },
+        {
+            "Speaker ID": "170966",
+            "First Name": "Jackie",
+            "Last Name": "Burniske",
+            "Title": "Director of K-12 Initiatives at UTeach",
+            "Company": "The University of Texas at Austin",
+            "List of Session ID(s)": "6057",
+            "Email": "burniske@uteach.utexas.edu"
+        },
+        {
+            "Speaker ID": "174531",
+            "First Name": "Elizabeth",
+            "Last Name": "Burns",
+            "Title": "Curriculum Director",
+            "Company": "Friona ISD",
+            "List of Session ID(s)": "6038",
+            "Email": "eburns@frionaisd.com"
+        },
+        {
+            "Speaker ID": "134845",
+            "First Name": "Jimmy",
+            "Last Name": "Burns",
+            "Title": "Superintendent",
+            "Company": "Friona ISD",
+            "List of Session ID(s)": "6038",
+            "Email": "jburns@frionaisd.com"
+        },
+        {
+            "Speaker ID": "127214",
+            "First Name": "Adrian",
+            "Last Name": "Bustillos",
+            "Title": "Chief Transformation Officer ",
+            "Company": "Aldine ISD",
+            "List of Session ID(s)": "6086",
+            "Email": "abustillos@aldineisd.org"
+        },
+        {
+            "Speaker ID": "183224",
+            "First Name": "Gordon",
+            "Last Name": "Butler",
+            "Title": "Assistant Superintendent for Staff and Student Services  ",
+            "Company": "Carroll ISD",
+            "List of Session ID(s)": "6029",
+            "Email": "gordon.butler@southlakecarroll.edu"
+        },
+        {
+            "Speaker ID": "125500",
+            "First Name": "Jim",
+            "Last Name": "Byrom",
+            "Title": "Attorney",
+            "Company": "Thompson & Horton, LLP",
+            "List of Session ID(s)": "5991",
+            "Email": "jbyrom@thompsonhorton.com"
+        },
+        {
+            "Speaker ID": "133511",
+            "First Name": "Lucio",
+            "Last Name": "Calzada",
+            "Title": "Director of Mentoring",
+            "Company": "Texas Association of Latino Administrators and Superintendents (TALAS)",
+            "List of Session ID(s)": "6024",
+            "Email": "lucalzada@aol.com"
+        },
+        {
+            "Speaker ID": "136417",
+            "First Name": "Amy",
+            "Last Name": "Campbell",
+            "Title": "Director, HR Services",
+            "Company": "Texas Association of School Boards (TASB)",
+            "List of Session ID(s)": "5944",
+            "Email": "amy.campbell@tasb.org"
+        },
+        {
+            "Speaker ID": "161118",
+            "First Name": "Chrysta ",
+            "Last Name": "Carlin",
+            "Title": "Assistant Superintendent of Pathways and Innovation",
+            "Company": "Leander ISD",
+            "List of Session ID(s)": "6104",
+            "Email": "chrysta.carlin@leanderisd.org"
+        },
+        {
+            "Speaker ID": "162661",
+            "First Name": "Natalia",
+            "Last Name": "Carrillo",
+            "Title": "Bilingual Reading Language Arts Implementation Specialist",
+            "Company": "Texas Education Agency",
+            "List of Session ID(s)": "6194",
+            "Email": "natalia.carrillo@tea.texas.gov"
+        },
+        {
+            "Speaker ID": "175928",
+            "First Name": "Denise",
+            "Last Name": "Carter",
+            "Title": "Education Support Senior Account Executive",
+            "Company": "Texas Association of School Boards (TASB)",
+            "List of Session ID(s)": "5958;5965",
+            "Email": "denise.carter@tasb.org"
+        },
+        {
+            "Speaker ID": "183379",
+            "First Name": "Heather",
+            "Last Name": "Casstevens Moeller",
+            "Title": "Social Emotional Learning Specialist",
+            "Company": "Georgetown ISD",
+            "List of Session ID(s)": "5964",
+            "Email": "moellerh@georgetownisd.org"
+        },
+        {
+            "Speaker ID": "121554",
+            "First Name": "Veronica",
+            "Last Name": "Castillon",
+            "Title": "Executive Director for Communications",
+            "Company": "Laredo ISD",
+            "List of Session ID(s)": "5972",
+            "Email": "vcastillon@laredoisd.org"
+        },
+        {
+            "Speaker ID": "183367",
+            "First Name": "Chad",
+            "Last Name": "Castruita",
+            "Title": "Founder & CEO",
+            "Company": "Care Solace",
+            "List of Session ID(s)": "5964",
+            "Email": "chad@caresolace.org"
+        },
+        {
+            "Speaker ID": "102738",
+            "First Name": "Marcelo",
+            "Last Name": "Cavazos",
+            "Title": "Superintendent",
+            "Company": "Arlington ISD",
+            "List of Session ID(s)": "5984",
+            "Email": "mcavazos@aisd.net"
+        },
+        {
+            "Speaker ID": "149565",
+            "First Name": "Michelle",
+            "Last Name": "Cavazos",
+            "Title": "Superintendent",
+            "Company": "Gregory-Portland ISD",
+            "List of Session ID(s)": "6112",
+            "Email": "mcavazos@g-pisd.org"
+        },
+        {
+            "Speaker ID": "102251",
+            "First Name": "HD",
+            "Last Name": "Chambers",
+            "Title": "Superintendent",
+            "Company": "Alief ISD",
+            "List of Session ID(s)": "5993",
+            "Email": "hd.chambers@aliefisd.net"
+        },
+        {
+            "Speaker ID": "181545",
+            "First Name": "JR",
+            "Last Name": "Chester",
+            "Title": "Project Director",
+            "Company": "The Texas Campaign to Prevent Teen Pregnancy",
+            "List of Session ID(s)": "5988",
+            "Email": "jr@txcampaign.org"
+        },
+        {
+            "Speaker ID": "182975",
+            "First Name": "Adrianna",
+            "Last Name": "Chrestopoulos",
+            "Title": "Project Director",
+            "Company": "Safal Partners",
+            "List of Session ID(s)": "6086"
+        },
+        {
+            "Speaker ID": "101093",
+            "First Name": "Elizabeth",
+            "Last Name": "Clark",
+            "Title": "Associate Superintendent for Curriculum and Instruction",
+            "Company": "Birdville ISD",
+            "List of Session ID(s)": "6009;6045",
+            "Email": "elizabeth.clark@birdvilleschools.net"
+        },
+        {
+            "Speaker ID": "180130",
+            "First Name": "Mitzi",
+            "Last Name": "Clark - Richardson",
+            "Title": "Executive Director of Partner Success",
+            "Company": "engage2learn",
+            "List of Session ID(s)": "5952",
+            "Email": "mitzi@engage2learn.org"
+        },
+        {
+            "Speaker ID": "142228",
+            "First Name": "Benjamin",
+            "Last Name": "Clinton",
+            "Title": "Deputy Superintendent",
+            "Company": "Raymondville ISD",
+            "List of Session ID(s)": "6091;6092",
+            "Email": "clintonb@raymondvilleisd.org"
+        },
+        {
+            "Speaker ID": "101409",
+            "First Name": "Steve",
+            "Last Name": "Clugston",
+            "Title": "Superintendent",
+            "Company": "Pine Tree ISD",
+            "List of Session ID(s)": "6026",
+            "Email": "sclugston@ptisd.org"
+        },
+        {
+            "Speaker ID": "106112",
+            "First Name": "Jason",
+            "Last Name": "Cochran",
+            "Title": "Superintendent",
+            "Company": "Eastland ISD",
+            "List of Session ID(s)": "6060",
+            "Email": "jcochran@eastland.esc14.net"
+        },
+        {
+            "Speaker ID": "101765",
+            "First Name": "Mike",
+            "Last Name": "Cochran",
+            "Title": "Chairman of the Board",
+            "Company": "TCG - HUB International",
+            "List of Session ID(s)": "6172",
+            "Email": "mcochran@tcggroupholdings.com"
+        },
+        {
+            "Speaker ID": "168411",
+            "First Name": "Libby",
+            "Last Name": "Cohen",
+            "Title": "Senior Director of Advocacy",
+            "Company": "Raise Your Hand Texas",
+            "List of Session ID(s)": "6179",
+            "Email": "lcohen@ryht.org"
+        },
+        {
+            "Speaker ID": "183405",
+            "First Name": "Jamie",
+            "Last Name": "Cole",
+            "Title": "Owner",
+            "Company": "Cool Breeze Training",
+            "List of Session ID(s)": "5970",
+            "Email": "jcole@lingleville.us"
+        },
+        {
+            "Speaker ID": "182100",
+            "First Name": "Kim",
+            "Last Name": "Cole",
+            "Title": "Executive Director of Secondary Teaching and Learning",
+            "Company": "Friendswood ISD",
+            "List of Session ID(s)": "6035",
+            "Email": "kcole@fisdk12.net"
+        },
+        {
+            "Speaker ID": "175853",
+            "First Name": "Walker",
+            "Last Name": "Cole",
+            "Title": "Lead Instructor",
+            "Company": "Cool Breeze Training",
+            "List of Session ID(s)": "5970",
+            "Email": "wcole@lingleville.us"
+        },
+        {
+            "Speaker ID": "151234",
+            "First Name": "Beth",
+            "Last Name": "Cooper",
+            "Title": "Superintendent",
+            "Company": "UT High School",
+            "List of Session ID(s)": "6087",
+            "Email": "bcooper@austin.utexas.edu"
+        },
+        {
+            "Speaker ID": "180373",
+            "First Name": "Susana",
+            "Last Name": "Cordova",
+            "Title": "Deputy Superintendent",
+            "Company": "Dallas ISD",
+            "List of Session ID(s)": "6079",
+            "Email": "scordova@dallasisd.org"
+        },
+        {
+            "Speaker ID": "173331",
+            "First Name": "Opal",
+            "Last Name": "Core",
+            "Title": "Director",
+            "Company": "Texas Curriculum Management Audit Center",
+            "List of Session ID(s)": "6183",
+            "Email": "ocore@tasanet.org"
+        },
+        {
+            "Speaker ID": "164562",
+            "First Name": "Richard",
+            "Last Name": "Couder",
+            "Title": "Board Member",
+            "Company": "Ysleta ISD",
+            "List of Session ID(s)": "5922",
+            "Email": "couderr@yisd.net"
+        },
+        {
+            "Speaker ID": "101305",
+            "First Name": "Eddie",
+            "Last Name": "Coulson",
+            "Title": "Partner",
+            "Company": "N2 Learning",
+            "List of Session ID(s)": "6175",
+            "Email": "eddie.coulson@n2learning.org"
+        },
+        {
+            "Speaker ID": "184052",
+            "First Name": "George",
+            "Last Name": "Couros",
+            "Title": "Worldwide Leader in Innovative Teaching, Learning & Leading",
+            "Company": "Couros Innovations LTD",
+            "List of Session ID(s)": "6198",
+            "Email": "georgecouros@gmail.com"
+        },
+        {
+            "Speaker ID": "171233",
+            "First Name": "Ben",
+            "Last Name": "Court",
+            "Title": "Associate Director",
+            "Company": "EAB",
+            "List of Session ID(s)": "5923",
+            "Email": "bcourt@eab.com"
+        },
+        {
+            "Speaker ID": "180785",
+            "First Name": "Jenna",
+            "Last Name": "Courtney",
+            "Title": "Executive Director",
+            "Company": "TXPOST",
+            "List of Session ID(s)": "6075",
+            "Email": "jenna@txpost.org"
+        },
+        {
+            "Speaker ID": "182992",
+            "First Name": "Scott",
+            "Last Name": "Cowgill",
+            "Title": "Director, Curriculum",
+            "Company": "Lake Dallas ISD",
+            "List of Session ID(s)": "6062"
+        },
+        {
+            "Speaker ID": "183340",
+            "First Name": "Jeff ",
+            "Last Name": "Crownover",
+            "Title": "Chief of Administrative Services and General Counsel",
+            "Company": "Prosper ISD",
+            "List of Session ID(s)": "5947",
+            "Email": "jrcrownover@prosper-isd.net"
+        },
+        {
+            "Speaker ID": "166697",
+            "First Name": "Gerardo",
+            "Last Name": "Cruz",
+            "Title": "Asst. Superintendent for Curriculum and Instruction",
+            "Company": "Laredo ISD",
+            "List of Session ID(s)": "5972",
+            "Email": "gcruz@laredoisd.org"
+        },
+        {
+            "Speaker ID": "101378",
+            "First Name": "Paul",
+            "Last Name": "Cruz",
+            "Title": "Co-Director of the Cooperative Superintendency Program in the College of Education ",
+            "Company": "University of Texas at Austin",
+            "List of Session ID(s)": "5980;6124",
+            "Email": "Paul.cruz@austin.utexas.edu"
+        },
+        {
+            "Speaker ID": "182830",
+            "First Name": "Larry",
+            "Last Name": "Daniel",
+            "Title": "Dean",
+            "Company": "The University of Texas of the Permian Basin",
+            "List of Session ID(s)": "5954",
+            "Email": "daniel_l@utpb.edu"
+        },
+        {
+            "Speaker ID": "183811",
+            "First Name": "Sofia",
+            "Last Name": "Darcy",
+            "Title": "Library Programs Coordinator",
+            "Company": "Katy ISD",
+            "List of Session ID(s)": "6098",
+            "Email": "sofiadarcy@katyisd.org"
+        },
+        {
+            "Speaker ID": "182836",
+            "First Name": "Rataisha ",
+            "Last Name": "Davis",
+            "Title": "Dean of Students",
+            "Company": "Houston ISD",
+            "List of Session ID(s)": "5959",
+            "Email": "rdavis23@houstonisd.org"
+        },
+        {
+            "Speaker ID": "182996",
+            "First Name": "Robert",
+            "Last Name": "Davis",
+            "Title": "Principal",
+            "Company": "Splendora ISD",
+            "List of Session ID(s)": "6111",
+            "Email": "rdavis@splendoraisd.org"
+        },
+        {
+            "Speaker ID": "181777",
+            "First Name": "W. Bryan",
+            "Last Name": "Davis",
+            "Title": "Coordinator for College, Career, & Military Readiness",
+            "Company": "Corpus Christi ISD",
+            "List of Session ID(s)": "5926",
+            "Email": "william.davis@ccisd.us"
+        },
+        {
+            "Speaker ID": "108138",
+            "First Name": "Xavier",
+            "Last Name": "De La Torre",
+            "Title": "Superintendent",
+            "Company": "Ysleta ISD",
+            "List of Session ID(s)": "6076",
+            "Email": "xdelatorre@yisd.net"
+        },
+        {
+            "Speaker ID": "143317",
+            "First Name": "David",
+            "Last Name": "DeMatthews",
+            "Title": "Assistant Professor",
+            "Company": "University of Texas-El Paso",
+            "List of Session ID(s)": "5980",
+            "Email": "ddematthews@austin.utexas.edu"
+        },
+        {
+            "Speaker ID": "183369",
+            "First Name": "Amanda",
+            "Last Name": "Dennard",
+            "Title": "Digital Learning Specialist",
+            "Company": "Humble ISD",
+            "List of Session ID(s)": "6053",
+            "Email": "amanda.dennard@humbleisd.net"
+        },
+        {
+            "Speaker ID": "184018",
+            "First Name": "Karen",
+            "Last Name": "DeSchryver",
+            "Title": "National Sales Consultant",
+            "Company": "Imagine Learning",
+            "List of Session ID(s)": "5987",
+            "Email": "karen.deschryver@imaginelearning.com>"
+        },
+        {
+            "Speaker ID": "137225",
+            "First Name": "Nelline",
+            "Last Name": "Dignum",
+            "Title": "Executive Assistant",
+            "Company": "ESC Region 11",
+            "List of Session ID(s)": "6121",
+            "Email": "ndignum@esc11.net"
+        },
+        {
+            "Speaker ID": "182359",
+            "First Name": "Tammy",
+            "Last Name": "Diller",
+            "Title": "Director of Special Education",
+            "Company": "Birdville ISD",
+            "List of Session ID(s)": "5910",
+            "Email": "Tammy.Diller@birdvilleschools.net"
+        },
+        {
+            "Speaker ID": "102314",
+            "First Name": "Ann",
+            "Last Name": "Dixon",
+            "List of Session ID(s)": "5989",
+            "Email": "adixon@beecreek.net"
+        },
+        {
+            "Speaker ID": "149894",
+            "First Name": "Nkrumah",
+            "Last Name": "Dixon",
+            "Title": "Principal",
+            "Company": "College Station ISD",
+            "List of Session ID(s)": "6082",
+            "Email": "ndixon@csisd.org"
+        },
+        {
+            "Speaker ID": "183535",
+            "First Name": "Taneshra",
+            "Last Name": "Dixon",
+            "Title": "Assistant Principal",
+            "Company": "Grand Prairie ISD",
+            "List of Session ID(s)": "6000",
+            "Email": "Taneshra.Dixon@gpisd.org"
+        },
+        {
+            "Speaker ID": "120183",
+            "First Name": "Brad",
+            "Last Name": "Domitrovich",
+            "Title": "Public Relations Consultant",
+            "Company": "South San Antonio ISD",
+            "List of Session ID(s)": "5929",
+            "Email": "brad@domitrovich.com"
+        },
+        {
+            "Speaker ID": "180752",
+            "First Name": "Kady",
+            "Last Name": "Donaghey",
+            "Title": "Executive Director of College, Career & Counseling",
+            "Company": "Weatherford ISD",
+            "List of Session ID(s)": "5971",
+            "Email": "kdonaghey@weatherfordisd.com"
+        },
+        {
+            "Speaker ID": "101416",
+            "First Name": "Karen",
+            "Last Name": "Dooley",
+            "Title": "HR Consultant",
+            "Company": "Texas Association of School Boards (TASB)",
+            "List of Session ID(s)": "5949",
+            "Email": "karen.dooley@tasb.org"
+        },
+        {
+            "Speaker ID": "177146",
+            "First Name": "Brian",
+            "Last Name": "Doran",
+            "Title": "Strategy and Operations Manager",
+            "Company": "Texas Education Agency",
+            "List of Session ID(s)": "6086",
+            "Email": "brian.doran@tea.texas.gov"
+        },
+        {
+            "Speaker ID": "183271",
+            "First Name": "Shani",
+            "Last Name": "Dowell",
+            "Title": "CEO",
+            "Company": "Possip",
+            "List of Session ID(s)": "5937",
+            "Email": "shani@possip.com"
+        },
+        {
+            "Speaker ID": "183601",
+            "First Name": "James",
+            "Last Name": "Dristas",
+            "Title": "Principal",
+            "Company": "Bellville ISD",
+            "List of Session ID(s)": "5962",
+            "Email": "jdristas@bellvillebrahmas.org"
+        },
+        {
+            "Speaker ID": "183693",
+            "First Name": "LaToya",
+            "Last Name": "Duckworth",
+            "Title": "Special Education Teacher",
+            "Company": "Harris County Department of Education",
+            "List of Session ID(s)": "5979",
+            "Email": "lduckworth@hcde-texas.org"
+        },
+        {
+            "Speaker ID": "116783",
+            "First Name": "Jamie",
+            "Last Name": "Dunevant",
+            "Title": "Executive Assistant",
+            "Company": "ESC Region 20",
+            "List of Session ID(s)": "6120",
+            "Email": "jamie.dunevant@esc20.net"
+        },
+        {
+            "Speaker ID": "167389",
+            "First Name": "Sofia",
+            "Last Name": "Dusek",
+            "Title": "Principal",
+            "Company": "PBK",
+            "List of Session ID(s)": "5932",
+            "Email": "sofia.dusek@pbk.com"
+        },
+        {
+            "Speaker ID": "183333",
+            "First Name": "Kevi",
+            "Last Name": "Duty",
+            "Title": "Director, Operations",
+            "Company": "Texas Alliance Boys and Girls Club",
+            "List of Session ID(s)": "5983",
+            "Email": "kevi@txbgc.org"
+        },
+        {
+            "Speaker ID": "183082",
+            "First Name": "Jane",
+            "Last Name": "Dvorak",
+            "Title": "Director of Secondary Learning",
+            "Company": "Ferris ISD",
+            "List of Session ID(s)": "5938",
+            "Email": "jdvorak@ferrisisd.org"
+        },
+        {
+            "Speaker ID": "137189",
+            "First Name": "Stephanie",
+            "Last Name": "Elizalde",
+            "Title": "Superintendent",
+            "Company": "Austin ISD",
+            "List of Session ID(s)": "6080",
+            "Email": "stephanie.elizalde@austinisd.org"
+        },
+        {
+            "Speaker ID": "164090",
+            "First Name": "Amy",
+            "Last Name": "Ellis",
+            "Title": "Chief Curriculum & Instruction Officer",
+            "Company": "Rockwall ISD",
+            "List of Session ID(s)": "6034",
+            "Email": "amy.ellis@rockwallisd.org"
+        },
+        {
+            "Speaker ID": "160646",
+            "First Name": "Candace",
+            "Last Name": "Emerson",
+            "Title": "AVP, Business Development & Events Manager",
+            "Company": "Hilltop Securities, Inc.",
+            "List of Session ID(s)": "6217",
+            "Email": "candace.emerson@hilltopsecurities.com"
+        },
+        {
+            "Speaker ID": "170521",
+            "First Name": "Stephen",
+            "Last Name": "English",
+            "Title": "Assistant Superintendent, Student Services",
+            "Company": "Pine Tree ISD",
+            "List of Session ID(s)": "6026",
+            "Email": "senglish@ptisd.org"
+        },
+        {
+            "Speaker ID": "119689",
+            "First Name": "Heather",
+            "Last Name": "Engstrom",
+            "Title": "Assistant Superintendent of Curriculum and Instruction",
+            "Company": "Kerrville ISD",
+            "List of Session ID(s)": "6109",
+            "Email": "heather.engstrom@kerrvilleisd.net"
+        },
+        {
+            "Speaker ID": "151060",
+            "First Name": "Matt",
+            "Last Name": "Escalante",
+            "Title": "Regional Director",
+            "Company": "TCG - HUB International",
+            "List of Session ID(s)": "6072",
+            "Email": "mescalante@tcgbenefits.com"
+        },
+        {
+            "Speaker ID": "160563",
+            "First Name": "Hector",
+            "Last Name": "Esquivel",
+            "Title": "Principal",
+            "Company": "Seguin ISD",
+            "List of Session ID(s)": "6008",
+            "Email": "hesquivel@seguin.k12.tx.us"
+        },
+        {
+            "Speaker ID": "150197",
+            "First Name": "April",
+            "Last Name": "Estrada",
+            "Title": "Director of Special Populations",
+            "Company": "ESC Region 10",
+            "List of Session ID(s)": "5967",
+            "Email": "april.estrada@region10.org"
+        },
+        {
+            "Speaker ID": "183421",
+            "First Name": "Shelbi",
+            "Last Name": "Eugenis",
+            "Title": "Principal",
+            "Company": "Levelland ISD",
+            "List of Session ID(s)": "6043",
+            "Email": "seugenis@levellandisd.net"
+        },
+        {
+            "Speaker ID": "181743",
+            "First Name": "Aurora",
+            "Last Name": "Everett",
+            "Title": "District Coordinator; CTE & Advanced Academics",
+            "Company": "Ferris ISD",
+            "List of Session ID(s)": "5938",
+            "Email": "roeverett@gmail.com"
+        },
+        {
+            "Speaker ID": "180736",
+            "First Name": "Steven",
+            "Last Name": "Ewing",
+            "Title": "Executive Director of Student, Family, and Community Services",
+            "Company": "Plano ISD",
+            "List of Session ID(s)": "5960",
+            "Email": "steven.ewing@pisd.edu"
+        },
+        {
+            "Speaker ID": "106318",
+            "First Name": "Suhail",
+            "Last Name": "Farooqui",
+            "Title": "Founder and CEO",
+            "Company": "K12 Insight",
+            "List of Session ID(s)": "6168",
+            "Email": "sfarooqui@k12insight.com"
+        },
+        {
+            "Speaker ID": "154225",
+            "First Name": "Leslie",
+            "Last Name": "Feinglas",
+            "Title": "Executive Director ",
+            "Company": "Mesquite ISD",
+            "List of Session ID(s)": "6011",
+            "Email": "lfeinglas@mesquiteisd.org"
+        },
+        {
+            "Speaker ID": "115649",
+            "First Name": "Brett",
+            "Last Name": "Felten",
+            "Title": "Regional VP of Educational Partnerships",
+            "Company": "Agile Mind",
+            "List of Session ID(s)": "6077"
+        },
+        {
+            "Speaker ID": "182857",
+            "First Name": "Suzanne",
+            "Last Name": "Ferrell",
+            "Title": "Director of Library and Media Services",
+            "Company": "Clear Creek ISD",
+            "List of Session ID(s)": "6098",
+            "Email": "suferrell@ccisd.net"
+        },
+        {
+            "Speaker ID": "158287",
+            "First Name": "Jeff",
+            "Last Name": "Ferry",
+            "Title": "President",
+            "Company": "Luling ISD",
+            "List of Session ID(s)": "6064",
+            "Email": "jferry@luling.txed.net"
+        },
+        {
+            "Speaker ID": "126765",
+            "First Name": "Jacque",
+            "Last Name": "Fewin",
+            "Title": "Executive Director of Technology",
+            "Company": "Lubbock-Cooper ISD",
+            "List of Session ID(s)": "5981",
+            "Email": "jfewin@lcisd.net"
+        },
+        {
+            "Speaker ID": "129042",
+            "First Name": "Jo Ann",
+            "Last Name": "Fey",
+            "Title": "Superintendent",
+            "Company": "Midlothian ISD",
+            "List of Session ID(s)": "6032",
+            "Email": "JoAnn.Fey@misd.gs"
+        },
+        {
+            "Speaker ID": "182854",
+            "First Name": "Carolyn",
+            "Last Name": "Finley",
+            "Title": "Director of Digital Design and Professional Learning",
+            "Company": "Humble ISD",
+            "List of Session ID(s)": "6053",
+            "Email": "cfinley@humbleisd.net"
+        },
+        {
+            "Speaker ID": "116447",
+            "First Name": "Darryl",
+            "Last Name": "Flusche",
+            "Title": "Superintendent",
+            "Company": "Canyon ISD",
+            "List of Session ID(s)": "6027",
+            "Email": "Darryl.flusche@canyonisd.net"
+        },
+        {
+            "Speaker ID": "172721",
+            "First Name": "Brenda",
+            "Last Name": "Foster",
+            "Company": "ESC Region 16",
+            "List of Session ID(s)": "6038",
+            "Email": "Brenda.foster@esc16.net"
+        },
+        {
+            "Speaker ID": "160620",
+            "First Name": "Easy",
+            "Last Name": "Foster",
+            "Title": "Director of Planning and Construction",
+            "Company": "Conroe ISD",
+            "List of Session ID(s)": "6068",
+            "Email": "efoster@conroeisd.net"
+        },
+        {
+            "Speaker ID": "183928",
+            "First Name": "Dale",
+            "Last Name": "Fowler",
+            "Title": "Statewide CTE Coordinator",
+            "Company": "Texas Education Agency",
+            "List of Session ID(s)": "6192",
+            "Email": "dale.fowler@tea.texas.gov"
+        },
+        {
+            "Speaker ID": "182856",
+            "First Name": "Ron",
+            "Last Name": "Fox",
+            "Title": "Leadership Development Strategist",
+            "Company": "Capturing Kids' Hearts",
+            "List of Session ID(s)": "6095",
+            "Email": "ron.fox@capturingkidshearts.org"
+        },
+        {
+            "Speaker ID": "183451",
+            "First Name": "Kimberly",
+            "Last Name": "Freeman",
+            "Title": "Federal / Special Programs Director",
+            "Company": "Ore City ISD",
+            "List of Session ID(s)": "6106",
+            "Email": "freemank@ocisd.net"
+        },
+        {
+            "Speaker ID": "183927",
+            "First Name": "Lacy",
+            "Last Name": "Freeman",
+            "Title": "Statewide CTE Coordinator",
+            "Company": "Texas Education Agency",
+            "List of Session ID(s)": "6192",
+            "Email": "lacy.freeman@tea.texas.gov"
+        },
+        {
+            "Speaker ID": "100276",
+            "First Name": "Ray",
+            "Last Name": "Freeman",
+            "Title": "Executive Director",
+            "Company": "Equity Center",
+            "List of Session ID(s)": "6131;6132",
+            "Email": "freeman@equitycenter.org"
+        },
+        {
+            "Speaker ID": "175740",
+            "First Name": "Jessica",
+            "Last Name": "Frinsco",
+            "Title": "Instructional Specialist",
+            "Company": "Pasadena ISD",
+            "List of Session ID(s)": "5943",
+            "Email": "jfrinsco@pasadenaisd.org"
+        },
+        {
+            "Speaker ID": "101956",
+            "First Name": "Diane",
+            "Last Name": "Frost",
+            "Title": "Superintendent",
+            "Company": "Corsicana ISD",
+            "List of Session ID(s)": "6058",
+            "Email": "diane.frost@cisd.org"
+        },
+        {
+            "Speaker ID": "161109",
+            "First Name": "Karen",
+            "Last Name": "Fuller",
+            "Title": "Director Infrastructure Communications",
+            "Company": "Cypress-Fairbanks ISD",
+            "List of Session ID(s)": "6090",
+            "Email": "karen.fuller@cfisd.net"
+        },
+        {
+            "Speaker ID": "165299",
+            "First Name": "Leslie",
+            "Last Name": "Garakani",
+            "Title": "Chief Technology Officer",
+            "Company": "Midlothian ISD",
+            "List of Session ID(s)": "6032;6088",
+            "Email": "Leslie_Garakani@misd.gs"
+        },
+        {
+            "Speaker ID": "131123",
+            "First Name": "Hector",
+            "Last Name": "Garcia",
+            "Title": "Board Member",
+            "Company": "Laredo ISD",
+            "List of Session ID(s)": "6100",
+            "Email": "javier7862@yahoo.com"
+        },
+        {
+            "Speaker ID": "174968",
+            "First Name": "Monica",
+            "Last Name": "Garcia",
+            "Title": "Board Member",
+            "Company": "Laredo ISD",
+            "List of Session ID(s)": "6100",
+            "Email": "monica032880@gmail.com"
+        },
+        {
+            "Speaker ID": "173874",
+            "First Name": "Carrie",
+            "Last Name": "Garza",
+            "Title": "Principal",
+            "Company": "Splendora ISD",
+            "List of Session ID(s)": "6111",
+            "Email": "cgarza@splendoraisd.org"
+        },
+        {
+            "Speaker ID": "164917",
+            "First Name": "Gina",
+            "Last Name": "Garza",
+            "Title": "Superintendent",
+            "Company": "Ricardo ISD",
+            "List of Session ID(s)": "6018;6029",
+            "Email": "gina.garza@ricardoisd.us"
+        },
+        {
+            "Speaker ID": "184057",
+            "First Name": "Michele",
+            "Last Name": "Gay",
+            "Title": "Founder & Executive Director",
+            "Company": "Safe and Sound Schools",
+            "List of Session ID(s)": "6202",
+            "Email": "info@safeandsoundschools.org"
+        },
+        {
+            "Speaker ID": "125203",
+            "First Name": "Angie",
+            "Last Name": "Gaylord",
+            "Title": "Deputy Chief, Transformation & Innovation",
+            "Company": "Dallas ISD",
+            "List of Session ID(s)": "6079",
+            "Email": "agaylord@dallasisd.org"
+        },
+        {
+            "Speaker ID": "181004",
+            "First Name": "Greg",
+            "Last Name": "Gibson",
+            "Title": "Executive Director",
+            "Company": "Texas Association of Midsize Schools",
+            "List of Session ID(s)": "6129",
+            "Email": "support@midsizeschools.org"
+        },
+        {
+            "Speaker ID": "166093",
+            "First Name": "Andru",
+            "Last Name": "Gilbert",
+            "Title": "High School Principal",
+            "Company": "Ferris ISD",
+            "List of Session ID(s)": "5938",
+            "Email": "agilbert@ferrisisd.org"
+        },
+        {
+            "Speaker ID": "183398",
+            "First Name": "Robert",
+            "Last Name": "Gillies",
+            "Title": "Director of Advanced Academics, Gifted/Talented, and AVID",
+            "Company": "Crowley ISD",
+            "List of Session ID(s)": "6061",
+            "Email": "rgillies@crowleyi.k12.tx.us"
+        },
+        {
+            "Speaker ID": "124936",
+            "First Name": "Dennis",
+            "Last Name": "Glenn",
+            "Title": "Field Service Agent",
+            "Company": "ESC Region 7",
+            "List of Session ID(s)": "6130",
+            "Email": "dglenn@esc7.net"
+        },
+        {
+            "Speaker ID": "131369",
+            "First Name": "Natalie",
+            "Last Name": "Glover",
+            "Title": "Owner",
+            "Company": "Natalie Glover Business Design",
+            "List of Session ID(s)": "6099",
+            "Email": "ng@natalieglover.com"
+        },
+        {
+            "Speaker ID": "168976",
+            "First Name": "Courtney",
+            "Last Name": "Gober",
+            "Title": "Assistant Superintendent for Student, Family and Community Services",
+            "Company": "Plano ISD",
+            "List of Session ID(s)": "5960",
+            "Email": "courtney.gober@pisd.edu"
+        },
+        {
+            "Speaker ID": "144150",
+            "First Name": "Ricardo",
+            "Last Name": "Gomez",
+            "Title": "District At-Risk Coordinator",
+            "Company": "Northside ISD (ESC 20)",
+            "List of Session ID(s)": "6059",
+            "Email": "ricardo.gomez@nisd.net"
+        },
+        {
+            "Speaker ID": "119919",
+            "First Name": "J.A.",
+            "Last Name": "Gonzalez",
+            "Title": "Superintendent",
+            "Company": "McAllen ISD",
+            "List of Session ID(s)": "5927",
+            "Email": "jose.gonzalez@mcallenisd.net"
+        },
+        {
+            "Speaker ID": "159564",
+            "First Name": "Traci",
+            "Last Name": "Goodwin",
+            "Title": "Executive Director of Professional Development and Events",
+            "Company": "Pasadena ISD",
+            "List of Session ID(s)": "5943",
+            "Email": "tgoodwin@pasadenaisd.org"
+        },
+        {
+            "Speaker ID": "129007",
+            "First Name": "Sara",
+            "Last Name": "Goolsby",
+            "Title": "Administrator",
+            "Company": "Willis ISD",
+            "List of Session ID(s)": "6173",
+            "Email": "sgoolsby@willisisd.org"
+        },
+        {
+            "Speaker ID": "151041",
+            "First Name": "Phil",
+            "Last Name": "Gore",
+            "Title": "Director, Leadership Team Services",
+            "Company": "Texas Association of School Boards (TASB)",
+            "List of Session ID(s)": "6019",
+            "Email": "phil.gore@tasb.org"
+        },
+        {
+            "Speaker ID": "179894",
+            "First Name": "Lloyd",
+            "Last Name": "Graham",
+            "Title": "Consultant",
+            "Company": "Moak, Casey & Associates",
+            "List of Session ID(s)": "6004",
+            "Email": "lgraham@moakcasey.com"
+        },
+        {
+            "Speaker ID": "169458",
+            "First Name": "Melissa",
+            "Last Name": "Grant",
+            "Title": "Executive Assistant",
+            "Company": "ESC Region 16",
+            "List of Session ID(s)": "6142",
+            "Email": "melissa.grant@esc16.net"
+        },
+        {
+            "Speaker ID": "164133",
+            "First Name": "Brian",
+            "Last Name": "Greeney",
+            "Title": "Assistant Superintendent of Innovation, Teaching, and Learning",
+            "Company": "Willis ISD",
+            "List of Session ID(s)": "6033",
+            "Email": "bgreeney@willisisd.org"
+        },
+        {
+            "Speaker ID": "181313",
+            "First Name": "Erin",
+            "Last Name": "Gregg",
+            "Title": "Executive Director of Communications and Community Relations",
+            "Company": "Lubbock ISD",
+            "List of Session ID(s)": "5934",
+            "Email": "erin.gregg@lubbockisd.org"
+        },
+        {
+            "Speaker ID": "163374",
+            "First Name": "Sarah",
+            "Last Name": "Grissom",
+            "Title": "Area Superintendent",
+            "Company": "Leander ISD",
+            "List of Session ID(s)": "6104",
+            "Email": "Sarah.Grissom@leanderisd.org"
+        },
+        {
+            "Speaker ID": "164938",
+            "First Name": "Amy",
+            "Last Name": "Grosso",
+            "Title": "Director of Behavioral Health Services",
+            "Company": "Round Rock ISD",
+            "List of Session ID(s)": "5973",
+            "Email": "amy_grosso@roundrockisd.org"
+        },
+        {
+            "Speaker ID": "101767",
+            "First Name": "Joe",
+            "Last Name": "Guerra",
+            "Title": "Strategic Account Manager",
+            "Company": "MasteryPrep",
+            "List of Session ID(s)": "5926",
+            "Email": "jguerra@masteryprep.com"
+        },
+        {
+            "Speaker ID": "179952",
+            "First Name": "Rosanna",
+            "Last Name": "Guerrero",
+            "Title": "Chief Financial Officer",
+            "Company": "Liberty Hill ISD",
+            "List of Session ID(s)": "6071",
+            "Email": "rguerrero@libertyhill.txed.net"
+        },
+        {
+            "Speaker ID": "174986",
+            "First Name": "Leslie",
+            "Last Name": "Haack",
+            "Title": "Deputy Superintedent",
+            "Company": "Katy ISD",
+            "List of Session ID(s)": "6065",
+            "Email": "lesliejhaack@katyisd.org"
+        },
+        {
+            "Speaker ID": "183404",
+            "First Name": "Drew",
+            "Last Name": "Haley",
+            "Title": "School Safety Instructor",
+            "Company": "Cool Breeze Training",
+            "List of Session ID(s)": "5970",
+            "Email": "drewdhaley@gmail.com"
+        },
+        {
+            "Speaker ID": "162471",
+            "First Name": "Doug",
+            "Last Name": "Hamman",
+            "Title": "Department Chair",
+            "Company": "Texas Tech University",
+            "List of Session ID(s)": "5954",
+            "Email": "doug.hamman@ttu.edu"
+        },
+        {
+            "Speaker ID": "182835",
+            "First Name": "Denise",
+            "Last Name": "Hammersla",
+            "Title": "Truancy Prevention Facilitator",
+            "Company": "Plano ISD",
+            "List of Session ID(s)": "5960",
+            "Email": "denise.hammersla@pisd.edu"
+        },
+        {
+            "Speaker ID": "101830",
+            "First Name": "Jamey",
+            "Last Name": "Harrison",
+            "Title": "Deputy Director",
+            "Company": "University Interscholastic League, University of Texas at Austin",
+            "List of Session ID(s)": "5990",
+            "Email": "jharrison@uiltexas.org"
+        },
+        {
+            "Speaker ID": "100741",
+            "First Name": "Marshall",
+            "Last Name": "Harrison",
+            "Title": "Superintendent",
+            "Company": "Sunray ISD",
+            "List of Session ID(s)": "5940",
+            "Email": "marshall.harrison@region16.net"
+        },
+        {
+            "Speaker ID": "181947",
+            "First Name": "Maryann",
+            "Last Name": "Hartel",
+            "Title": "Regional Marketing Manager",
+            "Company": "Newsela",
+            "List of Session ID(s)": "5925",
+            "Email": "maryann.hartel@newsela.com"
+        },
+        {
+            "Speaker ID": "138502",
+            "First Name": "Cory",
+            "Last Name": "Hartsfield",
+            "Title": "Attorney",
+            "Company": "Cory Hartsfield PC",
+            "List of Session ID(s)": "6025",
+            "Email": "cory@chartsfieldlaw.com"
+        },
+        {
+            "Speaker ID": "182818",
+            "First Name": "Sara",
+            "Last Name": "Harville",
+            "Title": "Sr. Director",
+            "Company": "Discovery Education",
+            "List of Session ID(s)": "6166",
+            "Email": "sharville@discoveryed.com"
+        },
+        {
+            "Speaker ID": "182882",
+            "First Name": "Amy",
+            "Last Name": "Havard",
+            "Title": "Director of School Transformation",
+            "Company": "E3 Alliance",
+            "List of Session ID(s)": "6022",
+            "Email": "ahavard@e3alliance.org"
+        },
+        {
+            "Speaker ID": "176727",
+            "First Name": "Kevin",
+            "Last Name": "Hazel",
+            "Title": "Account Director",
+            "Company": "Panorama Education",
+            "List of Session ID(s)": "5966",
+            "Email": "khazel@panoramaed.com"
+        },
+        {
+            "Speaker ID": "183581",
+            "First Name": "Robby",
+            "Last Name": "Hefton",
+            "Title": "City Manager",
+            "Company": "City of Sherman",
+            "List of Session ID(s)": "6174",
+            "Email": "robbyh@cityofsherman.com"
+        },
+        {
+            "Speaker ID": "182519",
+            "First Name": "Diana",
+            "Last Name": "Henderson",
+            "Title": "Administrative Assistant",
+            "Company": "ESC Region 10",
+            "List of Session ID(s)": "6127",
+            "Email": "diana.henderson@region10.org"
+        },
+        {
+            "Speaker ID": "117195",
+            "First Name": "Jennifer",
+            "Last Name": "Henrikson",
+            "Title": "Principal",
+            "Company": "Stantec",
+            "List of Session ID(s)": "6065",
+            "Email": "jennifer.henrikson@stantec.com"
+        },
+        {
+            "Speaker ID": "158598",
+            "First Name": "Eduardo",
+            "Last Name": "Hernandez",
+            "Title": "Superintendent",
+            "Company": "Edgewood ISD (ESC 20)",
+            "List of Session ID(s)": "6028",
+            "Email": "eduardo.hernandez@eisd.net"
+        },
+        {
+            "Speaker ID": "133163",
+            "First Name": "Kristi",
+            "Last Name": "Hernandez",
+            "Title": "Chief Officer, Communication & Administrative Services",
+            "Company": "ESC Region 4",
+            "List of Session ID(s)": "6128",
+            "Email": "khernandez@esc4.net"
+        },
+        {
+            "Speaker ID": "170739",
+            "First Name": "Christina",
+            "Last Name": "Herrera",
+            "Title": "Business Intelligence Architect",
+            "Company": "Denton ISD",
+            "List of Session ID(s)": "5919",
+            "Email": "cherrera@dentonisd.org"
+        },
+        {
+            "Speaker ID": "133851",
+            "First Name": "Stormy",
+            "Last Name": "Hickman",
+            "Title": "Director of Talent Management",
+            "Company": "College Station ISD",
+            "List of Session ID(s)": "6173",
+            "Email": "shickman@csisd.org"
+        },
+        {
+            "Speaker ID": "128477",
+            "First Name": "David",
+            "Last Name": "Hicks",
+            "Title": "Superintendent",
+            "Company": "Sherman ISD",
+            "List of Session ID(s)": "6174",
+            "Email": "dhicks@shermanisd.net"
+        },
+        {
+            "Speaker ID": "160782",
+            "First Name": "Toni",
+            "Last Name": "Hicks",
+            "Title": "Superintendent",
+            "Company": "Jarrell ISD",
+            "List of Session ID(s)": "6107",
+            "Email": "toni.hicks@jarrellisd.org"
+        },
+        {
+            "Speaker ID": "135883",
+            "First Name": "Michael",
+            "Last Name": "Hill",
+            "Title": "Assistant Superintendent",
+            "Company": "Arlington ISD",
+            "List of Session ID(s)": "5984",
+            "Email": "mhill4@aisd.net"
+        },
+        {
+            "Speaker ID": "123328",
+            "First Name": "Rick",
+            "Last Name": "Hill",
+            "Title": "Shareholder",
+            "Company": "Adams, Lynch, & Loftin, P.C.",
+            "List of Session ID(s)": "5997",
+            "Email": "reh@all-lawfirm.com"
+        },
+        {
+            "Speaker ID": "152892",
+            "First Name": "Jan",
+            "Last Name": "Hindman",
+            "Title": "Director of Accreditation and Assistant Professor",
+            "Company": "West Texas A&M University",
+            "List of Session ID(s)": "5954",
+            "Email": "jhindman@wtamu.edu"
+        },
+        {
+            "Speaker ID": "100307",
+            "First Name": "Michael",
+            "Last Name": "Hinojosa",
+            "Title": "Superintendent",
+            "Company": "Dallas ISD",
+            "List of Session ID(s)": "6079",
+            "Email": "hinojosam@dallasisd.org"
+        },
+        {
+            "Speaker ID": "159596",
+            "First Name": "Sherry",
+            "Last Name": "Hirsch",
+            "Title": "Assistant to the Dean",
+            "Company": "Sam Houston State University",
+            "List of Session ID(s)": "6219",
+            "Email": "edu_slh@shsu.edu"
+        },
+        {
+            "Speaker ID": "138091",
+            "First Name": "Christie",
+            "Last Name": "Hobbs",
+            "Title": "General Counsel",
+            "Company": "Northwest ISD",
+            "List of Session ID(s)": "5947",
+            "Email": "christie.hobbs@nisdtx.org"
+        },
+        {
+            "Speaker ID": "183867",
+            "First Name": "Sarah ",
+            "Last Name": "Hobson Vafaie",
+            "Title": "District Support Consultant ",
+            "Company": "The Holdsworth Center",
+            "List of Session ID(s)": "6011",
+            "Email": "shobsonvafaie@holdsworthcenter.org"
+        },
+        {
+            "Speaker ID": "102154",
+            "First Name": "James",
+            "Last Name": "Hockenberry",
+            "Title": "Assistant Superintendent",
+            "Company": "Longview ISD",
+            "List of Session ID(s)": "6069",
+            "Email": "jhockenberry@lisd.org"
+        },
+        {
+            "Speaker ID": "154841",
+            "First Name": "Kevin",
+            "Last Name": "Hodges",
+            "Title": "Texas LCS Lead",
+            "Company": "Google for Education",
+            "List of Session ID(s)": "6054",
+            "Email": "khodges@google.com"
+        },
+        {
+            "Speaker ID": "158459",
+            "First Name": "Sarah",
+            "Last Name": "Hodges",
+            "Title": "Executive Director of School Leadership",
+            "Company": "Gregory-Portland ISD",
+            "List of Session ID(s)": "6112",
+            "Email": "shodges@g-pisd.org"
+        },
+        {
+            "Speaker ID": "102949",
+            "First Name": "Karin",
+            "Last Name": "Holacka",
+            "Title": "Chief of School Improvement and Strategic Initiatives",
+            "Company": "Duncanville ISD",
+            "List of Session ID(s)": "5915",
+            "Email": "kholacka@duncanvilleisd.org"
+        },
+        {
+            "Speaker ID": "184020",
+            "First Name": "Kristen",
+            "Last Name": "Hole",
+            "Title": "Associate Commissioner of Instructional Strategy",
+            "Company": "Texas Education Agency",
+            "List of Session ID(s)": "6194",
+            "Email": "kristen.hole@tea.texas.gov"
+        },
+        {
+            "Speaker ID": "175223",
+            "First Name": "LaJuan",
+            "Last Name": "Holster",
+            "Title": "Executive Assistant",
+            "Company": "ESC Region 18",
+            "List of Session ID(s)": "6122",
+            "Email": "lholster@esc18.net"
+        },
+        {
+            "Speaker ID": "174651",
+            "First Name": "Cody",
+            "Last Name": "Holt",
+            "Title": "Coordinator of Instructional Design",
+            "Company": "Royse City ISD",
+            "List of Session ID(s)": "6064",
+            "Email": "holtn@rcisd.org"
+        },
+        {
+            "Speaker ID": "147696",
+            "First Name": "Cheryl",
+            "Last Name": "Hoover",
+            "Title": "HR Consultant",
+            "Company": "Texas Association of School Boards (TASB)",
+            "List of Session ID(s)": "5949",
+            "Email": "cheryl.hoover@tasb.org"
+        },
+        {
+            "Speaker ID": "156746",
+            "First Name": "Rick",
+            "Last Name": "Hopkins",
+            "Title": "Executive Director",
+            "Company": "Texas Academic Decathlon",
+            "List of Session ID(s)": "6126",
+            "Email": "director@txacadec.org"
+        },
+        {
+            "Speaker ID": "173410",
+            "First Name": "Cloe",
+            "Last Name": "Hosid",
+            "Company": "Corgan",
+            "List of Session ID(s)": "6117",
+            "Email": "chloe.hosid@corgan.com"
+        },
+        {
+            "Speaker ID": "183977",
+            "First Name": "Jessica ",
+            "Last Name": "Hruska",
+            "Title": "Blended Learning Specialist",
+            "Company": "Harlingen CISD",
+            "List of Session ID(s)": "6057",
+            "Email": "jessica.hruska@hcisd.org"
+        },
+        {
+            "Speaker ID": "125181",
+            "First Name": "Patricia",
+            "Last Name": "Huber",
+            "Title": "Principal",
+            "Company": "Goliad ISD",
+            "List of Session ID(s)": "5945",
+            "Email": "phuber@goliadisd.org"
+        },
+        {
+            "Speaker ID": "137150",
+            "First Name": "Gerald",
+            "Last Name": "Hudson",
+            "Title": "Superintendent",
+            "Company": "Cedar Hill ISD",
+            "List of Session ID(s)": "5927",
+            "Email": "gerald.hudson@chisd.net"
+        },
+        {
+            "Speaker ID": "183527",
+            "First Name": "Scott",
+            "Last Name": "Hudson",
+            "Title": "Director, Emergency Management",
+            "Company": "Cypress-Fairbanks ISD",
+            "List of Session ID(s)": "5977",
+            "Email": "SCOTT.HUDSON@cfisd.net"
+        },
+        {
+            "Speaker ID": "139897",
+            "First Name": "Frankie",
+            "Last Name": "Jackson",
+            "Title": "Director of Strategic Initiatives",
+            "Company": "Texas Educational Technology Leaders (TETL)",
+            "List of Session ID(s)": "6020",
+            "Email": "frankiej.jackson@outlook.com"
+        },
+        {
+            "Speaker ID": "132088",
+            "First Name": "Laura",
+            "Last Name": "Jackson",
+            "Title": "Founder and Best Seller",
+            "Company": "The Compassion Code Academy",
+            "List of Session ID(s)": "6182",
+            "Email": "laurasschiff@gmail.com"
+        },
+        {
+            "Speaker ID": "127430",
+            "First Name": "Walter",
+            "Last Name": "Jackson",
+            "Title": "Superintendent",
+            "Company": "La Porte ISD",
+            "List of Session ID(s)": "6005;6015",
+            "Email": "Jacksonw@lpisd.org"
+        },
+        {
+            "Speaker ID": "120826",
+            "First Name": "Christopher",
+            "Last Name": "Jamail",
+            "Title": "Chief Marketing Officer",
+            "Company": "TCG - HUB International",
+            "List of Session ID(s)": "6172",
+            "Email": "cjamail@tcgservices.com"
+        },
+        {
+            "Speaker ID": "167353",
+            "First Name": "Kimberley",
+            "Last Name": "James",
+            "Title": "Chief of Staff",
+            "Company": "Corpus Christi ISD",
+            "List of Session ID(s)": "6095",
+            "Email": "kimberley.james@ccisd.us"
+        },
+        {
+            "Speaker ID": "149528",
+            "First Name": "Lucas",
+            "Last Name": "Janda",
+            "Title": "Managing Director",
+            "Company": "Live Oak Public Finance, LLC",
+            "List of Session ID(s)": "6066",
+            "Email": "ljanda@liveoakpf.com"
+        },
+        {
+            "Speaker ID": "179578",
+            "First Name": "Kelly",
+            "Last Name": "Janes",
+            "Title": "Associate",
+            "Company": "Walsh Gallegos Trevino Kyle & Robinson P.C.",
+            "List of Session ID(s)": "5958",
+            "Email": "kjanes@wabsa.com"
+        },
+        {
+            "Speaker ID": "159742",
+            "First Name": "Ann",
+            "Last Name": "Johnson",
+            "Title": "Chief Academic Officer",
+            "Company": "Humble ISD",
+            "List of Session ID(s)": "6053",
+            "Email": "ann.johnson@humbleisd.net"
+        },
+        {
+            "Speaker ID": "183599",
+            "First Name": "Patrick",
+            "Last Name": "Johnson",
+            "Title": "Security Practice Manager",
+            "Company": "True North Consulting Group",
+            "List of Session ID(s)": "6088",
+            "Email": "patrick.johnson@tncg.com"
+        },
+        {
+            "Speaker ID": "147165",
+            "First Name": "Russ",
+            "Last Name": "Johnson",
+            "Title": "Chief Executive Officer",
+            "Company": "True North Consulting Group",
+            "List of Session ID(s)": "6088",
+            "Email": "russ.johnson@tncg.com"
+        },
+        {
+            "Speaker ID": "182907",
+            "First Name": "Susan",
+            "Last Name": "Johnson",
+            "Title": "Executive Director Strategic Partnerships",
+            "Company": "Forney ISD",
+            "List of Session ID(s)": "6048",
+            "Email": "sejohnson@forneyisd.net"
+        },
+        {
+            "Speaker ID": "120911",
+            "First Name": "Chad",
+            "Last Name": "Jones",
+            "Title": "Superintendent",
+            "Company": "Decatur ISD",
+            "List of Session ID(s)": "6066",
+            "Email": "chad.jones@decaturisd.us"
+        },
+        {
+            "Speaker ID": "161670",
+            "First Name": "Mary",
+            "Last Name": "Jones",
+            "Title": "Director of Admin Services and Finance ",
+            "Company": "Eastland ISD",
+            "List of Session ID(s)": "6060",
+            "Email": "mpjones@eastland.esc14.net"
+        },
+        {
+            "Speaker ID": "180588",
+            "First Name": "Sara",
+            "Last Name": "Jones",
+            "Title": "Director of Research and Program Evaluation",
+            "Company": "Aldine ISD",
+            "List of Session ID(s)": "5913",
+            "Email": "sjjones2@aldineisd.org"
+        },
+        {
+            "Speaker ID": "160900",
+            "First Name": "Thom",
+            "Last Name": "Jones",
+            "Title": "Senior VP, Threat Detection & Prevention",
+            "Company": "Navigate360",
+            "List of Session ID(s)": "5977",
+            "Email": "thom.jones@navigateprepared.com"
+        },
+        {
+            "Speaker ID": "158796",
+            "First Name": "Janis",
+            "Last Name": "Jordan",
+            "Title": "Deputy Superintendent for Curriculum & Instruction",
+            "Company": "Northside ISD (ESC 20)",
+            "List of Session ID(s)": "6009",
+            "Email": "Janis.Jordan@nisd.net"
+        },
+        {
+            "Speaker ID": "175506",
+            "First Name": "Brittnee",
+            "Last Name": "Joseph",
+            "Title": "Event Coordinator",
+            "Company": "Education Advanced, Inc.",
+            "List of Session ID(s)": "6209",
+            "Email": "brittnee@educationadvanced.com"
+        },
+        {
+            "Speaker ID": "178757",
+            "First Name": "Forrest",
+            "Last Name": "Kaiser",
+            "Title": "Assistant Professor of Educational Leadership",
+            "Company": "University of Texas-Tyler",
+            "List of Session ID(s)": "5953",
+            "Email": "fkaiser@uttyler.edu"
+        },
+        {
+            "Speaker ID": "140116",
+            "First Name": "Sangeetha",
+            "Last Name": "Karthik",
+            "Title": "Associate Principal",
+            "Company": "Corgan",
+            "List of Session ID(s)": "6117",
+            "Email": "sangeetha.karthik@corgan.com"
+        },
+        {
+            "Speaker ID": "181305",
+            "First Name": "Lisa",
+            "Last Name": "Kassman",
+            "Title": "Executive Director, Facilities, Planning & Construction",
+            "Company": "Katy ISD",
+            "List of Session ID(s)": "6065",
+            "Email": "elisabethakassman@katyisd.org"
+        },
+        {
+            "Speaker ID": "145429",
+            "First Name": "Karlyn",
+            "Last Name": "Keller",
+            "Title": "Division Director, Special Education Solutions",
+            "Company": "Texas Association of School Boards (TASB)",
+            "List of Session ID(s)": "5965",
+            "Email": "Karlyn.Keller@tasb.org"
+        },
+        {
+            "Speaker ID": "182994",
+            "First Name": "Cheryl",
+            "Last Name": "Kelley",
+            "Title": "RLA & SS Coordinator",
+            "Company": "Willis ISD",
+            "List of Session ID(s)": "6033",
+            "Email": "ckelley@willisisd.org"
+        },
+        {
+            "Speaker ID": "175383",
+            "First Name": "Kristy",
+            "Last Name": "Kercheville",
+            "Title": "Director of Communications",
+            "Company": "Liberty Hill ISD",
+            "List of Session ID(s)": "6071",
+            "Email": "kkercheville@libertyhill.txed.net"
+        },
+        {
+            "Speaker ID": "180402",
+            "First Name": "Camille",
+            "Last Name": "Kieschnick",
+            "Title": "Executive Director of Curriculum and Instruction",
+            "Company": "Gregory-Portland ISD",
+            "List of Session ID(s)": "6112",
+            "Email": "ckieschnick@g-pisd.org"
+        },
+        {
+            "Speaker ID": "119271",
+            "First Name": "Marcette",
+            "Last Name": "Kilgore",
+            "Title": "State Director of CTE",
+            "Company": "Texas Education Agency",
+            "List of Session ID(s)": "6192",
+            "Email": "marcette.kilgore@tea.texas.gov"
+        },
+        {
+            "Speaker ID": "100954",
+            "First Name": "Doug",
+            "Last Name": "Killian",
+            "Title": "Superintendent",
+            "Company": "Pflugerville ISD",
+            "List of Session ID(s)": "5989",
+            "Email": "douglas.killian@pfisd.net"
+        },
+        {
+            "Speaker ID": "174541",
+            "First Name": "Tiffanie",
+            "Last Name": "King",
+            "Title": "Executive Director of Academic Services",
+            "Company": "Duncanville ISD",
+            "List of Session ID(s)": "6183",
+            "Email": "tking@duncanvilleisd.org"
+        },
+        {
+            "Speaker ID": "183860",
+            "First Name": "Richard",
+            "Last Name": "Klemm",
+            "Title": "Executive Director, WAY",
+            "Company": "Centric Learning",
+            "List of Session ID(s)": "6039",
+            "Email": "rich.klemm@wayprogram.net"
+        },
+        {
+            "Speaker ID": "182837",
+            "First Name": "Katy",
+            "Last Name": "Kloberdanz",
+            "Title": "Consultant, Dyslexia and Related Disorders",
+            "Company": "ESC Region 20",
+            "List of Session ID(s)": "5956",
+            "Email": "katy.kloberdanz@esc20.info"
+        },
+        {
+            "Speaker ID": "166234",
+            "First Name": "Tonya",
+            "Last Name": "Knowlton",
+            "Title": "Superintendent",
+            "Company": "Community ISD",
+            "List of Session ID(s)": "5946;6070",
+            "Email": "tonya.knowlton@communityisd.org"
+        },
+        {
+            "Speaker ID": "128986",
+            "First Name": "Veronica",
+            "Last Name": "Kortan",
+            "Title": "Assistant Superintendent for Leadership & Innovation ",
+            "Company": "Harlingen CISD",
+            "List of Session ID(s)": "6057",
+            "Email": "maria.kortan@hcisd.org"
+        },
+        {
+            "Speaker ID": "171882",
+            "First Name": "Molly",
+            "Last Name": "Kresta",
+            "Title": "Communications & Marketing Director",
+            "Company": "ESC Region 3",
+            "List of Session ID(s)": "6135",
+            "Email": "mkresta@esc3.net"
+        },
+        {
+            "Speaker ID": "100827",
+            "First Name": "Michael",
+            "Last Name": "Kuhrt",
+            "Title": "Superintendent",
+            "Company": "Wichita Falls ISD",
+            "List of Session ID(s)": "6032;6054",
+            "Email": "mkuhrt@wfisd.net"
+        },
+        {
+            "Speaker ID": "135746",
+            "First Name": "Charlotte",
+            "Last Name": "LaGrone",
+            "Title": "Executive Director of Communications",
+            "Company": "Weatherford ISD",
+            "List of Session ID(s)": "5939",
+            "Email": "clagrone@weatherfordisd.com"
+        },
+        {
+            "Speaker ID": "150409",
+            "First Name": "Jason",
+            "Last Name": "Lange",
+            "Title": "CEO and Co-Founder",
+            "Company": "BloomBoard",
+            "List of Session ID(s)": "6006",
+            "Email": "jclange@bloomboard.com"
+        },
+        {
+            "Speaker ID": "160488",
+            "First Name": "Pamela",
+            "Last Name": "Lear",
+            "Title": "Chief of Staff",
+            "Company": "Dallas ISD",
+            "List of Session ID(s)": "6169",
+            "Email": "plear@dallasisd.org"
+        },
+        {
+            "Speaker ID": "102927",
+            "First Name": "Bo",
+            "Last Name": "Ledoux",
+            "Title": "Vice President",
+            "Company": "Claycomb Associates, Inc.",
+            "List of Session ID(s)": "6064",
+            "Email": "bledoux@claycomb.net"
+        },
+        {
+            "Speaker ID": "148989",
+            "First Name": "Deann",
+            "Last Name": "Lee",
+            "Title": "Regional Advocacy Director, East Texas",
+            "Company": "Raise Your Hand Texas",
+            "List of Session ID(s)": "6180",
+            "Email": "dlee@ryht.org"
+        },
+        {
+            "Speaker ID": "153385",
+            "First Name": "Donny",
+            "Last Name": "Lee",
+            "Title": "Superintendent",
+            "Company": "Buna ISD",
+            "List of Session ID(s)": "6047",
+            "Email": "dlee@bunaisd.net"
+        },
+        {
+            "Speaker ID": "175682",
+            "First Name": "Sara",
+            "Last Name": "Leon",
+            "Title": "Attorney",
+            "Company": "Sara Leon & Associates, LLC",
+            "List of Session ID(s)": "6110",
+            "Email": "sleon@saraleonlaw.com"
+        },
+        {
+            "Speaker ID": "146465",
+            "First Name": "Tom",
+            "Last Name": "Leonard",
+            "Title": "Superintendent",
+            "Company": "Eanes ISD",
+            "List of Session ID(s)": "6119",
+            "Email": "tleonard@eanesisd.net"
+        },
+        {
+            "Speaker ID": "140146",
+            "First Name": "Pat",
+            "Last Name": "Lewis",
+            "Title": "Associate Superintendent",
+            "Company": "Grand Prairie ISD",
+            "List of Session ID(s)": "6000",
+            "Email": "Patricia.lewis@gpisd.org"
+        },
+        {
+            "Speaker ID": "179273",
+            "First Name": "Arturo",
+            "Last Name": "Lomeli",
+            "Title": "Executive Director Secondary Campus Leadership",
+            "Company": "Belton ISD",
+            "List of Session ID(s)": "6001",
+            "Email": "arturo.lomeli@bisd.net"
+        },
+        {
+            "Speaker ID": "150056",
+            "First Name": "Nick",
+            "Last Name": "Long",
+            "Title": "Vice President\r\n",
+            "Company": "Gallagher Construction Services",
+            "List of Session ID(s)": "6181",
+            "Email": "nick.long@ajg.com"
+        },
+        {
+            "Speaker ID": "175233",
+            "First Name": "David",
+            "Last Name": "Longoria",
+            "Title": "Chief Financial Officer",
+            "Company": "Raymondville ISD",
+            "List of Session ID(s)": "6091",
+            "Email": "longoriad@raymondvilleisd.org"
+        },
+        {
+            "Speaker ID": "181441",
+            "First Name": "Graciela",
+            "Last Name": "Lopez",
+            "Title": "Director of Nurses and Student Health Services",
+            "Company": "Laredo ISD",
+            "List of Session ID(s)": "5928",
+            "Email": "glopez2@laredoisd.org"
+        },
+        {
+            "Speaker ID": "121390",
+            "First Name": "Joe",
+            "Last Name": "Lopez",
+            "Title": "Superintendent",
+            "Company": "Kermit ISD",
+            "List of Session ID(s)": "5926",
+            "Email": "jrlopez@kermitisd.org"
+        },
+        {
+            "Speaker ID": "125927",
+            "First Name": "Rick",
+            "Last Name": "Lopez",
+            "Title": "Superintendent",
+            "Company": "Garland ISD",
+            "List of Session ID(s)": "6076",
+            "Email": "rlopez23@garlandisd.net"
+        },
+        {
+            "Speaker ID": "183604",
+            "First Name": "CJ",
+            "Last Name": "Lowery",
+            "Title": "Principal",
+            "Company": "Ferris ISD",
+            "List of Session ID(s)": "5938",
+            "Email": "clowery@ferrisisd.org"
+        },
+        {
+            "Speaker ID": "121880",
+            "First Name": "Heath",
+            "Last Name": "Lucas",
+            "Title": "Principal",
+            "Company": "Splendora ISD",
+            "List of Session ID(s)": "6111",
+            "Email": "hlucas@splendoraisd.org"
+        },
+        {
+            "Speaker ID": "143818",
+            "First Name": "Elisabeth",
+            "Last Name": "Luevanos",
+            "Title": "Superintendent",
+            "Company": "Milano ISD",
+            "List of Session ID(s)": "6082",
+            "Email": "eluevanos@milanoisd.net"
+        },
+        {
+            "Speaker ID": "175859",
+            "First Name": "Jose",
+            "Last Name": "Luevanos",
+            "Title": "Research Scientist",
+            "Company": "Texas A&M University",
+            "List of Session ID(s)": "6023",
+            "Email": "aluevanos@tamu.edu"
+        },
+        {
+            "Speaker ID": "165147",
+            "First Name": "Shannon ",
+            "Last Name": "Luis",
+            "Title": "Superintendent",
+            "Company": "Era ISD",
+            "List of Session ID(s)": "6108",
+            "Email": "luiss@eraisd.net"
+        },
+        {
+            "Speaker ID": "115783",
+            "First Name": "Brian",
+            "Last Name": "Lusk",
+            "Title": "Chief of Strategic Initiatives",
+            "Company": "Dallas ISD",
+            "List of Session ID(s)": "6079",
+            "Email": "brlusk@dallasisd.org"
+        },
+        {
+            "Speaker ID": "122303",
+            "First Name": "April",
+            "Last Name": "Mabry",
+            "Title": "Assistant Director",
+            "Company": "Texas Association of School Boards (TASB)",
+            "List of Session ID(s)": "5944",
+            "Email": "april.mabry@tasb.org"
+        },
+        {
+            "Speaker ID": "154354",
+            "First Name": "Annette",
+            "Last Name": "Macias",
+            "Title": "Executive Director of Accountability and School Improvement",
+            "Company": "Ector County ISD",
+            "List of Session ID(s)": "6170",
+            "Email": "annette.macias@ectorcountyisd.org"
+        },
+        {
+            "Speaker ID": "150450",
+            "First Name": "Mark",
+            "Last Name": "Madorsky",
+            "Title": "President, LEAF Engineers, a PBK Company",
+            "Company": "LEAF Engineers",
+            "List of Session ID(s)": "6068",
+            "Email": "mark.madorsky@leafengineers.com"
+        },
+        {
+            "Speaker ID": "144420",
+            "First Name": "Jean",
+            "Last Name": "Madsen",
+            "Title": "Professor, Educational Administration and Human Resource Development",
+            "Company": "Texas A&M University",
+            "List of Session ID(s)": "6082",
+            "Email": "jamadsen@tamu.edu"
+        },
+        {
+            "Speaker ID": "153976",
+            "First Name": "Karen",
+            "Last Name": "Mapp",
+            "Title": "Senior Lecturer",
+            "Company": "Harvard University, Kennedy School",
+            "List of Session ID(s)": "6203",
+            "Email": "karen_mapp@gse.harvard.edu"
+        },
+        {
+            "Speaker ID": "133875",
+            "First Name": "Suzanne",
+            "Last Name": "Marchman",
+            "Title": "Director of Client Communications",
+            "Company": "Huckabee",
+            "List of Session ID(s)": "6071",
+            "Email": "suzanne.marchman@huckabee-inc.com"
+        },
+        {
+            "Speaker ID": "171680",
+            "First Name": "Samuel",
+            "Last Name": "Marshall",
+            "Title": "Marketing Representative",
+            "Company": "Claims Administrative Services, Inc.",
+            "List of Session ID(s)": "6143;6144",
+            "Email": "samuel.marshall@cas-services.com"
+        },
+        {
+            "Speaker ID": "181956",
+            "First Name": "Starla",
+            "Last Name": "Martin",
+            "Title": "Student Services Coordinator",
+            "Company": "Celina ISD",
+            "List of Session ID(s)": "5974",
+            "Email": "starlamartin@celinaisd.com"
+        },
+        {
+            "Speaker ID": "140767",
+            "First Name": "Maggie",
+            "Last Name": "Martinez",
+            "Title": "Assistant Superintendent for Student Services",
+            "Company": "Laredo ISD",
+            "List of Session ID(s)": "5972",
+            "Email": "maggiem@laredoisd.org"
+        },
+        {
+            "Speaker ID": "182825",
+            "First Name": "Magdalena",
+            "Last Name": "Mata",
+            "Company": "Texas National Board Coalition for Teaching",
+            "List of Session ID(s)": "5950",
+            "Email": "magdalenamata12345@gmail.com "
+        },
+        {
+            "Speaker ID": "150765",
+            "First Name": "Melissa",
+            "Last Name": "Matarazzo",
+            "Title": "Coach, Senior Director",
+            "Company": "Huron Consulting Group",
+            "List of Session ID(s)": "6080",
+            "Email": "mmatarazzo@hcg.com"
+        },
+        {
+            "Speaker ID": "146314",
+            "First Name": "Karen",
+            "Last Name": "Mayton",
+            "Title": "Coordinator for Testing & Accountability",
+            "Company": "ESC Region 12",
+            "List of Session ID(s)": "5912",
+            "Email": "kmayton@esc12.net"
+        },
+        {
+            "Speaker ID": "183688",
+            "First Name": "Danielle",
+            "Last Name": "McCabe",
+            "Title": "Assistant Principal",
+            "Company": "Shepherd ISD",
+            "List of Session ID(s)": "6042",
+            "Email": "dmccabe@shepherdisd.net"
+        },
+        {
+            "Speaker ID": "102680",
+            "First Name": "Casey",
+            "Last Name": "McCreary",
+            "Title": "Associate Executive Director, Education Policy",
+            "Company": "TASA",
+            "List of Session ID(s)": "6176",
+            "Email": "cmccreary@tasanet.org"
+        },
+        {
+            "Speaker ID": "182852",
+            "First Name": "Beth",
+            "Last Name": "McDaniel",
+            "Title": "Secondary RLA Specialist, Instructional Technology Lead",
+            "Company": "ESC Region 6",
+            "List of Session ID(s)": "6042;6118",
+            "Email": "bmcdaniel@esc6.net"
+        },
+        {
+            "Speaker ID": "160363",
+            "First Name": "Laina",
+            "Last Name": "McDonald",
+            "Title": "Area Superintendent",
+            "Company": "Arlington ISD",
+            "List of Session ID(s)": "6006",
+            "Email": "lmcdona3@aisd.net"
+        },
+        {
+            "Speaker ID": "184056",
+            "First Name": "Michael",
+            "Last Name": "McDowell",
+            "Title": "Superintendent",
+            "Company": "Ross School District",
+            "List of Session ID(s)": "6201",
+            "Email": "mpmcdowell@rossbears.org"
+        },
+        {
+            "Speaker ID": "175327",
+            "First Name": "Cody",
+            "Last Name": "McDowell ",
+            "Title": "Sunray Elementary Principal ",
+            "Company": "Sunray ISD",
+            "List of Session ID(s)": "5940",
+            "Email": "cody.mcdowell@region16.net"
+        },
+        {
+            "Speaker ID": "183327",
+            "First Name": "Kalyse",
+            "Last Name": "McElveen",
+            "Title": "Manager, Central Staff Performance",
+            "Company": "Dallas ISD",
+            "List of Session ID(s)": "6031",
+            "Email": "kmcelveen@dallasisd.org"
+        },
+        {
+            "Speaker ID": "155254",
+            "First Name": "Shad",
+            "Last Name": "McGaha",
+            "Title": "Chief Technology Officer",
+            "Company": "Wichita Falls ISD",
+            "List of Session ID(s)": "6032",
+            "Email": "smcgaha@wfisd.net"
+        },
+        {
+            "Speaker ID": "166358",
+            "First Name": "MaryAdair",
+            "Last Name": "McGrath",
+            "Title": "Account Manager",
+            "Company": "Panorama Education",
+            "List of Session ID(s)": "5966",
+            "Email": "mmcgrath@panoramaed.com"
+        },
+        {
+            "Speaker ID": "168053",
+            "First Name": "Dwight",
+            "Last Name": "McHazlett",
+            "Title": "Assistant Superintendent",
+            "Company": "Medina Valley ISD",
+            "List of Session ID(s)": "6102",
+            "Email": "dwight.mchazlett@mvisd.org"
+        },
+        {
+            "Speaker ID": "150667",
+            "First Name": "Shelby",
+            "Last Name": "McIntosh",
+            "Title": "Managing Partner",
+            "Company": "Education Elements",
+            "List of Session ID(s)": "6046",
+            "Email": "shelby@edelements.com"
+        },
+        {
+            "Speaker ID": "126023",
+            "First Name": "Sharon",
+            "Last Name": "McKinney",
+            "Title": "Superintendent",
+            "Company": "Port Aransas ISD",
+            "List of Session ID(s)": "6030",
+            "Email": "mckinney@paisd.net"
+        },
+        {
+            "Speaker ID": "161722",
+            "First Name": "Michael",
+            "Last Name": "McWilliams",
+            "Title": "Principal",
+            "Company": "Denton ISD",
+            "List of Session ID(s)": "6017",
+            "Email": "mmcwilliams@dentonisd.org"
+        },
+        {
+            "Speaker ID": "182829",
+            "First Name": "Erika",
+            "Last Name": "Mein",
+            "Title": "Associate Dean",
+            "Company": "University of Texas-El Paso",
+            "List of Session ID(s)": "5954",
+            "Email": "elmein2@utep.edu"
+        },
+        {
+            "Speaker ID": "132794",
+            "First Name": "Mya",
+            "Last Name": "Mercer",
+            "Title": "Area Superintendent-McNeil LC",
+            "Company": "Round Rock ISD",
+            "List of Session ID(s)": "6021",
+            "Email": "mya_mercer@roundrockisd.org"
+        },
+        {
+            "Speaker ID": "159419",
+            "First Name": "Christian",
+            "Last Name": "Merritt",
+            "Title": "Financial Advisor",
+            "Company": "Live Oak Public Finance, LLC",
+            "List of Session ID(s)": "5946;6070",
+            "Email": "cmerritt@liveoakpf.com"
+        },
+        {
+            "Speaker ID": "145444",
+            "First Name": "Jeannie",
+            "Last Name": "Meza-Chavez",
+            "Title": "Superintendent",
+            "Company": "San Elizario ISD",
+            "List of Session ID(s)": "6101",
+            "Email": "jmeza-chavez@seisd.net"
+        },
+        {
+            "Speaker ID": "182879",
+            "First Name": "Caesar",
+            "Last Name": "Mickens",
+            "Title": "Consultant",
+            "Company": "Centric Learning",
+            "List of Session ID(s)": "6039",
+            "Email": "caesar.mickens@centriclearning.net"
+        },
+        {
+            "Speaker ID": "182343",
+            "First Name": "Christa",
+            "Last Name": "Miller",
+            "Title": "Principal Liaison",
+            "Company": "ESC Region 12",
+            "List of Session ID(s)": "6041",
+            "Email": "cmiller@esc12.net"
+        },
+        {
+            "Speaker ID": "183602",
+            "First Name": "Dustin",
+            "Last Name": "Miller",
+            "Title": "Senior Director of Experience and Innovation,",
+            "Company": "The Dallas Arboretum and Botanic Garden",
+            "List of Session ID(s)": "5933",
+            "Email": "dmiller@dallasarboretum.org"
+        },
+        {
+            "Speaker ID": "101425",
+            "First Name": "Paula",
+            "Last Name": "Moore",
+            "Title": "Director of Human Resources and Federal Programs",
+            "Company": "Gainesville ISD",
+            "List of Session ID(s)": "5942",
+            "Email": "pmoore@gainesvilleisd.org"
+        },
+        {
+            "Speaker ID": "133176",
+            "First Name": "Matthew",
+            "Last Name": "Morgan",
+            "Title": "Assistant Superintendent",
+            "Company": "Cypress-Fairbanks ISD",
+            "List of Session ID(s)": "6171",
+            "Email": "matthew.morgan@cfisd.net"
+        },
+        {
+            "Speaker ID": "175645",
+            "First Name": "Elsa",
+            "Last Name": "Morris",
+            "Title": "Assistant Superintendent for Curriculum & Instruction",
+            "Company": "Rio Grande City CISD",
+            "List of Session ID(s)": "6077",
+            "Email": "Elsav@rgccisd.org"
+        },
+        {
+            "Speaker ID": "180286",
+            "First Name": "Jance",
+            "Last Name": "Morris",
+            "Title": "Principal ",
+            "Company": "Sunray ISD",
+            "List of Session ID(s)": "5940",
+            "Email": "jance.morris@region16.net"
+        },
+        {
+            "Speaker ID": "178429",
+            "First Name": "Heath",
+            "Last Name": "Morrison",
+            "Title": "Superintendent",
+            "Company": "Montgomery ISD",
+            "List of Session ID(s)": "6052",
+            "Email": "heath.morrison@misd.org"
+        },
+        {
+            "Speaker ID": "153636",
+            "First Name": "Mason",
+            "Last Name": "Moses",
+            "Title": "Partner",
+            "Company": "TCG - HUB International",
+            "List of Session ID(s)": "6025",
+            "Email": "mmoses@tcgservices.com"
+        },
+        {
+            "Speaker ID": "146090",
+            "First Name": "Olga ",
+            "Last Name": "Moucoulis",
+            "Title": "Executive Director of Industry and Community Partnerships ",
+            "Company": "Edgewood ISD (ESC 20)",
+            "List of Session ID(s)": "5982",
+            "Email": "olga.moucoulis@eisd.net"
+        },
+        {
+            "Speaker ID": "150276",
+            "First Name": "Lisa",
+            "Last Name": "Mullins",
+            "Title": "Executive Director, Quality of Education",
+            "Company": "Pine Tree ISD",
+            "List of Session ID(s)": "6026",
+            "Email": "lmullins@ptisd.org"
+        },
+        {
+            "Speaker ID": "151890",
+            "First Name": "Scott",
+            "Last Name": "Muri",
+            "Title": "Superintendent",
+            "Company": "Ector County ISD",
+            "List of Session ID(s)": "5986;6003",
+            "Email": "scott.muri@ectorcountyisd.org"
+        },
+        {
+            "Speaker ID": "171514",
+            "First Name": "Elizabeth",
+            "Last Name": "Murphy",
+            "Title": "Principal",
+            "Company": "Galveston ISD",
+            "List of Session ID(s)": "5951",
+            "Email": "ElizabethMurphy@gisd.org"
+        },
+        {
+            "Speaker ID": "120478",
+            "First Name": "Kari",
+            "Last Name": "Murphy",
+            "Title": "Chief Technology Officer",
+            "Company": "Deer Park ISD",
+            "List of Session ID(s)": "6055;6116",
+            "Email": "kmurphy@dpisd.org"
+        },
+        {
+            "Speaker ID": "152442",
+            "First Name": "Patricia",
+            "Last Name": "Musick",
+            "Title": "Executive Director of Elementary Education",
+            "Company": "Willis ISD",
+            "List of Session ID(s)": "6033",
+            "Email": "PMusick@willisisd.org"
+        },
+        {
+            "Speaker ID": "182819",
+            "First Name": "Amy",
+            "Last Name": "Nakamoto",
+            "Title": "Sr. Vice President",
+            "Company": "Discovery Education",
+            "List of Session ID(s)": "6166",
+            "Email": "anakamoto@discoveryed.com"
+        },
+        {
+            "Speaker ID": "140150",
+            "First Name": "Lilia",
+            "Last Name": "Nanez",
+            "Title": "Associate Superintendent",
+            "Company": "Ector County ISD",
+            "List of Session ID(s)": "5986",
+            "Email": "lilia.nanez@ectorcountyisd.org"
+        },
+        {
+            "Speaker ID": "183603",
+            "First Name": "Ratna",
+            "Last Name": "Narayan",
+            "Title": "Associate Professor",
+            "Company": "University of North Texas - Dallas",
+            "List of Session ID(s)": "5933",
+            "Email": "ratna.narayan@untdallas.edu"
+        },
+        {
+            "Speaker ID": "153716",
+            "First Name": "Valerie ",
+            "Last Name": "Nelson",
+            "Title": "Principal",
+            "Company": "Mesquite ISD",
+            "List of Session ID(s)": "6081",
+            "Email": "vnelson@mesquiteisd.org"
+        },
+        {
+            "Speaker ID": "151233",
+            "First Name": "Colby",
+            "Last Name": "Nichols",
+            "Title": "Partner",
+            "Company": "Ancira Strategic Partners, LLP",
+            "List of Session ID(s)": "6176",
+            "Email": "colby@ancirastrategies.com"
+        },
+        {
+            "Speaker ID": "172727",
+            "First Name": "Nikki",
+            "Last Name": "Nix",
+            "Title": "Director of Secondary Learning",
+            "Company": "Midlothian ISD",
+            "List of Session ID(s)": "6119",
+            "Email": "nikki.nix@misd.gs"
+        },
+        {
+            "Speaker ID": "182855",
+            "First Name": "Cathie",
+            "Last Name": "Norris",
+            "Title": "Regents Professor",
+            "Company": "University of North Texas",
+            "List of Session ID(s)": "6056",
+            "Email": "cathleen.norris@unt.edu"
+        },
+        {
+            "Speaker ID": "139812",
+            "First Name": "Alicia",
+            "Last Name": "Noyola",
+            "Title": "Superintendent",
+            "Company": "Harlingen CISD",
+            "List of Session ID(s)": "6057",
+            "Email": "alicia.noyola@hcisd.org"
+        },
+        {
+            "Speaker ID": "101809",
+            "First Name": "John",
+            "Last Name": "O'Brien",
+            "Title": "Superintendent",
+            "Company": "Van Vleck ISD",
+            "List of Session ID(s)": "5932",
+            "Email": "jobrien@vvisd.org"
+        },
+        {
+            "Speaker ID": "179862",
+            "First Name": "Lynette",
+            "Last Name": "O'Keefe",
+            "Title": "Associate Director, Partnerships & Development",
+            "Company": "The University of Texas at Austin",
+            "List of Session ID(s)": "6061",
+            "Email": "Lynette.okeefe@austin.utexas.edu"
+        },
+        {
+            "Speaker ID": "178847",
+            "First Name": "Emilio",
+            "Last Name": "Olivares",
+            "Title": "Coordinator, Student Intervention & Response",
+            "Company": "Temple ISD",
+            "List of Session ID(s)": "5955",
+            "Email": "emilio.olivares@tisd.org"
+        },
+        {
+            "Speaker ID": "183684",
+            "First Name": "Ashley",
+            "Last Name": "Osborne",
+            "Title": "Executive Director, Talent Development",
+            "Company": "Ector County ISD",
+            "List of Session ID(s)": "6003",
+            "Email": "ashley.osborne@ectorcountyisd.org"
+        },
+        {
+            "Speaker ID": "120435",
+            "First Name": "Alice",
+            "Last Name": "Owen",
+            "Title": "Executive Director",
+            "Company": "Texas Educational Technology Leaders (TETL)",
+            "List of Session ID(s)": "6137",
+            "Email": "aliceowen52@gmail.com"
+        },
+        {
+            "Speaker ID": "166169",
+            "First Name": "Devin",
+            "Last Name": "Padavil",
+            "Title": "Superintendent",
+            "Company": "Taylor ISD",
+            "List of Session ID(s)": "6108",
+            "Email": "dpadavil@taylorisd.org"
+        },
+        {
+            "Speaker ID": "158621",
+            "First Name": "Dusty",
+            "Last Name": "Palmer",
+            "Title": "Assistant Professor of Educational Leadership",
+            "Company": "Texas Tech University",
+            "List of Session ID(s)": "6000;6043",
+            "Email": "dusty.palmer@ttu.edu"
+        },
+        {
+            "Speaker ID": "177242",
+            "First Name": "Megan",
+            "Last Name": "Pape",
+            "Title": "Director, Inclusive Learning & Innovation",
+            "Company": "Bellville ISD",
+            "List of Session ID(s)": "5962",
+            "Email": "mpape@bellvillebrahmas.org"
+        },
+        {
+            "Speaker ID": "120813",
+            "First Name": "Linda",
+            "Last Name": "Parker",
+            "Title": "Deputy Superintendent",
+            "Company": "Eagle Mt.-Saginaw ISD",
+            "List of Session ID(s)": "6045",
+            "Email": "lparker@ems-isd.net"
+        },
+        {
+            "Speaker ID": "126305",
+            "First Name": "Brenda",
+            "Last Name": "Payne",
+            "Title": "Assistant Superintendent of Administrative Services",
+            "Company": "Richardson ISD",
+            "List of Session ID(s)": "5968",
+            "Email": "brenda.payne@risd.org"
+        },
+        {
+            "Speaker ID": "137197",
+            "First Name": "Ruby",
+            "Last Name": "Payne",
+            "Title": "CEO",
+            "Company": "aha! Process, Inc.",
+            "List of Session ID(s)": "6197",
+            "Email": "ruby.payne@msn.com"
+        },
+        {
+            "Speaker ID": "153772",
+            "First Name": "Robyn",
+            "Last Name": "Pearce",
+            "Title": "Coordinator of Future Ready Curriculum",
+            "Company": "Forney ISD",
+            "List of Session ID(s)": "6048",
+            "Email": "robyn.pearce@edu.forneyisd.net"
+        },
+        {
+            "Speaker ID": "175981",
+            "First Name": "Walter",
+            "Last Name": "Peddy",
+            "Title": "Assistant Superintendent for Curriculum and Instruction",
+            "Company": "Huntington ISD",
+            "List of Session ID(s)": "6002",
+            "Email": "wpeddy@huntingtonisd.com"
+        },
+        {
+            "Speaker ID": "182441",
+            "First Name": "Susan",
+            "Last Name": "Pelezo",
+            "Title": "Executive Director Of Advanced Academics",
+            "Company": "Aldine ISD",
+            "List of Session ID(s)": "5922",
+            "Email": "spelezo@aldineisd.org"
+        },
+        {
+            "Speaker ID": "118904",
+            "First Name": "Adolfo",
+            "Last Name": "Pena",
+            "Title": "Interim Superintendent",
+            "Company": "Rio Grande City CISD",
+            "List of Session ID(s)": "6077",
+            "Email": "adolfop103lu@yahoo.com"
+        },
+        {
+            "Speaker ID": "170508",
+            "First Name": "Cissy",
+            "Last Name": "Perez",
+            "Title": "Superintendent",
+            "Company": "Kingsville ISD",
+            "List of Session ID(s)": "6095",
+            "Email": "dr.cissyperez@kingsvilleisd.com"
+        },
+        {
+            "Speaker ID": "167472",
+            "First Name": "Oscar",
+            "Last Name": "Perez",
+            "Title": "Executive Director of Health & Occupational Safety Support Services",
+            "Company": "Laredo ISD",
+            "List of Session ID(s)": "5928",
+            "Email": "operez@laredoisd.org"
+        },
+        {
+            "Speaker ID": "183474",
+            "First Name": "Vanessa",
+            "Last Name": "Perez Peterson",
+            "Title": "Coordinator for Advanced Academics",
+            "Company": "Corpus Christi ISD",
+            "List of Session ID(s)": "5926",
+            "Email": "vanessa.perezpeterson@ccisd.us"
+        },
+        {
+            "Speaker ID": "119847",
+            "First Name": "Gwen",
+            "Last Name": "Perkins",
+            "Title": "Area Superintendent",
+            "Company": "Denton ISD",
+            "List of Session ID(s)": "5919",
+            "Email": "gperkins@dentonisd.org"
+        },
+        {
+            "Speaker ID": "164713",
+            "First Name": "Joseph",
+            "Last Name": "Pillar",
+            "Title": "Principal",
+            "Company": "Galveston ISD",
+            "List of Session ID(s)": "5951",
+            "Email": "josephpillar@gisd.org"
+        },
+        {
+            "Speaker ID": "183861",
+            "First Name": "Holly",
+            "Last Name": "Ploch",
+            "Title": "Partnerships, WAY",
+            "Company": "Centric Learning",
+            "List of Session ID(s)": "6039",
+            "Email": "holly.ploch@wayprogram.net"
+        },
+        {
+            "Speaker ID": "121090",
+            "First Name": "Dyann",
+            "Last Name": "Polzin",
+            "Title": "Chief Human Capital Management, Student Services & Communications Officer",
+            "Company": "Galveston ISD",
+            "List of Session ID(s)": "5951",
+            "Email": "dyannpolzin@gisd.org"
+        },
+        {
+            "Speaker ID": "183066",
+            "First Name": "Matt",
+            "Last Name": "Pope",
+            "Title": "Founder",
+            "Company": "EDpact",
+            "List of Session ID(s)": "6112",
+            "Email": "matt@edpact.net"
+        },
+        {
+            "Speaker ID": "117889",
+            "First Name": "Bob",
+            "Last Name": "Popinski",
+            "Title": "Senior Director of Policy",
+            "Company": "Raise Your Hand Texas",
+            "List of Session ID(s)": "6179",
+            "Email": "bpopinski@ryht.org"
+        },
+        {
+            "Speaker ID": "121316",
+            "First Name": "Jennifer",
+            "Last Name": "Porter",
+            "Title": "Managing Director, OnRamps",
+            "Company": "The University of Texas at Austin",
+            "List of Session ID(s)": "5922",
+            "Email": "jennifer.porter@austin.utexas.edu"
+        },
+        {
+            "Speaker ID": "183528",
+            "First Name": "Demi",
+            "Last Name": "Pratt",
+            "Title": "The MILE Business Teacher",
+            "Company": "Midlothian ISD",
+            "List of Session ID(s)": "6119",
+            "Email": "demi.pratt@misd.gs"
+        },
+        {
+            "Speaker ID": "126050",
+            "First Name": "Marc",
+            "Last Name": "Puig",
+            "List of Session ID(s)": "5929",
+            "Email": "marc.puig@southsanisd.net"
+        },
+        {
+            "Speaker ID": "183378",
+            "First Name": "David",
+            "Last Name": "Rainey",
+            "Title": "Director, Counseling Services",
+            "Company": "Georgetown ISD",
+            "List of Session ID(s)": "5964",
+            "Email": "raineyd@georgetownisd.org"
+        },
+        {
+            "Speaker ID": "147642",
+            "First Name": "Lacey",
+            "Last Name": "Rainey",
+            "Title": "Area Superintendent ",
+            "Company": "Denton ISD",
+            "List of Session ID(s)": "5967",
+            "Email": "lrainey@dentonisd.org"
+        },
+        {
+            "Speaker ID": "174965",
+            "First Name": "Minita",
+            "Last Name": "Ramirez",
+            "Title": "Board Member",
+            "Company": "Laredo ISD",
+            "List of Session ID(s)": "6100",
+            "Email": "minita@tamiu.edu"
+        },
+        {
+            "Speaker ID": "152474",
+            "First Name": "Tanya",
+            "Last Name": "Ramos",
+            "Title": "Human Resources - Director of Elementary Schools",
+            "Company": "Garland ISD",
+            "List of Session ID(s)": "5999",
+            "Email": "xtvargas@garlandisd.net"
+        },
+        {
+            "Speaker ID": "180404",
+            "First Name": "Angelica",
+            "Last Name": "Ramsey",
+            "Title": "Superintendent",
+            "Company": "Midland ISD",
+            "List of Session ID(s)": "5985",
+            "Email": "angelica.ramsey@midlandisd.net"
+        },
+        {
+            "Speaker ID": "143607",
+            "First Name": "Ryan",
+            "Last Name": "Randolph",
+            "Title": "Associate Principal",
+            "Company": "Seguin ISD",
+            "List of Session ID(s)": "6008",
+            "Email": "rrandolph@seguin.k12.tx.us"
+        },
+        {
+            "Speaker ID": "100781",
+            "First Name": "Beau",
+            "Last Name": "Rees",
+            "Title": "Superintendent",
+            "Company": "Weatherford ISD",
+            "List of Session ID(s)": "5939;5971",
+            "Email": "brees@weatherfordisd.com"
+        },
+        {
+            "Speaker ID": "167018",
+            "First Name": "Brent",
+            "Last Name": "Reid",
+            "Title": "Regional Vice President - Cardonex",
+            "Company": "Education Advanced, Inc.",
+            "List of Session ID(s)": "5996;6173",
+            "Email": "brent@educationadvanced.com"
+        },
+        {
+            "Speaker ID": "184054",
+            "First Name": "Marisol",
+            "Last Name": "Rerucha",
+            "Title": "Chief of Strategy and Partnership",
+            "Company": "National Parents Union",
+            "List of Session ID(s)": "6200",
+            "Email": "marisol@npunion.org"
+        },
+        {
+            "Speaker ID": "116853",
+            "First Name": "Tony",
+            "Last Name": "Resendez",
+            "Title": "Attorney",
+            "Company": "Walsh Gallegos Trevino Kyle & Robinson P.C.",
+            "List of Session ID(s)": "5989",
+            "Email": "tresendez@sa.wabsa.com"
+        },
+        {
+            "Speaker ID": "180916",
+            "First Name": "Pedro",
+            "Last Name": "Reyes",
+            "Title": "Ashbel Smith Professor of Education Leadership & Policy",
+            "Company": "University of Texas-Austin",
+            "List of Session ID(s)": "5980",
+            "Email": "preyes@austin.utexas.edu"
+        },
+        {
+            "Speaker ID": "183600",
+            "First Name": "Olivia",
+            "Last Name": "Rice",
+            "Title": "Director of Marketing & Communication",
+            "Company": "Terrell ISD",
+            "List of Session ID(s)": "5935",
+            "Email": "olivia.rice@terrellisd.org"
+        },
+        {
+            "Speaker ID": "139586",
+            "First Name": "Racheal",
+            "Last Name": "Rife",
+            "Title": "Social Emotional Support Coordinator",
+            "Company": "Weatherford ISD",
+            "List of Session ID(s)": "5971",
+            "Email": "rrife@weatherfordisd.com"
+        },
+        {
+            "Speaker ID": "177732",
+            "First Name": "Michelle",
+            "Last Name": "Rinehart",
+            "Title": "Assistant Superintendent",
+            "Company": "Rankin ISD",
+            "List of Session ID(s)": "6110",
+            "Email": "mrinehart@rankinisd.net"
+        },
+        {
+            "Speaker ID": "175290",
+            "First Name": "Shelley",
+            "Last Name": "Rinehart",
+            "Title": "Director of Curriculum and Instruction",
+            "Company": "Eastland ISD",
+            "List of Session ID(s)": "6060",
+            "Email": "srinehart@eastland.esc14.net"
+        },
+        {
+            "Speaker ID": "156607",
+            "First Name": "Sylvia",
+            "Last Name": "Rios",
+            "Title": "Superintendent",
+            "Company": "Laredo ISD",
+            "List of Session ID(s)": "6100",
+            "Email": "sgrios@laredoisd.org"
+        },
+        {
+            "Speaker ID": "141781",
+            "First Name": "Steve",
+            "Last Name": "Ritter",
+            "Title": "Founder and Chief Scientist",
+            "Company": "Carnegie Learning",
+            "List of Session ID(s)": "6063"
+        },
+        {
+            "Speaker ID": "183254",
+            "First Name": "Deborah",
+            "Last Name": "Rivera",
+            "Title": "Texas Instructional Leadership Program Lead",
+            "Company": "ESC Region 4",
+            "List of Session ID(s)": "6040",
+            "Email": "deborah.rivera@esc4.net"
+        },
+        {
+            "Speaker ID": "118928",
+            "First Name": "Stetson",
+            "Last Name": "Roane",
+            "Title": "Superintendent",
+            "Company": "Raymondville ISD",
+            "List of Session ID(s)": "6091",
+            "Email": "sroane@raymondvilleisd.org"
+        },
+        {
+            "Speaker ID": "161915",
+            "First Name": "Deron ",
+            "Last Name": "Robinson",
+            "Title": "General Counsel",
+            "Company": "Denton ISD",
+            "List of Session ID(s)": "5947",
+            "Email": "drobinson2@dentonisd.org"
+        },
+        {
+            "Speaker ID": "181034",
+            "First Name": "Linda",
+            "Last Name": "Rodriguez",
+            "Title": "Senior Director for School Behavioral Health ",
+            "Company": "Meadows Mental Health Policy Institute",
+            "List of Session ID(s)": "5985",
+            "Email": "lrodriguez@mmhpi.org"
+        },
+        {
+            "Speaker ID": "182924",
+            "First Name": "Alexia ",
+            "Last Name": "Rogers",
+            "Title": "Assistant Superintendent of Finance",
+            "Company": "Aldine ISD",
+            "List of Session ID(s)": "6089",
+            "Email": "agrogers@aldineisd.org"
+        },
+        {
+            "Speaker ID": "119518",
+            "First Name": "Kenneth",
+            "Last Name": "Rohrbach",
+            "Title": "Superintendent",
+            "Company": "Medina Valley ISD",
+            "List of Session ID(s)": "6102",
+            "Email": "Kenneth.Rohrbach@mvisd.org"
+        },
+        {
+            "Speaker ID": "140353",
+            "First Name": "Ann",
+            "Last Name": "Roland",
+            "Title": "Executive Assistant, Office of the Executive Director",
+            "Company": "TASA",
+            "List of Session ID(s)": "6139;6145;6156;6157",
+            "Email": "aroland@tasanet.org"
+        },
+        {
+            "Speaker ID": "175030",
+            "First Name": "Laura",
+            "Last Name": "Romaine",
+            "Title": "Worker's Compensation Program Consultant",
+            "Company": "TASB Risk Management Fund",
+            "List of Session ID(s)": "6093",
+            "Email": "laura.romaine@tasb.org"
+        },
+        {
+            "Speaker ID": "115804",
+            "First Name": "Christy",
+            "Last Name": "Rome",
+            "Title": "Executive Director",
+            "Company": "Texas School Coalition",
+            "List of Session ID(s)": "6210;6211",
+            "Email": "christy@txsc.org"
+        },
+        {
+            "Speaker ID": "183597",
+            "First Name": "Jennifer",
+            "Last Name": "Ruedas",
+            "Title": "WC Claims Manager",
+            "Company": "TASB Risk Management Fund",
+            "List of Session ID(s)": "6093",
+            "Email": "jennifer.ruedas@tasb.org"
+        },
+        {
+            "Speaker ID": "127031",
+            "First Name": "Jana",
+            "Last Name": "Rueter",
+            "Title": "Assistant Superintendent of Curriculum and Instruction",
+            "Company": "San Angelo ISD",
+            "List of Session ID(s)": "6016;6183",
+            "Email": "Jana.Rueter@saisd.org"
+        },
+        {
+            "Speaker ID": "151273",
+            "First Name": "Susanna",
+            "Last Name": "Russell",
+            "Title": "Chief Leadership Officer",
+            "Company": "Garland ISD",
+            "List of Session ID(s)": "5999",
+            "Email": "srussell@garlandisd.net"
+        },
+        {
+            "Speaker ID": "152459",
+            "First Name": "Corey",
+            "Last Name": "Ryan",
+            "Title": "Chief Communications Officer",
+            "Company": "Leander ISD",
+            "List of Session ID(s)": "6046",
+            "Email": "corey.ryan@leanderisd.org"
+        },
+        {
+            "Speaker ID": "101925",
+            "First Name": "Martha",
+            "Last Name": "Salazar-Zamora",
+            "Title": "Superintendent",
+            "Company": "Tomball ISD",
+            "List of Session ID(s)": "6076",
+            "Email": "marthasalazarzamora@tomballisd.net"
+        },
+        {
+            "Speaker ID": "167654",
+            "First Name": "Julie",
+            "Last Name": "Salvato",
+            "Title": "Instructional Specialist",
+            "Company": "Lampasas ISD",
+            "List of Session ID(s)": "5917",
+            "Email": "salvatoj@lisdtx.org"
+        },
+        {
+            "Speaker ID": "172232",
+            "First Name": "Jennifer ",
+            "Last Name": "Sanders",
+            "Title": "Texas Partnership Manager",
+            "Company": "Edmentum",
+            "List of Session ID(s)": "6212;6213",
+            "Email": "jennifer.sanders@edmentum.com"
+        },
+        {
+            "Speaker ID": "150033",
+            "First Name": "Susan",
+            "Last Name": "Sassano",
+            "Title": "Business Coordinator II",
+            "Company": "Texas A&M University",
+            "List of Session ID(s)": "6138",
+            "Email": "ssassano@tamu.edu"
+        },
+        {
+            "Speaker ID": "123873",
+            "First Name": "Macy",
+            "Last Name": "Satterwhite",
+            "Title": "Deputy Superintendent",
+            "Company": "Lubbock-Cooper ISD",
+            "List of Session ID(s)": "6043",
+            "Email": "msatterwhite@lcisd.net"
+        },
+        {
+            "Speaker ID": "155311",
+            "First Name": "Clinton",
+            "Last Name": "Schiver",
+            "Title": "Principal",
+            "Company": "VLK Architects",
+            "List of Session ID(s)": "6174",
+            "Email": "cschiver@vlkarchitects.com"
+        },
+        {
+            "Speaker ID": "183526",
+            "First Name": "Traci",
+            "Last Name": "Schluter",
+            "Title": "Director, Department of Psychological Services",
+            "Company": "Cypress-Fairbanks ISD",
+            "List of Session ID(s)": "5977",
+            "Email": "traci.schluter@cfisd.net"
+        },
+        {
+            "Speaker ID": "131657",
+            "First Name": "Jill",
+            "Last Name": "Schott",
+            "Title": "Senior Director, State & District Partnership",
+            "Company": "College Board",
+            "List of Session ID(s)": "5911",
+            "Email": "jschott@collegeboard.org"
+        },
+        {
+            "Speaker ID": "179744",
+            "First Name": "Ashley",
+            "Last Name": "Scott",
+            "Title": "Executive Director of Communications/Public Relations",
+            "Company": "Victoria ISD",
+            "List of Session ID(s)": "5936",
+            "Email": "ashley.scott@visd.net"
+        },
+        {
+            "Speaker ID": "175025",
+            "First Name": "Charli",
+            "Last Name": "Searcy",
+            "Title": "Legal Liability Risk Consultant",
+            "Company": "Texas Association of School Boards (TASB)",
+            "List of Session ID(s)": "6073",
+            "Email": "charli.searcy@tasb.org"
+        },
+        {
+            "Speaker ID": "165125",
+            "First Name": "Nancy",
+            "Last Name": "Seidensticker",
+            "Title": "Sales and Marketing Director",
+            "Company": "Texas Computer Cooperative",
+            "List of Session ID(s)": "6146",
+            "Email": "nancy.seidensticker@esc20.net"
+        },
+        {
+            "Speaker ID": "168704",
+            "First Name": "Quintin",
+            "Last Name": "Shepherd",
+            "Title": "Superintendent",
+            "Company": "Victoria ISD",
+            "List of Session ID(s)": "5918",
+            "Email": "quintin.shepherd@visd.net"
+        },
+        {
+            "Speaker ID": "176471",
+            "First Name": "Steven",
+            "Last Name": "Shiels",
+            "Title": "Director, Behavioral Health & Wellness",
+            "Company": "Fort Bend ISD",
+            "List of Session ID(s)": "6182",
+            "Email": "steven.shiels@fortbendisd.com"
+        },
+        {
+            "Speaker ID": "175158",
+            "First Name": "Joseph",
+            "Last Name": "Showell",
+            "Title": "Executive Director of Student Services",
+            "Company": "Birdville ISD",
+            "List of Session ID(s)": "5969",
+            "Email": "JOSEPH.SHOWELL@BIRDVILLESCHOOLS.NET"
+        },
+        {
+            "Speaker ID": "171978",
+            "First Name": "Robb",
+            "Last Name": "Sidebottom",
+            "Title": "Consultant",
+            "Company": "Gallagher Construction Services",
+            "List of Session ID(s)": "6066",
+            "Email": "rsidebottom@gallaghertx.com"
+        },
+        {
+            "Speaker ID": "101123",
+            "First Name": "Sheri",
+            "Last Name": "Sides",
+            "Title": "Senior Associate",
+            "Company": "N2 Learning",
+            "List of Session ID(s)": "6012",
+            "Email": "sheri.sides@n2learning.org"
+        },
+        {
+            "Speaker ID": "174136",
+            "First Name": "Jason",
+            "Last Name": "Sierra",
+            "Title": "Manager Director, District Support ",
+            "Company": "The Holdsworth Center",
+            "List of Session ID(s)": "6011",
+            "Email": "jsierra@holdsworthcenter.org"
+        },
+        {
+            "Speaker ID": "136568",
+            "First Name": "Clarence",
+            "Last Name": "Simmons",
+            "Title": "Executive Director of Secondary Education and Campus Support",
+            "Company": "Birdville ISD",
+            "List of Session ID(s)": "6173",
+            "Email": "clarence.simmons@birdvilleschools.net"
+        },
+        {
+            "Speaker ID": "167030",
+            "First Name": "Kevin",
+            "Last Name": "Skelcher",
+            "Title": "VP Client Engagement",
+            "Company": "ThoughtExchange",
+            "List of Session ID(s)": "5927",
+            "Email": "kevin.skelcher@thoughtexchange.com"
+        },
+        {
+            "Speaker ID": "170198",
+            "First Name": "Ashley",
+            "Last Name": "Smith",
+            "Title": "Director of Student Services/HR",
+            "Company": "Friona ISD",
+            "List of Session ID(s)": "6038",
+            "Email": "asmith@frionaisd.com"
+        },
+        {
+            "Speaker ID": "183090",
+            "First Name": "Karen",
+            "Last Name": "Smith",
+            "Title": "Regional Account Manager",
+            "Company": "School Innovations & Achievement (SI&A)",
+            "List of Session ID(s)": "5968",
+            "Email": "karens@sia-us.com"
+        },
+        {
+            "Speaker ID": "105177",
+            "First Name": "Marc",
+            "Last Name": "Smith",
+            "Title": "Superintendent",
+            "Company": "Duncanville ISD",
+            "List of Session ID(s)": "6028",
+            "Email": "marcsmith@duncanvilleisd.org"
+        },
+        {
+            "Speaker ID": "126186",
+            "First Name": "Steven",
+            "Last Name": "Snell",
+            "Title": "Superintendent",
+            "Company": "Liberty Hill ISD",
+            "List of Session ID(s)": "6071;6107",
+            "Email": "ssnell@libertyhill.txed.net"
+        },
+        {
+            "Speaker ID": "154524",
+            "First Name": "Kristina",
+            "Last Name": "Snow",
+            "Title": "Director of  Talent & Leadership Development",
+            "Company": "Round Rock ISD",
+            "List of Session ID(s)": "6021",
+            "Email": "Kristina_Snow@roundrockisd.org"
+        },
+        {
+            "Speaker ID": "130442",
+            "First Name": "Benny",
+            "Last Name": "Soileau",
+            "Title": "Superintendent",
+            "Company": "Huffman ISD",
+            "List of Session ID(s)": "6004",
+            "Email": "bsoileau@huffmanisd.net"
+        },
+        {
+            "Speaker ID": "174827",
+            "First Name": "Mary",
+            "Last Name": "Solis",
+            "Title": "Principal",
+            "Company": "Brownsville ISD",
+            "List of Session ID(s)": "5926",
+            "Email": "maesolis@bisd.us"
+        },
+        {
+            "Speaker ID": "183810",
+            "First Name": "Elliott",
+            "Last Name": "Soloway",
+            "Title": "Professor",
+            "Company": "University of Michigan",
+            "List of Session ID(s)": "6056",
+            "Email": "soloway@umich.edu"
+        },
+        {
+            "Speaker ID": "162875",
+            "First Name": "Veronica",
+            "Last Name": "Sopher",
+            "Title": "Chief Communications Officer",
+            "Company": "Fort Bend ISD",
+            "List of Session ID(s)": "6046",
+            "Email": "veronica.sopher@fortbendisd.com"
+        },
+        {
+            "Speaker ID": "117455",
+            "First Name": "Anthony",
+            "Last Name": "Sorola",
+            "Title": "Associate Superintendent Athletics, Human Capital and Operations",
+            "Company": "Ector County ISD",
+            "List of Session ID(s)": "6003",
+            "Email": "Anthony.sorola@ectorcountyisd.org"
+        },
+        {
+            "Speaker ID": "181290",
+            "First Name": "Libby",
+            "Last Name": "Spears",
+            "Title": "Chief Executive Officer",
+            "Company": "Bravo CC",
+            "List of Session ID(s)": "6028",
+            "Email": "lspears@bravocc.com"
+        },
+        {
+            "Speaker ID": "106148",
+            "First Name": "Roy",
+            "Last Name": "Sprague",
+            "Title": "Chief Operations Officer",
+            "Company": "Cypress-Fairbanks ISD",
+            "List of Session ID(s)": "6171",
+            "Email": "roy.sprague@cfisd.net"
+        },
+        {
+            "Speaker ID": "137488",
+            "First Name": "Steven",
+            "Last Name": "Stapleton",
+            "Title": "Executive Director of School Leadership",
+            "Company": "Austin ISD",
+            "List of Session ID(s)": "6023",
+            "Email": "steven.stapleton@austinisd.net"
+        },
+        {
+            "Speaker ID": "177804",
+            "First Name": "Catrina",
+            "Last Name": "Steinbecker",
+            "Title": "Principal\r\n",
+            "Company": "Milano ISD",
+            "List of Session ID(s)": "6105",
+            "Email": "csteinbecker@mailanoisd.net"
+        },
+        {
+            "Speaker ID": "170090",
+            "First Name": "Adam",
+            "Last Name": "Stephens",
+            "Title": "Assistant Superintendent Curriculum and Instruction",
+            "Company": "Angleton ISD",
+            "List of Session ID(s)": "6023",
+            "Email": "ajstephens@angletonisd.net"
+        },
+        {
+            "Speaker ID": "174695",
+            "First Name": "LaCreasha",
+            "Last Name": "Stille",
+            "Title": "Assistant Superintendent",
+            "Company": "Gainesville ISD",
+            "List of Session ID(s)": "5942",
+            "Email": "lstille@gainesvilleisd.org"
+        },
+        {
+            "Speaker ID": "174465",
+            "First Name": "Daniel",
+            "Last Name": "Stockton",
+            "Title": "Executive Director of Government & Legal Affairs",
+            "Company": "Frisco ISD",
+            "List of Session ID(s)": "5995",
+            "Email": "stocktond@friscoisd.org"
+        },
+        {
+            "Speaker ID": "115473",
+            "First Name": "Jeannie",
+            "Last Name": "Stone",
+            "Title": "Superintendent",
+            "Company": "Richardson ISD",
+            "List of Session ID(s)": "6074",
+            "Email": "jeannie.stone@risd.org"
+        },
+        {
+            "Speaker ID": "140795",
+            "First Name": "Robin",
+            "Last Name": "Stout",
+            "Title": "Senior Director, Digital Learning ",
+            "Company": "Carrollton-Farmers Branch ISD",
+            "List of Session ID(s)": "6020",
+            "Email": "stoutr@cfbisd.edu"
+        },
+        {
+            "Speaker ID": "182870",
+            "First Name": "Mitzi",
+            "Last Name": "Stoute Faniola",
+            "Title": "TX Alliance of Boys and Girls Club",
+            "Company": "Edmentum",
+            "List of Session ID(s)": "5983",
+            "Email": "mitzi@txbgc.org"
+        },
+        {
+            "Speaker ID": "142688",
+            "First Name": "Jason",
+            "Last Name": "Stricker",
+            "Title": "Co-Founder",
+            "Company": "Insight Education Group",
+            "List of Session ID(s)": "6114",
+            "Email": "stricker@insighteducationgroup.com"
+        },
+        {
+            "Speaker ID": "182751",
+            "First Name": "Annette",
+            "Last Name": "Stubbs",
+            "Title": "RISE New Teacher Induction Specialist",
+            "Company": "Pasadena ISD",
+            "List of Session ID(s)": "5943",
+            "Email": "anstubbs@pasadenaisd.org"
+        },
+        {
+            "Speaker ID": "149080",
+            "First Name": "John",
+            "Last Name": "Tanner",
+            "Title": "Founder & Executive Director",
+            "Company": "BravED",
+            "List of Session ID(s)": "6196",
+            "Email": "john.tanner@brave-ed.com"
+        },
+        {
+            "Speaker ID": "183690",
+            "First Name": "Brenda",
+            "Last Name": "Tapp",
+            "Title": "Operations Manager",
+            "Company": "School Innovations & Achievement (SI&A)",
+            "List of Session ID(s)": "5968",
+            "Email": "brenda@sia-us.com"
+        },
+        {
+            "Speaker ID": "155611",
+            "First Name": "John",
+            "Last Name": "Tarrant",
+            "Title": "Director, Marketing and Communications",
+            "Company": "Weatherford ISD",
+            "List of Session ID(s)": "5939",
+            "Email": "jtarrant@weatherfordisd.com"
+        },
+        {
+            "Speaker ID": "119142",
+            "First Name": "Justin",
+            "Last Name": "Terry",
+            "Title": "Superintendent",
+            "Company": "Forney ISD",
+            "List of Session ID(s)": "6048",
+            "Email": "jwterry@forneyisd.net"
+        },
+        {
+            "Speaker ID": "165626",
+            "First Name": "Celina",
+            "Last Name": "Thomas",
+            "Title": "Superintendent",
+            "Company": "Hutto ISD",
+            "List of Session ID(s)": "6044",
+            "Email": "celina.estradathomas@huttoisd.net"
+        },
+        {
+            "Speaker ID": "108207",
+            "First Name": "David",
+            "Last Name": "Thompson",
+            "Title": "Professor",
+            "Company": "The University of Texas at San Antonio",
+            "List of Session ID(s)": "6147;6148",
+            "Email": "david.thompson@utsa.edu"
+        },
+        {
+            "Speaker ID": "174999",
+            "First Name": "Iris",
+            "Last Name": "Tian",
+            "Title": "Division Director of Assessment",
+            "Company": "Texas Education Agency",
+            "List of Session ID(s)": "6193",
+            "Email": "iris.tian@tea.texas.gov"
+        },
+        {
+            "Speaker ID": "143535",
+            "First Name": "Danette",
+            "Last Name": "Tilley",
+            "Title": "Executive Director",
+            "Company": "La Porte ISD",
+            "List of Session ID(s)": "5996",
+            "Email": "tilleyd@lpisd.org"
+        },
+        {
+            "Speaker ID": "183407",
+            "First Name": "Lauren",
+            "Last Name": "Tilley",
+            "Title": "Coordinator",
+            "Company": "Kerrville ISD",
+            "List of Session ID(s)": "6109",
+            "Email": "lauren.tilley@kerrvilleisd.net"
+        },
+        {
+            "Speaker ID": "183536",
+            "First Name": "Sara",
+            "Last Name": "Tipton",
+            "Title": "Assstant Principal",
+            "Company": "Grand Prairie ISD",
+            "List of Session ID(s)": "6000",
+            "Email": "Sara.Tipton@gpisd.org"
+        },
+        {
+            "Speaker ID": "165419",
+            "First Name": "Jorge",
+            "Last Name": "Tiscareno",
+            "Title": "Design Director",
+            "Company": "PBK",
+            "List of Session ID(s)": "6171",
+            "Email": "jorge.tiscareno@pbk.com"
+        },
+        {
+            "Speaker ID": "148912",
+            "First Name": "Courtney",
+            "Last Name": "Todd",
+            "Title": "Director of Student Services",
+            "Company": "Milano ISD",
+            "List of Session ID(s)": "6105",
+            "Email": "ctodd@milanoisd.net"
+        },
+        {
+            "Speaker ID": "115345",
+            "First Name": "Jessica",
+            "Last Name": "Torres",
+            "Title": "Continuous Improvement Liaison",
+            "Company": "ESC Region 12",
+            "List of Session ID(s)": "6041",
+            "Email": "jtorres@esc12.net"
+        },
+        {
+            "Speaker ID": "168867",
+            "First Name": "Manny",
+            "Last Name": "Torres",
+            "Title": "Principal",
+            "Company": "PBK",
+            "List of Session ID(s)": "6171",
+            "Email": "manny.torres@pbk.com"
+        },
+        {
+            "Speaker ID": "182869",
+            "First Name": "Donna",
+            "Last Name": "Trevino-Jones",
+            "Title": "Principal",
+            "Company": "Harris County Department of Education",
+            "List of Session ID(s)": "5979;6007",
+            "Email": "dtrevino-jones@hcde-texas.org"
+        },
+        {
+            "Speaker ID": "145333",
+            "First Name": "Michele",
+            "Last Name": "Trongaard",
+            "Title": "Associate Superintendent",
+            "Company": "Mansfield ISD",
+            "List of Session ID(s)": "6094",
+            "Email": "micheletrongaard@misdmail.org"
+        },
+        {
+            "Speaker ID": "172685",
+            "First Name": "Toby",
+            "Last Name": "Tucker",
+            "Title": "Athletic Director",
+            "Company": "Canyon ISD",
+            "List of Session ID(s)": "6027",
+            "Email": "toby.tucker@canyonisd.net"
+        },
+        {
+            "Speaker ID": "133337",
+            "First Name": "Monica",
+            "Last Name": "Uphoff",
+            "Title": "Director of Planning, Assessment & Research",
+            "Company": "Birdville ISD",
+            "List of Session ID(s)": "5910",
+            "Email": "monica.uphoff@birdvilleschools.net"
+        },
+        {
+            "Speaker ID": "104667",
+            "First Name": "Jim",
+            "Last Name": "Vaszauskas",
+            "Title": "Strategic Partnership Consultant",
+            "Company": "Huckabee",
+            "List of Session ID(s)": "6107",
+            "Email": "jvaszauskas@gmail.com"
+        },
+        {
+            "Speaker ID": "144200",
+            "First Name": "Nelly",
+            "Last Name": "Vega",
+            "Title": "Technology Systems Administrator",
+            "Company": "Northside ISD (ESC 20)",
+            "List of Session ID(s)": "6059",
+            "Email": "nelly.vega@nisd.net"
+        },
+        {
+            "Speaker ID": "137278",
+            "First Name": "Veronica",
+            "Last Name": "Vijil",
+            "Title": "Superintendent",
+            "Company": "Fabens ISD",
+            "List of Session ID(s)": "6076",
+            "Email": "vvijil@fabensisd.net"
+        },
+        {
+            "Speaker ID": "100929",
+            "First Name": "David",
+            "Last Name": "Vinson",
+            "Title": "Superintendent",
+            "Company": "Wylie ISD (ESC 10)",
+            "List of Session ID(s)": "5978",
+            "Email": "david.vinson@wylieisd.net"
+        },
+        {
+            "Speaker ID": "183595",
+            "First Name": "Tony",
+            "Last Name": "Volner",
+            "Title": "Senior EIS Architect",
+            "Company": "Denton ISD",
+            "List of Session ID(s)": "5919",
+            "Email": "tvolner@dentonisd.org"
+        },
+        {
+            "Speaker ID": "102426",
+            "First Name": "David",
+            "Last Name": "Vroonland",
+            "Title": "Superintendent",
+            "Company": "Mesquite ISD",
+            "List of Session ID(s)": "5923;6054",
+            "Email": "dvroonland@mesquiteisd.org"
+        },
+        {
+            "Speaker ID": "182820",
+            "First Name": "Parul",
+            "Last Name": "Vyas",
+            "Title": "Principal",
+            "Company": "Stantec",
+            "List of Session ID(s)": "6065;6167",
+            "Email": "Parul.Vyas@stantec.com "
+        },
+        {
+            "Speaker ID": "100387",
+            "First Name": "Steve",
+            "Last Name": "Waddell",
+            "Title": "Visting Professor",
+            "Company": "University of North Texas",
+            "List of Session ID(s)": "6056",
+            "Email": "stephen.waddell@unt.edu"
+        },
+        {
+            "Speaker ID": "139815",
+            "First Name": "Jeremy",
+            "Last Name": "Wagner",
+            "Title": "Director of STEM & Advanced Academics",
+            "Company": "Lubbock-Cooper ISD",
+            "List of Session ID(s)": "6113",
+            "Email": "jwagner@lcisd.net"
+        },
+        {
+            "Speaker ID": "117525",
+            "First Name": "Mike",
+            "Last Name": "Waldrip",
+            "Title": "Superintendent",
+            "Company": "Frisco ISD",
+            "List of Session ID(s)": "5921",
+            "Email": "mikewaldrip@friscoisd.org"
+        },
+        {
+            "Speaker ID": "154627",
+            "First Name": "aL",
+            "Last Name": "Walker",
+            "Title": "President",
+            "Company": "Walker Quality Services",
+            "List of Session ID(s)": "6092",
+            "Email": "alfred@walkerqualityservices.com"
+        },
+        {
+            "Speaker ID": "183700",
+            "First Name": "Debbie",
+            "Last Name": "Walker",
+            "Title": "Director, Special Programs",
+            "Company": "Willis ISD",
+            "List of Session ID(s)": "5924",
+            "Email": "dwalker@willisisd.org"
+        },
+        {
+            "Speaker ID": "181190",
+            "First Name": "Tony",
+            "Last Name": "Walker",
+            "Title": "Senior Director, Strategic Education Initiatives",
+            "Company": "Meadows Mental Health Policy Institute",
+            "List of Session ID(s)": "5985",
+            "Email": "twalker@mmhpi.org"
+        },
+        {
+            "Speaker ID": "114633",
+            "First Name": "Stacey",
+            "Last Name": "Wall",
+            "Title": "Secretary",
+            "Company": "Milano ISD",
+            "List of Session ID(s)": "6105",
+            "Email": "swall@milanoisd.net"
+        },
+        {
+            "Speaker ID": "169221",
+            "First Name": "Michelle",
+            "Last Name": "Wallis",
+            "Title": "Executive Director, Office of Innovation & Development",
+            "Company": "Austin ISD",
+            "List of Session ID(s)": "6080",
+            "Email": "michelle.wallis@austinisd.org"
+        },
+        {
+            "Speaker ID": "117637",
+            "First Name": "Holly",
+            "Last Name": "Wardell",
+            "Title": "Shareholder",
+            "Company": "Eichelbaum Wardell Hansen Powell & Munoz, P.C.",
+            "List of Session ID(s)": "5998",
+            "Email": "hbw@edlaw.com"
+        },
+        {
+            "Speaker ID": "183689",
+            "First Name": "Brittney",
+            "Last Name": "Wardlow",
+            "Title": "Instructional Technology Specialist",
+            "Company": "Kerrville ISD",
+            "List of Session ID(s)": "6118",
+            "Email": "brittney.wardlow@kerrvilleisd.net"
+        },
+        {
+            "Speaker ID": "174874",
+            "First Name": "Stephen ",
+            "Last Name": "Warford",
+            "Title": "Assistant Superintendent of Teaching and Learning ",
+            "Company": "Aldine ISD",
+            "List of Session ID(s)": "6063",
+            "Email": "smwarford@aldineisd.org"
+        },
+        {
+            "Speaker ID": "138970",
+            "First Name": "Georgeanne",
+            "Last Name": "Warnock",
+            "Title": "Superintendent",
+            "Company": "Terrell ISD",
+            "List of Session ID(s)": "5935;6028",
+            "Email": "georgeanne.warnock@terrellisd.org"
+        },
+        {
+            "Speaker ID": "158288",
+            "First Name": "Erin",
+            "Last Name": "Warren",
+            "Title": "Interim Superintendent",
+            "Company": "Luling ISD",
+            "List of Session ID(s)": "6064",
+            "Email": "ewarren@luling.txed.net"
+        },
+        {
+            "Speaker ID": "168438",
+            "First Name": "Vashunda",
+            "Last Name": "Warren",
+            "Title": "Assistant Principal",
+            "Company": "Forney ISD",
+            "List of Session ID(s)": "5933",
+            "Email": "vwarren04@hotmail.com"
+        },
+        {
+            "Speaker ID": "183691",
+            "First Name": "Nkechinyere",
+            "Last Name": "Washington",
+            "Title": "Instructional Coach",
+            "Company": "Harris County Department of Education",
+            "List of Session ID(s)": "5979;6007",
+            "Email": "nihejirikah@hcde-texas.org"
+        },
+        {
+            "Speaker ID": "164503",
+            "First Name": "Lori",
+            "Last Name": "Weinheimer",
+            "Title": "Testing & Accountability Coordinator",
+            "Company": "Lampasas ISD",
+            "List of Session ID(s)": "5917",
+            "Email": "weinheimerl@lisdtx.org"
+        },
+        {
+            "Speaker ID": "183225",
+            "First Name": "Jennifer",
+            "Last Name": "Wellman",
+            "Title": "Education Specialist, Division of Systemic Support Services",
+            "Company": "ESC Region 4",
+            "List of Session ID(s)": "6040",
+            "Email": "jennifer.wellman@esc4.net"
+        },
+        {
+            "Speaker ID": "176007",
+            "First Name": "Anella",
+            "Last Name": "Wetter",
+            "Title": "Regional Vice President",
+            "Company": "Carnegie Learning",
+            "List of Session ID(s)": "6063",
+            "Email": "awetter@carnegielearning.com"
+        },
+        {
+            "Speaker ID": "182827",
+            "First Name": "Tyrell",
+            "Last Name": "White",
+            "Company": "Texas National Board Coalition for Teaching",
+            "List of Session ID(s)": "5950",
+            "Email": "tyrell.lamar.white@gmail.com "
+        },
+        {
+            "Speaker ID": "116797",
+            "First Name": "Jim",
+            "Last Name": "Whitton",
+            "Title": "Shareholder",
+            "Company": "Brackett & Ellis, P.C.",
+            "List of Session ID(s)": "5995",
+            "Email": "jwhitton@belaw.com"
+        },
+        {
+            "Speaker ID": "175155",
+            "First Name": "Kausalai",
+            "Last Name": "Wijekumar",
+            "Title": "Professor",
+            "Company": "Texas A&M University",
+            "List of Session ID(s)": "6037",
+            "Email": "k_wijekumar@tamu.edu"
+        },
+        {
+            "Speaker ID": "100268",
+            "First Name": "James",
+            "Last Name": "Wilcox",
+            "Title": "Superintendent",
+            "Company": "Longview ISD",
+            "List of Session ID(s)": "6069",
+            "Email": "jewilcox@lisd.org"
+        },
+        {
+            "Speaker ID": "177534",
+            "First Name": "Angie",
+            "Last Name": "Wilkinson",
+            "Title": "Advanced Academic Coordinator",
+            "Company": "Aledo ISD",
+            "List of Session ID(s)": "5922",
+            "Email": "awilkinson@aledoisd.org"
+        },
+        {
+            "Speaker ID": "170795",
+            "First Name": "Carla",
+            "Last Name": "Williams",
+            "Title": "Assistant Principal",
+            "Company": "Longview ISD",
+            "List of Session ID(s)": "5926",
+            "Email": "ctwilliams@lisd.org"
+        },
+        {
+            "Speaker ID": "183685",
+            "First Name": "Charles",
+            "Last Name": "Williams",
+            "Title": "Principal",
+            "Company": "Plato Learning Academy",
+            "List of Session ID(s)": "6017",
+            "Email": "cwilliams@cwconsultingservice.com"
+        },
+        {
+            "Speaker ID": "170590",
+            "First Name": "Elvis",
+            "Last Name": "Williams",
+            "Title": "Executive Director",
+            "Company": "Edgewood ISD (ESC 20)",
+            "List of Session ID(s)": "5982",
+            "Email": "elvis.williams@eisd.net"
+        },
+        {
+            "Speaker ID": "165641",
+            "First Name": "Phyllis",
+            "Last Name": "Williams",
+            "Title": "Executive Director",
+            "Company": "Texas Alliance of Black School Educators (TABSE)",
+            "List of Session ID(s)": "6133;6134",
+            "Email": "executivedirector@tabse.net"
+        },
+        {
+            "Speaker ID": "116850",
+            "First Name": "Craig",
+            "Last Name": "Wood",
+            "Title": "Attorney/Shareholder",
+            "Company": "Walsh Gallegos Trevino Kyle & Robinson P.C.",
+            "List of Session ID(s)": "5992",
+            "Email": "cwood@wabsa.com"
+        },
+        {
+            "Speaker ID": "105028",
+            "First Name": "Brian",
+            "Last Name": "Woods",
+            "Title": "Superintendent",
+            "Company": "Northside ISD (ESC 20)",
+            "List of Session ID(s)": "6097",
+            "Email": "brian.woods@nisd.net"
+        },
+        {
+            "Speaker ID": "183344",
+            "First Name": "Rachelle",
+            "Last Name": "Wooten",
+            "Title": "Assistant Director, Leadership Development",
+            "Company": "Fort Bend ISD",
+            "List of Session ID(s)": "5941",
+            "Email": "rachelle.wooten@fortbendisd.com"
+        },
+        {
+            "Speaker ID": "105171",
+            "First Name": "Kevin",
+            "Last Name": "Worthy",
+            "Title": "Superintendent",
+            "Company": "Royse City ISD",
+            "List of Session ID(s)": "6050",
+            "Email": "worthyk@rcisd.org"
+        },
+        {
+            "Speaker ID": "168104",
+            "First Name": "Missy",
+            "Last Name": "Wright",
+            "Title": "Director of Secondary Education",
+            "Company": "Hutto ISD",
+            "List of Session ID(s)": "6010",
+            "Email": "melissa.wright@huttoisd.net"
+        },
+        {
+            "Speaker ID": "143782",
+            "First Name": "Samuel",
+            "Last Name": "Wyatt",
+            "Title": "Superintendent",
+            "Company": "Rankin ISD",
+            "List of Session ID(s)": "6110",
+            "Email": "swyatt@rankinisd.net"
+        },
+        {
+            "Speaker ID": "174500",
+            "First Name": "Jeffrey",
+            "Last Name": "Yarbrough",
+            "Title": "Chief of Police",
+            "Company": "Round Rock ISD",
+            "List of Session ID(s)": "5973",
+            "Email": "jeffrey_yarbrough@roundrockisd.org"
+        },
+        {
+            "Speaker ID": "105803",
+            "First Name": "David",
+            "Last Name": "Young",
+            "Title": "Superintendent",
+            "Company": "Abilene ISD",
+            "List of Session ID(s)": "6107",
+            "Email": "david.young@abileneisd.org"
+        },
+        {
+            "Speaker ID": "183760",
+            "First Name": "Marco",
+            "Last Name": "Zannier Virginillo",
+            "Title": "Program Director for Library Services",
+            "Company": "Aldine ISD",
+            "List of Session ID(s)": "6098",
+            "Email": "mzanniervirginillo@aldineisd.org"
+        },
+        {
+            "Speaker ID": "148155",
+            "First Name": "Kristin",
+            "Last Name": "Zastoupil",
+            "Title": "Executive Director of Marketing and Communications",
+            "Company": "Forney ISD",
+            "List of Session ID(s)": "6048",
+            "Email": "klzastoupil@forneyisd.net"
+        },
+        {
+            "Speaker ID": "180844",
+            "First Name": "Amanda",
+            "Last Name": "Ziaer",
+            "Title": "Managing Director of Secondary Curriculum & Instruction",
+            "Company": "Frisco ISD",
+            "List of Session ID(s)": "5921",
+            "Email": "ziaera@friscoisd.org"
+        },
+        {
+            "Speaker ID": "184059",
+            "First Name": "Tricia",
+            "Last Name": "Zucker",
+            "Title": "Professor",
+            "Company": "University of Texas Health Science Center Houston",
+            "List of Session ID(s)": "6206",
+            "Email": "tricia.zuker@uth.tmc.edu"
+        },
+        {
+            "Speaker ID": "1",
+            "First Name": "John",
+            "Last Name": "Maxwell",
+            "Title": "New York Times bestselling author, speaker, coach, and leader",
+            "Company": "the John Maxwell Leadership Foundation",
+            "List of Session ID(s)": "1"
+        },
+        {
+            "Speaker ID": "2",
+            "First Name": "Inky",
+            "Last Name": "Johnson",
+            "Title": "Author, podcast host and inspirational leader",
+            "List of Session ID(s)": "2"
+        },
+        {
+            "Speaker ID": "3",
+            "First Name": "George",
+            "Last Name": "Couros",
+            "Title": "Worldwide Leader in Innovative Teaching, Learning, and Leading",
+            "List of Session ID(s)": "3"
+        },
+        {
+            "Speaker ID": "4",
+            "First Name": "Mike",
+            "Last Name": "Morath",
+            "Title": "Commissioner",
+            "Company": "Texas Education Agency ",
+            "List of Session ID(s)": "2"
+        }
+    ]
+}

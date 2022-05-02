@@ -1,12 +1,14 @@
 {
-	"name": "image_server",
+	"name": "actiac_server",
 	"version": "2.0.0",
 	"private": true,
 	"scripts": {
+		"dev": "nodemon app.js",
 		"start": "node app.js"
 	},
 	"dependencies": {
 		"express": "^4.17.1",
+		"nodemon": "^2.0.15",
 		"mime": "1.4.1"
 	},
 	"repository": {},
