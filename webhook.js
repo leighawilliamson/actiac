@@ -513,7 +513,15 @@ async function get_session_info (params){
                 var theSession = session_array[0];
                 var sessionTimeJson = formatTime(theSession['Start Time']);
                 var sessionTimeString = sessionTimeJson.hour + ":" + sessionTimeJson.minutes + " " + sessionTimeJson.am_pm;
-                var sessionLocationString = theSession.Location.replace(/-/g,',');
+                // the replace function below was used for the TASA conference because the audio playback couldn't deal with locations with dashes
+                //var sessionLocationString = theSession.Location.replace(/-/g,',');
+                if (debug) console.log("location: ",theSession.Location);
+                var sessionLocationString = theSession.Location;
+                if (typeof theSession.Location == 'undefined')
+                {
+                    sessionLocationString = null;
+                }
+                if (debug)console.log("sessionLocationString: ",sessionLocationString);
                 
                 if (params.key_type == "session_id") {
                     sessionInfoTitle = "Session: " + theSession['Session ID'];
@@ -525,9 +533,12 @@ async function get_session_info (params){
                     else {
                         formatted_response = formatted_response + "is titled " + theSession.Title;
                         formatted_response = formatted_response + " and is scheduled for " + sessionTimeString;
-                        formatted_response = formatted_response + " on " + theSession.Date + ", ";
-                        formatted_response = formatted_response + " and is located at " + sessionLocationString;
+                        formatted_response = formatted_response + " on " + theSession.Date + ".";
+                        if (sessionLocationString !== null){
+                            formatted_response = formatted_response + " And is located at " + sessionLocationString;
+                        }
                     }
+                    if (debug) console.log("formatted response: ",formatted_response);
                 }
                 else if (params.key_type == "session_title"){
                     sessionInfoTitle = "Session: " + theSession.Title;
@@ -537,8 +548,10 @@ async function get_session_info (params){
                     formatted_response = "The session titled " + theSession.Title;
                     formatted_response = formatted_response + " is session number " + theSession['Session ID'];
                     formatted_response = formatted_response + " and is scheduled for " + sessionTimeString;
-                    formatted_response = formatted_response + " on " + theSession.Date + ", ";
-                    formatted_response = formatted_response + " and is located at " + sessionLocationString;
+                    formatted_response = formatted_response + " on " + theSession.Date + ". ";
+                    if (sessionLocationString !== null){
+                        formatted_response = formatted_response + "And is located at " + sessionLocationString;
+                    }
                 }
                 else if (params.key_type == "speaker_name"){
                     sessionInfoTitle = "Sessions for speaker " + theSpeaker['First Name'] + " " + theSpeaker['Last Name'];
@@ -547,8 +560,10 @@ async function get_session_info (params){
                     formatted_response = formatted_response + "session number " + theSession['Session ID'];
                     formatted_response = formatted_response + ", titled " + theSession.Title;
                     formatted_response = formatted_response + " which is scheduled for " + sessionTimeString;
-                    formatted_response = formatted_response + " on " + theSession.Date + ", ";
-                    formatted_response = formatted_response + " and is located at " + sessionLocationString;
+                    formatted_response = formatted_response + " on " + theSession.Date + ". ";
+                    if (sessionLocationString !== null){
+                        formatted_response = formatted_response + "And is located at " + sessionLocationString;
+                    }
                 }
             }
             else { // more than 1 session and keytype must be speaker_name
