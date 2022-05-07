@@ -1,0 +1,230 @@
+﻿{
+    "Sheet1": [
+        {
+            "Session Name": "Golf Tournament",
+            "Session Start Date/Time": "5/22/22 8:30",
+            "End Date/Time": "5/22/22 14:30"
+        },
+        {
+            "Session Name": "Bike Tour",
+            "Session Start Date/Time": "5/22/22 12:00",
+            "End Date/Time": "5/22/22 15:00",
+            "Description": "25 mile bike ride beginning at the Harriet Tubman Underground Railroad National Historical Park in Blackwater, MD."
+        },
+        {
+            "Session Name": "Sponsor Hospitality Reception",
+            "Session Start Date/Time": "5/22/22 16:30",
+            "End Date/Time": "5/22/22 17:30"
+        },
+        {
+            "Session Name": "Networking Reception",
+            "Session Start Date/Time": "5/22/22 17:30",
+            "End Date/Time": "5/22/22 18:30",
+            "Session Location": "Regatta Pavilion"
+        },
+        {
+            "Session Name": "Opening Dinner",
+            "Session Start Date/Time": "5/22/22 18:30",
+            "End Date/Time": "5/22/22 19:30",
+            "Session Location": "Chesapeake ABCD"
+        },
+        {
+            "Session Name": "Welcome and Keynote",
+            "Session Start Date/Time": "5/22/22 19:30",
+            "End Date/Time": "5/22/22 20:15",
+            "Description": "7:30 PM - 7:45 PM Welcome: 7:45 PM - 8:15 Keynote:  Brian Campo, Deputy Chief Information officer and Deputy Assistant Commandant for C4IT, U.S. Coast Guard",
+            "Session Location": "Chesapeake ABCD"
+        },
+        {
+            "Session Name": "Dessert Reception",
+            "Session Start Date/Time": "5/22/22 20:15",
+            "End Date/Time": "5/22/22 21:30",
+            "Session Location": "Chesapeake Foyer"
+        },
+        {
+            "Session Name": "Breakfast",
+            "Session Start Date/Time": "5/23/22 7:15",
+            "End Date/Time": "5/23/22 8:15",
+            "Session Location": "Chesapeake Foyer"
+        },
+        {
+            "Session Name": "Welcoming Remarks, Overview of Day, and Welcome from ACT-IAC CEO",
+            "Session Start Date/Time": "5/23/22 8:30",
+            "End Date/Time": "5/23/22 8:45",
+            "Description": "Welcoming Remarks from Chairs, Overview of Day, and Welcome from ACT-IAC CEO"
+        },
+        {
+            "Session Name": "Keynote:  Fireside Chat",
+            "Session Start Date/Time": "5/23/22 9:00",
+            "End Date/Time": "5/23/22 9:30"
+        },
+        {
+            "Session Name": "#RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
+            "Category": "Breakout Session D",
+            "Session Start Date/Time": "5/23/22 9:45",
+            "End Date/Time": "5/23/22 10:30",
+            "Description": "Google Cloud helps government agencies improve citizen services, increase their operational effectiveness, and deliver proven innovation. Hear from Google Cloud executives on how the company is addressing use cases across civilian, federal healthcare, and defense organizations. Attendees will walk away with an understanding of innovative approaches being used and the future of federal technology."
+        },
+        {
+            "Session Name": "AI in Mission Decision Making",
+            "Category": "Breakout Session B",
+            "Session Start Date/Time": "5/23/22 9:45",
+            "End Date/Time": "5/23/22 10:30",
+            "Description": "Discussing how AI capabilities can provide effective distillation of information at scale for improved and timely decision making."
+        },
+        {
+            "Session Name": "Driving Innovation to Support the Mission",
+            "Category": "Breakout Session A",
+            "Session Start Date/Time": "5/23/22 9:45",
+            "End Date/Time": "5/23/22 10:30",
+            "Description": "Innovation comes in many forms, including broth both process-orient and technical.  with budgets increasinly tight and an ever-expanding workload, government CXOs have become the drivers of innovation across the Federal enterprise.  Join us for adiscussion on how a diverse group of leaders from across government are working to foster a culture that promotes and rewards innovation, drives change, and benefits mission performance by empowering employees across their respective organizations."
+        },
+        {
+            "Session Name": "Key Executive Fireside Chat/Interview",
+            "Category": "Breakout Session C",
+            "Session Start Date/Time": "5/23/22 9:45",
+            "End Date/Time": "5/23/22 10:30",
+            "Description": "Federal Shared Service Centers have long sought opportunities to achieve economies of scale and skill. As agency needs evolve and new technologies emerge, what’s next for this service delivery model? Join Workday and a panel of distinguished federal leaders and experts from the DOI, GSA, and Treasury as they discuss the challenges and opportunities for optimizing shared services. Panelists will address the unique requirements of shared services providers and how cloud technology platforms for financial management and human resources can support continuous innovation and improvement."
+        },
+        {
+            "Session Name": "Networking, Exhibits, Exhibitor Presentations, Automation/Reality Exhibits",
+            "Session Start Date/Time": "5/23/22 10:30",
+            "End Date/Time": "5/23/22 11:15"
+        },
+        {
+            "Session Name": "Discover Digital Transformation Powered by Emerging Technologies: Local to Global Perspectives",
+            "Category": "Breakout Session D",
+            "Session Start Date/Time": "5/23/22 11:30",
+            "End Date/Time": "5/23/22 12:15",
+            "Description": "Emerging technologies are accelerators of innovation. They can improve efficiency, power new products and services, enable new business models, and reinvent governments & businesses for the benefit of citizens and consumers alike. More and more, the world is becoming digital. Every successful enterprise will one day be a digital enterprise. How are leading companies and governments making this journey? During this session, government and industry executives — from the U.S. and internationally — will detail the digital reinvention of their organizations to better serve citizens and consumers in this digital age. They will share how they are taking advantage of new opportunities in AI & automation, robotics, blockchain, 5G, with the reach of cloud and edge and the assurance of cyber, to data-analytics and other areas to transform their organizations, engineer a competitive advantage, and ultimately help governments and businesses enable more efficient, responsive systems to enhance customer experience and accelerate progress."
+        },
+        {
+            "Session Name": "Healthcare Reimagined:  Merging the Physical and Digital",
+            "Category": "Breakout Session C",
+            "Session Start Date/Time": "5/23/22 11:30",
+            "End Date/Time": "5/23/22 12:15",
+            "Description": "As healthcare is put in the hands of the patient, it has also created opportunities for employers to look at wellness in a new way.  Hear from Dr. Kapil Parakh, Fitbit's Medical Lead about the new innovations and changes to the healthcare space with digital technologies."
+        },
+        {
+            "Session Name": "Managing the Multicloud Future",
+            "Category": "Breakout Session B",
+            "Session Start Date/Time": "5/23/22 11:30",
+            "End Date/Time": "5/23/22 12:15",
+            "Description": "As more and more workloads move to the cloud, government agencies are grappling with how to offer cloud services efficiently while maintaining maximum choice for individual programs. Giving more choice to programs through IDIQs, and other contract vehicles, means that agency and government leaders and must work across programs to make sure that data does not stay siloed and is shared across agencies and across the federal government. Multi-cloud management is critical to sharing and securing data as agencies continue to move to a distributed cloud approach, taking advantage of edge and 5g technologies."
+        },
+        {
+            "Session Name": "The Future Relies on Collaborative Innovation of Digital Supply Chains Across Mission Ecosystems",
+            "Category": "Breakout Session A",
+            "Session Start Date/Time": "5/23/22 11:30",
+            "End Date/Time": "5/23/22 12:15",
+            "Description": "The Future Relies on Collaborative Innovation of Digital Supply Chains Across Mission Ecosystems:  An Executive Dialogue on Risk, Policy and Collaboration The mission supply chain must be the lens through which technology miprovements are viewd.  Executives (in Healthcare and Aviation) share challenges and insights from their Mission Ecosystems, including how information and data enablement fuel \"platforms of innovation\" to accelerate Mission Ecosystems' supply chain security and integrity.  They address the issues of risk, policy, and technology to securely collaborate across mission-critical supply chains.  Executives share the challenges and insights from their Mission Ecosystems."
+        },
+        {
+            "Session Name": "Lunch",
+            "Session Start Date/Time": "5/23/22 12:30",
+            "End Date/Time": "5/23/22 13:15",
+            "Session Location": "Chesapeake ABCD"
+        },
+        {
+            "Session Name": "Keynotes and Voyagers Graduation",
+            "Session Start Date/Time": "5/23/22 13:15",
+            "End Date/Time": "5/23/22 14:30",
+            "Description": "1:15PM - 1:45PM - Keynote: Introducer: Paresh Patel, Vice President, Management Consulting, CGI Federal Keynote: Dr. Raj Iyer, Chief Information Officer, U.S. Army 1:45PM - Keynote: Introducer: Malcolm Harden, Microsoft Keynote: Randolph D. \"Tex\" Alles, Acting Under Secretary, Department of Homeland Security",
+            "Session Location": "Chesapeake ABCD"
+        },
+        {
+            "Session Name": "Crucial Leadership Strategies for Incorporating Emerging Technology into an Agency's DNA",
+            "Category": "Breakout Session D",
+            "Session Start Date/Time": "5/23/22 14:45",
+            "End Date/Time": "5/23/22 15:30",
+            "Description": "In this session we'll examine the strategic imperatives facing the C-Suite, approaches needed to achieve mission outcomes, and how to foster innovation within the Agency. We'll take a closer look at how to bridge the gap between mission and innovation. The leaders will also share thoughts how to influence cultural change, ranging from empowering decision-makers to building a customer experience mindset."
+        },
+        {
+            "Session Name": "Driving Innovative Technologies into Federal Missions",
+            "Category": "Breakout Session B",
+            "Session Start Date/Time": "5/23/22 14:45",
+            "End Date/Time": "5/23/22 15:30",
+            "Description": "Microsoft Executive Vice President of Strategic Missions and Technology joins Microsoft Federal's Vice President of Federal Civilian for a discussion of practical ways for Government to harness emerging and experimental technologies."
+        },
+        {
+            "Session Name": "Quantum Implications for Cybersecurity",
+            "Category": "Breakout Session C",
+            "Session Start Date/Time": "5/23/22 14:45",
+            "End Date/Time": "5/23/22 15:30",
+            "Description": "Quantum Technologies have impacted our world greatly, and we are poised for further benefits in sensing, medicine, science, technology, communications, computing and more as research, funding and competition continue to accelerate this exciting realm.  While realization of meaningfully commercialized quantum computing may still be years away, government and industry must still pay attention to the cybersecurity threats exposed by quantum computing that already exist today. This panel will explore the realities, misconceptions and practical guidance of experts in the quantum and cybersecurity space to help attendees understand where to focus, how to prioritize, and what steps to take next."
+        },
+        {
+            "Session Name": "Why the Future of Government is a Citizen Experience",
+            "Category": "Breakout Session A",
+            "Session Start Date/Time": "5/23/22 14:45",
+            "End Date/Time": "5/23/22 15:30",
+            "Description": "What if ROI was not in a spreadsheet or financial ledger, but it was the constituent experience and the satisfaction of a job done well. Not just well done even - amazingly done. We, with a partnership of industry and public sector, must focus on the experience of the actual people we need to serve and reduce the burden on our public sector workforce.  State governments are harnessing the momentum of change to focus on the citizen experience and enabling agencies to innovate and modernize the way we serve customers. State agencies are propelling the path to production, while Central IT is utilizing strategic technologies to empower agencies to act faster and mitigate the unforeseen risk inherent in IT operations.  How do we realize Public ROI? By removing the barriers to innovation, owning the hurdles that slow operations down and embracing the momentum of change."
+        },
+        {
+            "Session Name": "Networking, Exhibits, Exhibitor Presentations, Automation/Reality Exhibits",
+            "Session Start Date/Time": "5/23/22 15:30",
+            "End Date/Time": "5/23/22 16:45",
+            "Session Location": "Choptank ABC"
+        },
+        {
+            "Session Name": "Hospitality Receptions",
+            "Session Start Date/Time": "5/23/22 17:00",
+            "End Date/Time": "5/23/22 18:30"
+        },
+        {
+            "Session Name": "Dinner",
+            "Session Start Date/Time": "5/23/22 18:30",
+            "End Date/Time": "5/23/22 20:00",
+            "Session Location": "Chesapeake ABCD"
+        },
+        {
+            "Session Name": "Hyatt Lawn Event/Tent/Band",
+            "Session Start Date/Time": "5/23/22 20:00",
+            "End Date/Time": "5/23/22 22:00",
+            "Session Location": "Grand Fireplace Patio"
+        },
+        {
+            "Session Name": "Breakfast",
+            "Session Start Date/Time": "5/24/22 7:45",
+            "End Date/Time": "5/24/22 8:45",
+            "Session Location": "Chesapeake Foyer"
+        },
+        {
+            "Session Name": "Welcome",
+            "Session Start Date/Time": "5/24/22 8:30",
+            "End Date/Time": "5/24/22 8:45",
+            "Session Location": "Chesapeake ABCD"
+        },
+        {
+            "Session Name": "Keynotes",
+            "Session Start Date/Time": "5/24/22 8:45",
+            "End Date/Time": "5/24/22 9:45",
+            "Description": "8:45 AM - 9:15 AM  Keynote: Sonny Hashmi, FAS Commissioner, General Services Administration 9:15 AM - 9:45 AM  Keynote:",
+            "Session Location": "Chesapeake ABCD"
+        },
+        {
+            "Session Name": "Innovation Awards and Presentations",
+            "Session Start Date/Time": "5/24/22 9:45",
+            "End Date/Time": "5/24/22 11:15",
+            "Session Location": "Chesapeake ABCD"
+        },
+        {
+            "Session Name": "Workforce Innovation in a Hybrid Workplace:  How to Leverage Innovation in a Virtual Environment",
+            "Session Start Date/Time": "5/24/22 11:15",
+            "End Date/Time": "5/24/22 12:00",
+            "Session Location": "Chesapeake ABCD"
+        },
+        {
+            "Session Name": "Closing Comments",
+            "Session Start Date/Time": "5/24/22 11:45",
+            "End Date/Time": "5/24/22 12:00",
+            "Session Location": "Chesapeake ABCD"
+        },
+        {
+            "Session Name": "Boxed Lunches To Go",
+            "Session Start Date/Time": "5/24/22 12:00",
+            "End Date/Time": "5/24/22 12:00",
+            "Session Location": "Chesapeake Foyer"
+        }
+    ]
+}

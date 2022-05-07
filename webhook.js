@@ -13,8 +13,8 @@
 var debug = false;
 var sessionInfo;
 var sessionInfoTitle;
-var session_json = require('./tasa-sessions.json');
-var speaker_json = require('./tasa-speakers.json');
+var session_json = require('./sessions.json');
+var speaker_json = require('./speakers.json');
 
 /* The main function just serves to determine which command has been requested
    by the calling code. Based on the value of params.command passed in,
@@ -861,12 +861,12 @@ function build_html (){
     var html = "<!DOCTYPE html>\
     <html>\
         <head>\
-            <title>TASA Virtual Assistant</title>\
+            <title>ACT-IAC Virtual Assistant</title>\
             <link href=\"table.css\" rel=\"stylesheet\" type=\"text/css\">\
         </head>\
         <body>\
             <div id=\"headerdiv\">\
-                <img id=\"topimage\" src=\"https://image-server.mybluemix.net/img/TASA/TASA1.jpg\"/>\
+                <img id=\"topimage\" src=\"https://cos-image-server.mybluemix.net/img/actiac/actiac-logo.png\"/>\
                 <h1 id=\"tabletitle\">" + sessionInfoTitle + "</h1>\
             </div>\
             <div id=\"tablediv\">\
@@ -876,6 +876,7 @@ function build_html (){
                         <th class=\"titlecell\">Title</th>\
                         <th>Date</th>\
                         <th>Start</th>\
+                        <th>End</th>\
                         <th class=\"location_cell\">Location</th>\
                     </tr>";
     
@@ -898,6 +899,7 @@ function build_html (){
         <td class=\"titlecell\">" + sessionTitleString + "</td>\
         <td>" + sessionInfo[i].Date + "</td>\
         <td>" + start_time_string + "</td>\
+        <td>" + end_time_string + "</td>\
         <td class=\"location_cell\">" + sessionInfo[i]['Location'] + "</td>\
         </tr>";
 /*
