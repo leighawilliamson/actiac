@@ -40,7 +40,7 @@
             "Date": "5/22/22",
             "Start Time": "18:30",
             "End Time": "19:30",
-            " Location": "Chesapeake ABCD",
+            "Location": "Chesapeake ABCD",
             "Cancelled": "No"
         },
         {
@@ -50,7 +50,7 @@
             "Start Time": "19:30",
             "End Time": "20:15",
             "Description": "7:30 PM - 7:45 PM Welcome: 7:45 PM - 8:15 Keynote:  Brian Campo, Deputy Chief Information officer and Deputy Assistant Commandant for C4IT, U.S. Coast Guard",
-            " Location": "Chesapeake ABCD",
+            "Location": "Chesapeake ABCD",
             "Cancelled": "No"
         },
         {
@@ -59,7 +59,7 @@
             "Date": "5/22/22",
             "Start Time": "20:15",
             "End Time": "21:30",
-            " Location": "Chesapeake Foyer",
+            "Location": "Chesapeake Foyer",
             "Cancelled": "No"
         },
         {
@@ -68,7 +68,7 @@
             "Date": "5/23/22",
             "Start Time": "7:15",
             "End Time": "8:15",
-            " Location": "Chesapeake Foyer",
+            "Location": "Chesapeake Foyer",
             "Cancelled": "No"
         },
         {
@@ -105,7 +105,7 @@
             "Date": "5/23/22",
             "Start Time": "9:45",
             "End Time": "10:30",
-            "Description": "Discussing how AI capabilities can provide effective distillation of information at scale for improved and timely decision making.",
+            "Description": "Discussing how A I capabilities can provide effective distillation of information at scale for improved and timely decision making.",
             "Cancelled": "No"
         },
         {
@@ -115,7 +115,7 @@
             "Date": "5/23/22",
             "Start Time": "9:45",
             "End Time": "10:30",
-            "Description": "Innovation comes in many forms, including broth both process-orient and technical.  with budgets increasinly tight and an ever-expanding workload, government CXOs have become the drivers of innovation across the Federal enterprise.  Join us for adiscussion on how a diverse group of leaders from across government are working to foster a culture that promotes and rewards innovation, drives change, and benefits mission performance by empowering employees across their respective organizations.",
+            "Description": "Innovation comes in many forms, including broth both process-orient and technical.  with budgets increasinly tight and an ever-expanding workload, government C X Os have become the drivers of innovation across the Federal enterprise.  Join us for adiscussion on how a diverse group of leaders from across government are working to foster a culture that promotes and rewards innovation, drives change, and benefits mission performance by empowering employees across their respective organizations.",
             "Cancelled": "No"
         },
         {
@@ -182,7 +182,7 @@
             "Date": "5/23/22",
             "Start Time": "12:30",
             "End Time": "13:15",
-            " Location": "Chesapeake ABCD",
+            "Location": "Chesapeake ABCD",
             "Cancelled": "No"
         },
         {
@@ -192,7 +192,7 @@
             "Start Time": "13:15",
             "End Time": "14:30",
             "Description": "1:15PM - 1:45PM - Keynote: Introducer: Paresh Patel, Vice President, Management Consulting, CGI Federal Keynote: Dr. Raj Iyer, Chief Information Officer, U.S. Army 1:45PM - Keynote: Introducer: Malcolm Harden, Microsoft Keynote: Randolph D. \"Tex\" Alles, Acting Under Secretary, Department of Homeland Security",
-            " Location": "Chesapeake ABCD",
+            "Location": "Chesapeake ABCD",
             "Cancelled": "No"
         },
         {
@@ -222,7 +222,7 @@
             "Date": "5/23/22",
             "Start Time": "14:45",
             "End Time": "15:30",
-            "Description": "Quantum Technologies have impacted our world greatly, and we are poised for further benefits in sensing, medicine, science, technology, communications, computing and more as research, funding and competition continue to accelerate this exciting realm.  While realization of meaningfully commercialized quantum computing may still be years away, government and industry must still pay attention to the cybersecurity threats exposed by quantum computing that already exist today. This panel will explore the realities, misconceptions and practical guidance of experts in the quantum and cybersecurity space to help attendees understand where to focus, how to prioritize, and what steps to take next.",
+            "Description": "Quantum Technologies have impacted our world greatly, and we are poised for further benefits in sensing, medicine, science, technology, communications, computing and more, as research, funding and competition continue to accelerate this exciting realm.  While realization of meaningfully commercialized quantum computing may still be years away, government and industry must still pay attention to the cybersecurity threats exposed by quantum computing that already exist today. This panel will explore the realities, misconceptions and practical guidance of experts in the quantum and cybersecurity space to help attendees understand where to focus, how to prioritize, and what steps to take next.",
             "Cancelled": "No"
         },
         {
@@ -232,7 +232,7 @@
             "Date": "5/23/22",
             "Start Time": "14:45",
             "End Time": "15:30",
-            "Description": "What if ROI was not in a spreadsheet or financial ledger, but it was the constituent experience and the satisfaction of a job done well. Not just well done even - amazingly done. We, with a partnership of industry and public sector, must focus on the experience of the actual people we need to serve and reduce the burden on our public sector workforce.  State governments are harnessing the momentum of change to focus on the citizen experience and enabling agencies to innovate and modernize the way we serve customers. State agencies are propelling the path to production, while Central IT is utilizing strategic technologies to empower agencies to act faster and mitigate the unforeseen risk inherent in IT operations.  How do we realize Public ROI? By removing the barriers to innovation, owning the hurdles that slow operations down and embracing the momentum of change.",
+            "Description": "What if R O I was not in a spreadsheet or financial ledger, but it was the constituent experience and the satisfaction of a job done well. Not just well done even - amazingly done. We, with a partnership of industry and public sector, must focus on the experience of the actual people we need to serve and reduce the burden on our public sector workforce.  State governments are harnessing the momentum of change to focus on the citizen experience and enabling agencies to innovate and modernize the way we serve customers. State agencies are propelling the path to production, while Central I T is utilizing strategic technologies to empower agencies to act faster and mitigate the unforeseen risk inherent in I T operations.  How do we realize Public R O I? By removing the barriers to innovation, owning the hurdles that slow operations down and embracing the momentum of change.",
             "Cancelled": "No"
         },
         {
@@ -241,7 +241,7 @@
             "Date": "5/23/22",
             "Start Time": "15:30",
             "End Time": "16:45",
-            " Location": "Choptank ABC",
+            "Location": "Choptank ABC",
             "Cancelled": "No"
         },
         {
@@ -258,7 +258,7 @@
             "Date": "5/23/22",
             "Start Time": "18:30",
             "End Time": "20:00",
-            " Location": "Chesapeake ABCD",
+            "Location": "Chesapeake ABCD",
             "Cancelled": "No"
         },
         {
@@ -267,7 +267,7 @@
             "Date": "5/23/22",
             "Start Time": "20:00",
             "End Time": "22:00",
-            " Location": "Grand Fireplace Patio",
+            "Location": "Grand Fireplace Patio",
             "Cancelled": "No"
         },
         {
@@ -276,7 +276,7 @@
             "Date": "5/24/22",
             "Start Time": "7:45",
             "End Time": "8:45",
-            " Location": "Chesapeake Foyer",
+            "Location": "Chesapeake Foyer",
             "Cancelled": "No"
         },
         {
@@ -285,7 +285,7 @@
             "Date": "5/24/22",
             "Start Time": "8:30",
             "End Time": "8:45",
-            " Location": "Chesapeake ABCD",
+            "Location": "Chesapeake ABCD",
             "Cancelled": "No"
         },
         {
@@ -295,7 +295,7 @@
             "Start Time": "8:45",
             "End Time": "9:45",
             "Description": "8:45 AM - 9:15 AM  Keynote: Sonny Hashmi, FAS Commissioner, General Services Administration 9:15 AM - 9:45 AM  Keynote:",
-            " Location": "Chesapeake ABCD",
+            "Location": "Chesapeake ABCD",
             "Cancelled": "No"
         },
         {
@@ -304,7 +304,7 @@
             "Date": "5/24/22",
             "Start Time": "9:45",
             "End Time": "11:15",
-            " Location": "Chesapeake ABCD",
+            "Location": "Chesapeake ABCD",
             "Cancelled": "No"
         },
         {
@@ -313,7 +313,7 @@
             "Date": "5/24/22",
             "Start Time": "11:15",
             "End Time": "12:00",
-            " Location": "Chesapeake ABCD",
+            "Location": "Chesapeake ABCD",
             "Cancelled": "No"
         },
         {
@@ -322,7 +322,7 @@
             "Date": "5/24/22",
             "Start Time": "11:45",
             "End Time": "12:00",
-            " Location": "Chesapeake ABCD",
+            "Location": "Chesapeake ABCD",
             "Cancelled": "No"
         },
         {
@@ -331,7 +331,7 @@
             "Date": "5/24/22",
             "Start Time": "12:00",
             "End Time": "12:00",
-            " Location": "Chesapeake Foyer",
+            "Location": "Chesapeake Foyer",
             "Cancelled": "No"
         }
     ]

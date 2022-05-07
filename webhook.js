@@ -602,6 +602,7 @@ async function what_sessions_are_scheduled_for (params){
 
         // process passed in day and time parameters
         if (params.day == null) { // no date provided, make target date today
+            if (debug) console.log("no params.day passed in");
             target_session_time = new Date(Date.now());
             var monthInt = parseInt(target_session_time.getMonth(),10) + 1;  
             parsedDate.month = monthInt.toString();;
@@ -609,16 +610,20 @@ async function what_sessions_are_scheduled_for (params){
             parsedDate.day = target_session_time.getDate();
         }
         else { // set target date to passed in value & get json parsed equivalent
+            if (debug) console.log("date passed in: ",params.day);
             target_session_time = new Date(params.day + "T13:24:00");
             parsedDate = parseDate(params.day);
         } 
+
         if ((params.time == null) || (params.time == '')) {
             // if no time passed in, then make it all day
+            if (debug) console.log("no params.time passed in");
             allDay = true;
             paramTime.hour = target_session_time.getHours();
             paramTime.minutes = target_session_time.getMinutes();
         }
         else { // use passed in time
+            if (debug) console.log("time passed in: ",params.time);
             paramTime = parseTime2(params.time);
             target_session_time.setHours(paramTime.hour,paramTime.minutes);
         }
@@ -678,20 +683,35 @@ async function what_sessions_are_scheduled_for (params){
         var session_id, session_title, session_location,formatted_response;
 
         if (session_array.length > 0) {
-            formatted_response = "There are " + session_array.length + " sessions scheduled during that time. ";
+            if (session_array.length == 1){
+                formatted_response = "There is " + session_array.length + " session scheduled during that time. ";
+            }
+            else {
+                formatted_response = "There are " + session_array.length + " sessions scheduled during that time. ";
+            }
         }
         else {
             formatted_response = "I could not find any sessions scheduled for that day and time. Is there another time that I can search for?"
         }
+
         // stash the session list so that it can be displayed in the browser link
         sessionInfo = session_array;
+
+        // format the title of the dynamic html page
         var start_time_json = formatTime(paramTime.hour + ":" + paramTime.minutes);
         var formatted_start_time = start_time_json.hour + ":" + start_time_json.minutes + " " + start_time_json.am_pm;
         var date_string = parsedDate.month + "/" + parsedDate.day + "/" + parsedDate.year;
-
+        if (debug) {
+            console.log("date for web page display:", date_string);
+            console.log("made from: ",parsedDate);
+        }
         sessionInfoTitle = "Conference Sessions going on";
-        if (allDay) {sessionInfoTitle = sessionInfoTitle + " all day ";}
-        else {sessionInfoTitle =  sessionInfoTitle + " at " + formatted_start_time;}
+        if (allDay) {
+            sessionInfoTitle = sessionInfoTitle + " all day ";
+        }
+        else {
+            sessionInfoTitle =  sessionInfoTitle + " at " + formatted_start_time;
+        }
         sessionInfoTitle = sessionInfoTitle + " on " + date_string;
         
         returnobj.fields.session_count = session_array.length;
