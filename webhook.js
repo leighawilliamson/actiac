@@ -555,8 +555,8 @@ async function get_session_info (params){
                 }
                 else if (params.key_type == "speaker_name"){
                     sessionInfoTitle = "Sessions for speaker " + theSpeaker['First Name'] + " " + theSpeaker['Last Name'];
-                    formatted_response = "Speaker " + params.speaker_name + ", " + theSpeaker.Title + ", ";
-                    formatted_response = formatted_response + theSpeaker.Company + ", is scheduled to deliver ";
+                    formatted_response = "Speaker " + params.speaker_name + ", " + theSpeaker['Title '] + ", ";
+                    formatted_response = formatted_response + theSpeaker['Company Name'] + ", is scheduled to deliver ";
                     formatted_response = formatted_response + "session number " + theSession['Session ID'];
                     formatted_response = formatted_response + ", titled " + theSession.Title;
                     formatted_response = formatted_response + " which is scheduled for " + sessionTimeString;
@@ -923,6 +923,10 @@ function build_html (){
             if (debug) console.log("Session cancelled.");
             sessionTitleString = "CANCELLED - " + sessionTitleString;
         }
+        var sessionLocationString = sessionInfo[i]['Location'];
+        if (sessionLocationString == null) {
+            sessionLocationString = "";
+        }
         if (debug) console.log("Title: ",sessionTitleString);
         var start_time = formatTime(sessionInfo[i]['Start Time']);
         var end_time = formatTime(sessionInfo[i]['End Time']);
@@ -935,7 +939,7 @@ function build_html (){
         <td>" + sessionInfo[i].Date + "</td>\
         <td>" + start_time_string + "</td>\
         <td>" + end_time_string + "</td>\
-        <td class=\"location_cell\">" + sessionInfo[i]['Location'] + "</td>\
+        <td class=\"location_cell\">" + sessionLocationString + "</td>\
         </tr>";
 /*
 
