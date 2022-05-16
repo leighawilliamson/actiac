@@ -13,10 +13,10 @@
         {
             "Speaker ID": "2",
             "First Name": "Rotimi",
-            "Last Name": "Abimbola ",
+            "Last Name": "Abimbola",
             "Role": " Moderator",
             "Title ": "Chief of Staff",
-            "Company Name": "U.S. Department of the Interior",
+            "Company Name": "US Department of the Interior",
             "Session Name": "Workforce Innovation in a Hybrid Workplace:  How to Leverage Innovation in a Virtual Environment",
             "List of Session ID(s)": "34"
         },
@@ -25,14 +25,14 @@
             "First Name": "Gundeep",
             "Last Name": "Ahluwalia",
             "Title ": "Chief Information Officer",
-            "Company Name": "U.S. Department of Labor",
+            "Company Name": "US Department of Labor",
             "Session Name": "AI in Mission Decision Making",
             "List of Session ID(s)": "12"
         },
         {
             "Speaker ID": "4",
             "First Name": "Stacie",
-            "Last Name": "Alboum ",
+            "Last Name": "Alboum",
             "Title ": "Deputy Director, Center for Information Technology",
             "Company Name": "The National Institutes of Health",
             "Session Name": "#RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
@@ -44,7 +44,7 @@
             "Last Name": "Alles",
             "Role": "Keynote",
             "Title ": "Acting Under Secretary",
-            "Company Name": "U.S. Department of Homeland Security",
+            "Company Name": "US Department of Homeland Security",
             "Session Name": "Keynotes and Voyagers Graduation",
             "List of Session ID(s)": "21"
         },
@@ -52,7 +52,7 @@
             "Speaker ID": "6",
             "First Name": "Wayne",
             "Last Name": "Bobby",
-            "Title ": "Vice President, U.S. Federal Government",
+            "Title ": "Vice President, U S Federal Government",
             "Company Name": "Workday",
             "Session Name": "Key Executive Fireside Chat/Interview",
             "List of Session ID(s)": "14"
@@ -80,7 +80,7 @@
             "First Name": "Victor",
             "Last Name": "Brown",
             "Role": " Moderator",
-            "Title ": "Vice President and Chief Technology Office, U.S. Public and Federal Market Global Markets",
+            "Title ": "Vice President and Chief Technology Officer, US Public and Federal Market, Global Markets",
             "Company Name": "IBM",
             "Session Name": "Managing the Multicloud Future",
             "List of Session ID(s)": "18"
@@ -88,7 +88,7 @@
         {
             "Speaker ID": "10",
             "First Name": "Sheena",
-            "Last Name": "Burrell ",
+            "Last Name": "Burrell",
             "Title ": "Deputy Chief Information Officer",
             "Company Name": "National Archives and Records Administration",
             "Session Name": "#RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
@@ -100,25 +100,25 @@
             "Last Name": "Campo",
             "Role": "Keynote",
             "Title ": "Acting Deputy Assistant Commandant for C4IT, Acting Deputy Chief Information Officer",
-            "Company Name": "U.S. Coast Guard",
+            "Company Name": "US Coast Guard",
             "Session Name": "Welcome and Keynote",
             "List of Session ID(s)": "6"
         },
         {
             "Speaker ID": "12",
             "First Name": "Anil",
-            "Last Name": "Chaudry ",
-            "Title ": "Director, Federal AI Implementations",
+            "Last Name": "Chaudry",
+            "Title ": "Director, Federal A I Implementations",
             "Company Name": "General Services Administration",
-            "Session Name": "#RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
+            "Session Name": "RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
             "List of Session ID(s)": "11"
         },
         {
             "Speaker ID": "13",
             "First Name": "Wendy",
-            "Last Name": "Chaves ",
+            "Last Name": "Chaves",
             "Title ": "Chief, Research, Development, Test, and Evaluation and Innovation, Acquisition Directorate",
-            "Company Name": "U.S. Coast Guard",
+            "Company Name": "US Coast Guard",
             "Session Name": "Workforce Innovation in a Hybrid Workplace:  How to Leverage Innovation in a Virtual Environment",
             "List of Session ID(s)": "14"
         },
@@ -144,7 +144,7 @@
         {
             "Speaker ID": "16",
             "First Name": "Mittal",
-            "Last Name": "Desai ",
+            "Last Name": "Desai",
             "Title ": "Chief Information Officer",
             "Company Name": "Federal Energy Regulatory Commission",
             "Session Name": "#RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
@@ -155,7 +155,7 @@
             "First Name": "Ann",
             "Last Name": "Dunkin",
             "Title ": "Chief Information Officer",
-            "Company Name": "U.S. Department of Energy",
+            "Company Name": "US Department of Energy",
             "Session Name": "Crucial Leadership Strategies for Incorporating Emerging Technology into an Agency's DNA",
             "List of Session ID(s)": "22"
         },
@@ -172,7 +172,7 @@
         {
             "Speaker ID": "19",
             "First Name": "Adam",
-            "Last Name": "Goldberg ",
+            "Last Name": "Goldberg",
             "Title ": "Executive Architect, Office of Financial Innovation and Transformation",
             "Company Name": "Treasury - Bureau of Fiscal Service",
             "Session Name": "Key Executive Fireside Chat/Interview",
@@ -183,9 +183,9 @@
             "First Name": "Lexy",
             "Last Name": "Guenther",
             "Role": " Moderator",
-            "Title ": "VP & CTO, Civil Enterprise IT & Mission Solutions",
+            "Title ": "VP and CTO, Civil Enterprise IT and Mission Solutions",
             "Company Name": "Leidos",
-            "Session Name": "AI in Mission Decision Making",
+            "Session Name": "A I in Mission Decision Making",
             "List of Session ID(s)": "12"
         },
         {
@@ -200,7 +200,7 @@
         {
             "Speaker ID": "22",
             "First Name": "Allen",
-            "Last Name": "Hill ",
+            "Last Name": "Hill",
             "Company Name": "General Services Administration",
             "Session Name": "Managing the Multicloud Future",
             "List of Session ID(s)": "18"
@@ -217,19 +217,19 @@
         {
             "Speaker ID": "24",
             "First Name": "Eric",
-            "Last Name": "Hysen ",
+            "Last Name": "Hysen",
             "Title ": "Chief Information Officer",
-            "Company Name": "U.S. Department of Homeland Security",
+            "Company Name": "US Department of Homeland Security",
             "Session Name": "Driving Innovation to Support the Mission",
             "List of Session ID(s)": "13"
         },
         {
             "Speaker ID": "25",
-            "First Name": "Dr. Raj",
+            "First Name": "Raj",
             "Last Name": "Iyer",
             "Role": "Keynote",
             "Title ": "Chief Information Officer",
-            "Company Name": "U.S. Army",
+            "Company Name": "US Army",
             "Session Name": "Keynotes and Voyagers Graduation",
             "List of Session ID(s)": "21"
         },
@@ -238,7 +238,7 @@
             "First Name": "Keith",
             "Last Name": "Jones",
             "Title ": "Chief Information Officer",
-            "Company Name": "U.S. Department of State",
+            "Company Name": "US Department of State",
             "Session Name": "AI in Mission Decision Making",
             "List of Session ID(s)": "12"
         },
@@ -264,7 +264,7 @@
         {
             "Speaker ID": "29",
             "First Name": "Beth",
-            "Last Name": "Killoran ",
+            "Last Name": "Killoran",
             "Title ": "Deputy Chief Information Officer",
             "Company Name": "General Services Administration",
             "Session Name": "Crucial Leadership Strategies for Incorporating Emerging Technology into an Agency's DNA",
@@ -273,18 +273,18 @@
         {
             "Speaker ID": "30",
             "First Name": "Ryan",
-            "Last Name": "Korn ",
+            "Last Name": "Korn",
             "Title ": "Senior Cloud Architect and Product Manager, Data Solutions",
-            "Company Name": "Bureau of Industry and Security, U.S. Department of Commerce",
+            "Company Name": "Bureau of Industry and Security, US Department of Commerce",
             "Session Name": "Managing the Multicloud Future",
             "List of Session ID(s)": "18"
         },
         {
             "Speaker ID": "31",
-            "First Name": "MAJ Steve",
+            "First Name": "Steve",
             "Last Name": "Lauver",
             "Title ": "Division Chief",
-            "Company Name": "AFWERX",
+            "Company Name": "A F W E R X",
             "Session Name": "Workforce Innovation in a Hybrid Workplace:  How to Leverage Innovation in a Virtual Environment",
             "List of Session ID(s)": "34"
         },
@@ -302,9 +302,9 @@
             "Speaker ID": "33",
             "First Name": "Lynn",
             "Last Name": "Martin",
-            "Title ": "Vice President of NorthAM Public Sector",
+            "Title ": "Vice President of North American Public Sector",
             "Company Name": "Google",
-            "Session Name": "#RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
+            "Session Name": "RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
             "List of Session ID(s)": "11"
         },
         {
@@ -322,7 +322,7 @@
             "Last Name": "McQuiston",
             "Role": "Keynote",
             "Title ": "Director of Defense Research & Engineering for Research and Technology",
-            "Company Name": "U.S. Department of Defense",
+            "Company Name": "US Department of Defense",
             "Session Name": "Keynote:  Fireside Chat",
             "List of Session ID(s)": "10"
         },
@@ -338,9 +338,9 @@
         {
             "Speaker ID": "37",
             "First Name": "Mandi",
-            "Last Name": "Mitchell ",
-            "Title ": "President & Chief Executive Officer",
-            "Company Name": "Lafayette Economic Development Authority (LEDA)"
+            "Last Name": "Mitchell",
+            "Title ": "President and Chief Executive Officer",
+            "Company Name": "Lafayette Economic Development Authority"
         },
         {
             "Speaker ID": "38",
@@ -356,14 +356,14 @@
             "First Name": "Lora",
             "Last Name": "Muchmore",
             "Title ": "Chief Innovation Officer, for the Office of the CIO",
-            "Company Name": "U.S. Department of Defense",
+            "Company Name": "US Department of Defense",
             "Session Name": "Discover Digital Transformation Powered by Emerging Technologies: Local to Global Perspectives",
             "List of Session ID(s)": "16"
         },
         {
             "Speaker ID": "40",
             "First Name": "Bill",
-            "Last Name": "Newhouse ",
+            "Last Name": "Newhouse",
             "Title ": "Cybersecurity Engineer, National Cybersecurity Center of Excellence",
             "Company Name": "National Institute of Standards and Technology",
             "Session Name": "Quantum Implications for Cybersecurity",
@@ -382,7 +382,7 @@
         {
             "Speaker ID": "42",
             "First Name": "Alison",
-            "Last Name": "O'Mara ",
+            "Last Name": "O'Mara",
             "Title ": "Innovation Adoption Lead, Centers of Excellence",
             "Company Name": "General Services Administration",
             "Session Name": "#RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
@@ -400,9 +400,9 @@
         {
             "Speaker ID": "44",
             "First Name": "Michael",
-            "Last Name": "Parrish ",
+            "Last Name": "Parrish",
             "Title ": "Principal Executive Director, Office of Logistics and Construction",
-            "Company Name": "U.S. Department of Veterans Affairs",
+            "Company Name": "US Department of Veterans Affairs",
             "Session Name": "The Future Relies on Collaborative Innovation of Digital Supply Chains Across Mission Ecosystems",
             "List of Session ID(s)": "19"
         },
@@ -446,16 +446,16 @@
             "First Name": "James",
             "Last Name": "Rodd",
             "Title ": "Cloud Portfolio Manager",
-            "Company Name": "U.S. Department of Homeland Security, FEMA",
+            "Company Name": "US Department of Homeland Security, FEMA",
             "Session Name": "Managing the Multicloud Future",
             "List of Session ID(s)": "18"
         },
         {
             "Speaker ID": "50",
             "First Name": "Ken",
-            "Last Name": "Rogers ",
+            "Last Name": "Rogers",
             "Title ": "Chief Digital Strategist",
-            "Company Name": "U.S. Department of State",
+            "Company Name": "US Department of State",
             "Session Name": "Crucial Leadership Strategies for Incorporating Emerging Technology into an Agency's DNA",
             "List of Session ID(s)": "22"
         },
@@ -482,16 +482,16 @@
         {
             "Speaker ID": "53",
             "First Name": "Soldenise",
-            "Last Name": "Sejour ",
+            "Last Name": "Sejour",
             "Title ": "Chief Information Security Officer",
-            "Company Name": "U.S. Department of Homeland Security",
+            "Company Name": "US Department of Homeland Security",
             "Session Name": "The Future Relies on Collaborative Innovation of Digital Supply Chains Across Mission Ecosystems",
             "List of Session ID(s)": "19"
         },
         {
             "Speaker ID": "54",
             "First Name": "Mark",
-            "Last Name": "Sherman ",
+            "Last Name": "Sherman",
             "Title ": "Director, Cybersecurity Foundations, Software Engineering Institute",
             "Company Name": "Carnegie Mellon",
             "Session Name": "Quantum Implications for Cybersecurity",
@@ -500,7 +500,7 @@
         {
             "Speaker ID": "55",
             "First Name": "David",
-            "Last Name": "Shive ",
+            "Last Name": "Shive",
             "Title ": "Chief Information Officer",
             "Company Name": "General Services Administration",
             "Session Name": "AI in Mission Decision Making",
@@ -518,10 +518,10 @@
         {
             "Speaker ID": "57",
             "First Name": "Renata",
-            "Last Name": "Spinks ",
+            "Last Name": "Spinks",
             "Title ": "Deputy Director and Deputy Chief Information Officer, Command, Control, Communications and Computers",
-            "Company Name": "U.S. Marine Corps",
-            "Session Name": "#RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
+            "Company Name": "US Marine Corps",
+            "Session Name": "RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
             "List of Session ID(s)": "11"
         },
         {
@@ -529,14 +529,14 @@
             "First Name": "Special Representative Dilawar",
             "Last Name": "Syed",
             "Title ": "Special Representative for Commercial & Business Affairs, Bureau of Economic and Business Affairs",
-            "Company Name": "U.S. Department of State",
+            "Company Name": "US Department of State",
             "Session Name": "Discover Digital Transformation Powered by Emerging Technologies: Local to Global Perspectives",
             "List of Session ID(s)": "16"
         },
         {
             "Speaker ID": "59",
             "First Name": "Ron",
-            "Last Name": "Thompson ",
+            "Last Name": "Thompson",
             "Title ": "Agency Chief Data Officer and Deputy Digital Transformation Officer",
             "Company Name": "National Aeronautics and Space Administration",
             "Session Name": "Crucial Leadership Strategies for Incorporating Emerging Technology into an Agency's DNA",
@@ -547,21 +547,21 @@
             "First Name": "Ryan",
             "Last Name": "Vega",
             "Title ": "Chief Officer, Healthcare Innovation and Learning, VHA Innovation Ecosystem",
-            "Company Name": "U.S. Department of Veterans Affairs",
+            "Company Name": "US Department of Veterans Affairs",
             "Session Name": "Driving Innovation to Support the Mission",
             "List of Session ID(s)": "13,34"
         },
         {
             "First Name": "Nicole",
-            "Last Name": "Willis ",
+            "Last Name": "Willis",
             "Title ": "Chief Technology Officer",
             "Company Name": "HHS Office of Inspector General",
-            "Session Name": "#RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
+            "Session Name": "RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
             "List of Session ID(s)": "11"
         },
         {
             "First Name": "Rob",
-            "Last Name": "Wuhrman ",
+            "Last Name": "Wuhrman",
             "Title ": "OGP, Director Shared Services",
             "Company Name": "General Services Administration",
             "Session Name": "Key Executive Fireside Chat/Interview",
@@ -586,7 +586,7 @@
         },
         {
             "First Name": "Neal",
-            "Last Name": "Ziring ",
+            "Last Name": "Ziring",
             "Title ": "Technical Director",
             "Company Name": "National Security Agency",
             "Session Name": "Quantum Implications for Cybersecurity",
