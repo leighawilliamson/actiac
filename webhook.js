@@ -467,12 +467,13 @@ async function get_session_info (params){
 
         if (params.key_type == "speaker_name"){
             for (i in Speakers){
-                if ((params.speaker_name.includes(Speakers[i]['First Name'])) ||
-                     (params.speaker_name.includes(Speakers[i]['Last Name'])))
-                {
+                if (params.speaker_name.includes(Speakers[i]['First Name'])) {
+                    if (params.speaker_name.includes(Speakers[i]['Last Name']))
+                    {
                     if (debug) console.log("Found the speaker ", JSON.stringify(Speakers[i]));
                     theSpeaker = Speakers[i];
                     theSpeakerSessions = parseSessions(Speakers[i]['List of Session ID(s)']);
+                    }
                 }
             }
         }
@@ -556,10 +557,40 @@ async function get_session_info (params){
                 else if (params.key_type == "speaker_name"){
                     sessionInfoTitle = "Sessions for speaker " + theSpeaker['First Name'] + " " + theSpeaker['Last Name'];
                     formatted_response = "Speaker " + params.speaker_name + ", " + theSpeaker['Title '] + ", ";
-                    formatted_response = formatted_response + theSpeaker['Company Name'] + ", is scheduled to deliver ";
-                    formatted_response = formatted_response + "session number " + theSession['Session ID'];
-                    formatted_response = formatted_response + ", titled " + theSession.Title;
-                    formatted_response = formatted_response + " which is scheduled for " + sessionTimeString;
+                    formatted_response = formatted_response + theSpeaker['Company Name'];
+                    
+                    var speaker_role = theSpeaker['Role'];
+                    if (speaker_role == "Moderator"){
+                        formatted_response = formatted_response  + ", will be the Moderator for ";
+                    }
+                    else if (speaker_role == "Interviewer"){
+                        formatted_response = formatted_response  + ", will be the Interviewer for ";
+                    }
+                    else if (speaker_role == "Keynote"){
+                        formatted_response = formatted_response  + ", will be the Keynote speaker for ";
+                    }
+                    else if (speaker_role == "Introducer"){
+                        formatted_response = formatted_response  + ", will be introducing ";
+                    }
+                    else if (speaker_role == "Government Co-Chair"){
+                        formatted_response = formatted_response  + ", will be the Government Co-Chair for ";
+                    }
+                    else if (speaker_role == "Moderator & Industry Co-Chair"){
+                        formatted_response = formatted_response  + ", will be the moderator and industry Co-Chair for ";
+                    }
+                    else if (speaker_role == "Interviewer & Industry Co-Chair"){
+                        formatted_response = formatted_response  + ", will be the interviewer and industry Co-Chair for ";
+                    }
+                    else if (speaker_role == "Panelist"){
+                        formatted_response = formatted_response  + ", will be a panelist in ";
+                    }
+                    else {
+                        formatted_response = formatted_response  + ", will be speaking in ";
+                    }
+                    
+                    //formatted_response = formatted_response + "session number " + theSession['Session ID'];
+                    formatted_response = formatted_response + " the session titled " + theSession.Title + ".";
+                    formatted_response = formatted_response + " That session is scheduled for " + sessionTimeString;
                     formatted_response = formatted_response + " on " + theSession.Date + ". ";
                     if (sessionLocationString !== null){
                         formatted_response = formatted_response + "And is located at " + sessionLocationString;
@@ -569,7 +600,7 @@ async function get_session_info (params){
             else { // more than 1 session and keytype must be speaker_name
                 sessionInfoTitle = "Sessions for speaker " + theSpeaker['First Name'] + " " + theSpeaker['Last Name'];
                 formatted_response = "Speaker " + params.speaker_name + ", " + theSpeaker.Title + ", ";
-                formatted_response = formatted_response + theSpeaker.Company + ", is scheduled to deliver ";
+                formatted_response = formatted_response + theSpeaker.Company + ", is scheduled to speak in ";
                 formatted_response = formatted_response + session_array.length + " sessions."
             }
                             

@@ -12,14 +12,14 @@
             "Session ID": "2",
             "Title": "Bike Tour",
             "Date": "5/22/2022",
-            "Start Time": "12:00",
+            "Start Time": "12:30",
             "End Time": "15:00",
             "Description": "A 25 mile bike ride beginning at the Harriet Tubman Underground Railroad National Historical Park in Blackwater, MD.",
             "Cancelled": "No"
         },
         {
             "Session ID": "3",
-            "Title": "Sponsor Hospitality Reception",
+            "Title": "Reception",
             "Date": "5/22/2022",
             "Start Time": "16:30",
             "End Time": "17:30",
@@ -120,7 +120,7 @@
         },
         {
             "Session ID": "14",
-            "Title": "Key Executive Fireside Chat/Interview",
+            "Title": "Optimizing Shared Services in a Changing World",
             "Session Type": "Breakout Session C",
             "Date": "5/23/2022",
             "Start Time": "9:45",
