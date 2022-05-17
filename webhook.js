@@ -467,7 +467,7 @@ async function get_session_info (params){
 
         if (params.key_type == "speaker_name"){
             for (i in Speakers){
-                if ((params.speaker_name.includes(Speakers[i]['First Name'])) &&
+                if ((params.speaker_name.includes(Speakers[i]['First Name'])) ||
                      (params.speaker_name.includes(Speakers[i]['Last Name'])))
                 {
                     if (debug) console.log("Found the speaker ", JSON.stringify(Speakers[i]));

@@ -201,6 +201,7 @@
             "Speaker ID": "22",
             "First Name": "Allen",
             "Last Name": "Hill",
+            "Title": "from the ",
             "Company Name": "General Services Administration",
             "Session Name": "Managing the Multicloud Future",
             "List of Session ID(s)": "18"
@@ -225,7 +226,7 @@
         },
         {
             "Speaker ID": "25",
-            "First Name": "Raj",
+            "First Name": "Doctor Raj",
             "Last Name": "Iyer",
             "Role": "Keynote",
             "Title ": "Chief Information Officer",
@@ -383,14 +384,14 @@
             "Speaker ID": "42",
             "First Name": "Alison",
             "Last Name": "O'Mara",
-            "Title ": "Innovation Adoption Lead, Centers of Excellence",
+            "Title ": "Innovation Adoption Leed, Centers of Excellence",
             "Company Name": "General Services Administration",
-            "Session Name": "#RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
+            "Session Name": "RockIT:  Going Beyond Security:  A Conversation on Digital Transformation and Digital Experience",
             "List of Session ID(s)": "11"
         },
         {
             "Speaker ID": "43",
-            "First Name": "Dr. Kapil",
+            "First Name": "Doctor Kapil",
             "Last Name": "Parakh",
             "Title ": "Medical Lead, Fitbit and Practicing Cardiologist at VA",
             "Company Name": "Google",
