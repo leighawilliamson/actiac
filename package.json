@@ -7,9 +7,10 @@
 		"start": "node app.js"
 	},
 	"dependencies": {
+		"axios": "^0.27.2",
 		"express": "^4.17.1",
-		"nodemon": "^2.0.15",
-		"mime": "1.4.1"
+		"mime": "1.4.1",
+		"nodemon": "^2.0.15"
 	},
 	"repository": {},
 	"engines": {

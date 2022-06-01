@@ -15,6 +15,9 @@ var sessionInfo;
 var sessionInfoTitle;
 var session_json = require('./sessions.json');
 var speaker_json = require('./speakers.json');
+var flightInfo;
+var flightInfoTitle;
+var axios = require('axios');
 
 /* The main function just serves to determine which command has been requested
    by the calling code. Based on the value of params.command passed in,
@@ -22,6 +25,7 @@ var speaker_json = require('./speakers.json');
 */
 module.exports = function (params) {
     if (params.debug != null && params.debug == "true"){
+        console.log("debug on");
       debug = true;
     }
     var command = params.command;
@@ -57,15 +61,350 @@ module.exports = function (params) {
     else if (command === "getSessionInfo"){
         console.log('Command recognized: ' + command );
         return getSessionInfo(params);
-    }   
+    }       
+    else if (command === "getFlightInfoHTML"){
+        console.log('Command recognized: ' + command );
+        return getFlightInfoHTML(params);
+    }
     else if (command === "list_session_by_track"){
         console.log('Command recognized: ' + command );
         return list_session_by_track(params);
+    }
+    else if (command === "get_flight_info"){
+        console.log('Command recognized: ' + command );
+        return get_flight_info(params);
+    }
+    else if (command === "get_flight_info_by_destination"){
+        console.log('Command recognized: ' + command );
+        return get_flight_info_by_destination(params);
     }
     else {
 	    return { message: 'Command not recognized: ' + command };
     }
 }
+
+
+function filter_flight_number(flight_num){
+    var filtered_number = flight_num;
+
+    if (typeof flight_num === 'string' || flight_num instanceof String) { // its a String
+        filtered_number = flight_num.replace(/\D/g,'');
+    }
+    else if (Number.isFinite(flight_num)){ // its a number
+        filtered_number = flight_num.toString();
+    }
+
+    return filtered_number;
+}
+
+function get_status(raw_status, direction){
+    var status_json = {};
+    status_json.end_of_response = false;
+    var formatted_status = raw_status;
+    switch (raw_status){
+        case "scheduled":
+            if (direction == "departing"){
+                formatted_status = " is scheduled to depart for ";
+            }
+            else {
+                formatted_status = " is scheduled to arrive from ";
+            }
+            break;
+        case "active":
+            if (direction == "departing"){
+                formatted_status = " has already departed to ";
+            }
+            else {
+                formatted_status = " is en route from ";
+            }           
+            break;
+        case "landed":
+            if (direction == "departing"){
+                formatted_status = " has already landed at ";
+            }
+            else {
+                formatted_status = " has landed from ";
+            }           
+            break;
+        case "cancelled":
+            formatted_status = " has been cancelled.";
+            status_json.end_of_response = true;
+            break;
+        case "incident":
+            formatted_status = " has had an incident.";
+            status_json.end_of_response = true;
+            break;
+        case "diverted":
+            formatted_status = " has been diverted.";
+            status_json.end_of_response = true;
+            break;
+        default:
+            break;
+    }
+    status_json.formatted_response = formatted_status;
+    return status_json;
+}
+
+function get_airline_iata(airline_name){
+    var iata = "";
+    switch (airline_name){
+        case "Delta":
+        case "DL":
+            iata = "DL";
+            break;
+        case "United":
+        case "UA":
+            iata = "UA";
+            break;
+        case "American":
+        case "AA":
+            iata = "AA";
+            break;
+        case "Southwest":
+        case "SWA":
+            iata = "WN";
+        default:
+            break;
+    }
+    return iata;
+}
+
+async function get_flight_info (params){
+    console.log("entering get_flight_info function");
+    returnobj = {status:"200",statusText:"OK"};
+    var axios = require('axios');
+
+    var query =  "&flight_number=" + filter_flight_number(params.flight_number);
+    query = query + "&dep_iata=ATL"
+
+    if ((params.airline != null) && (params.airline !='')){
+        query = query + "&airline_iata=" + get_airline_iata(params.airline);
+    }
+    else if ((params.airline_code != null) && (params.airline_code !='')){
+        query = query + "&airline_iata=" + get_airline_iata(params.airline_code);
+    }
+
+    var date = new Date().toISOString().split('T')[0];
+    query = query + "&arr_scheduled_time_dep=" + date;
+
+    console.log("");
+    console.log("query: \n",query);
+    console.log("");
+
+    var config = {
+        method: 'get',
+        url: 'https://app.goflightlabs.com/flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiNmYxODVjNmNjZjQ5NWYyZTMxMDM3YWE0OGIyYmZmYjAzOWM1YjQ5OTE5N2E0ZTQzMDk0YjYzZGU0MjRhOTczNGZmMzBkNzZjZmQzODg1M2MiLCJpYXQiOjE2NTM1MTg3NzUsIm5iZiI6MTY1MzUxODc3NSwiZXhwIjoxNjg1MDU0Nzc1LCJzdWIiOiI1MTY0Iiwic2NvcGVzIjpbXX0.YKan_GHp0fecswmBH_wszC2HZTbdiYoXtHIJMVddkOb1jY2SaVsewQ_faMqpko8ZYBp5YtrOjRrJKIusne19Kw' +
+        query,
+        headers: { 
+            'Cookie': 'XSRF-TOKEN=eyJpdiI6Ild5MkljSnV5dHJBRG1WOC8zYm9tSmc9PSIsInZhbHVlIjoiRkNCaytyUmYvalJGL2FtbjhaaHJZYTZja0VMak1ZMFplUldtRUpTaW9hUlFKOXpkVXV3K1JIQk9OaktLbDhQZ2RlZU5NLzVqazc2OEdMK1o4K2tZYkNYY0JSTERUcHBtYXhweTl2c2RHTnhDUnVrc1Vxam5vRFo2eVpxcTZMSEMiLCJtYWMiOiJhNWFjN2JjZTdlODI4MDc4ODM5NGNkZTBjYjg3MTdhYzhiNTdkYWIxODQzOGYyZjg5NTc1ODJkNWQzOTRlNWY0In0%3D; flightlabs_session=eyJpdiI6InpQeTZpVlNXcWk4eEtBZWI1T1hUWWc9PSIsInZhbHVlIjoiOFhFdk16YUxDeGJORk50b2hSaCtTNDVpb3ZXNTFGeFVYL2JaTFVDVUxKUTdpZFhpSi93ZzQzSnl6TUpXU3Q0bGVaOW5yRm5hTWdiQUlMQzE2V1RxUXJxc3NPYnc2Vm5ucWJURTBKSDNPbXZqRFBTSUgvcWVJa3UwUEdQcHlVWUoiLCJtYWMiOiIwMjBiODIxMGZiNmQ1NjdmYjE0NmZiMDNkNGEzYmEwODFmNzZiM2ExNjEzMjM3Y2FjMmIwYTYzM2I5NWNkOWZhIn0%3D'
+        }
+    };
+
+    let result;
+    await axios(config)
+        .then(function (response) {
+            console.log(JSON.stringify(response.data));
+            result = response.data;
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+
+    var departing_flight_list = [];
+    var arriving_flight_list = [];
+    var departing_flight = {};
+    var arriving_flight = {};
+    var departure_response = "";
+    var arrival_response = "";
+    if (result != null){
+        for (const [key, value] of Object.entries(result)) {
+            if ((key != "message")&& (key != "success")){
+                if ((value.flight_status == "scheduled") || (value.flight_status == "active")){
+                    // --------- process departing flight --------------------
+                    //console.log(`${key}: ${value.airline.name}`);
+                    var flight_time = new Date(value.departure.scheduled);
+                    //console.log("departure time: ",flight_time.toISOString())
+                    flight_time.setTime(flight_time.getTime() + (4*60*60*1000));
+                    departing_flight.time = flight_time.toLocaleString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: 'numeric', hour12: true });                   
+                    departing_flight.flight_iata = value.flight.iata;
+                    departing_flight.airline = value.airline.name;
+                    departing_flight.status = value.flight_status;
+                    departing_flight.gate = value.departure.gate;                   
+                    departing_flight.to = value.arrival.airport;
+                    departing_flight.delay = value.departure.delay;
+
+                    departure_response = "Departing " + value.airline.name + " flight " + value.flight.iata; // Departing Delta Airline flight DL2323
+                    var status_json = get_status(value.flight_status, "departing");
+                    departure_response = departure_response + status_json.formatted_response;
+                    if (! status_json.end_of_response) {
+                        departure_response = departure_response + departing_flight.to;
+                        if (value.flight_status == "active"){ departure_response = departure_response + "."}
+                        else {
+                            departure_response = departure_response + " from gate " +
+                                value.departure.gate + " at " + departing_flight.time + ".";
+                        }                       
+                    }
+
+                    departing_flight_list.push(value);
+                    // --------- done process departing flight --------------------
+                }
+                if (value.arrival.iata == "ATL"){
+                    //console.log(`${key}: ${value.airline.name}`);
+                    arriving_flight.flight_iata = value.flight.iata;
+                    arriving_flight.airline = value.airline.name;
+                    arriving_flight.status = value.flight_status;
+                    arriving_flight.gate = value.arrival.gate;
+                    var flight_time = new Date(value.arrival.scheduled);
+                    console.log("arrival time: ",flight_time.toISOString())
+                    flight_time.setTime(flight_time.getTime() + (4*60*60*1000));
+                    arriving_flight.time = flight_time.toLocaleString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: 'numeric', hour12: true });                   
+                    
+                    arriving_flight.from = value.departure.airport;
+                    arriving_flight.delay = value.arrival.delay;
+                    arriving_flight.baggage = value.arrival.baggage;
+
+                    arrival_response = "Arriving " + value.airline.name + " flight " + value.flight.iata; // Arriving Delta Airline flight DL2323
+                    var status_json = get_status(value.flight_status, "arriving");
+                    arrival_response = arrival_response + status_json.formatted_response;
+                    if (! status_json.end_of_response) {
+                        arrival_response = arrival_response + arriving_flight.from;
+                        if (value.flight_status == "active"){ arrival_response = arrival_response + "."}
+                        else {
+                            arrival_response = arrival_response + " at gate " +
+                                value.arrival.gate + " at " + arriving_flight.time + ".";
+                        }                       
+                    }
+
+                    arriving_flight_list.push(value);
+                }
+            }
+        }
+    }
+
+    returnobj.departing_flights = departing_flight_list.length;
+    returnobj.departing_flight_list = departing_flight_list;
+    returnobj.arriving_flights = arriving_flight_list.length;
+    returnobj.arriving_flight_list = arriving_flight_list;
+    returnobj.departing_flight = departing_flight;
+    returnobj.arriving_flight = arriving_flight;
+    returnobj.departure_response = departure_response;
+    returnobj.arrival_response = arrival_response;
+    return returnobj;
+}
+
+async function getDestinationIata(params){
+    var dest_iata = "BOS";
+    if ((params.destination != null) && (params.destination != "")){
+        var dest_str = params.destination;
+        var query = "&search=" + dest_str;
+        var config = {
+            method: 'get',
+            url: 'https://app.goflightlabs.com/cities?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiNmYxODVjNmNjZjQ5NWYyZTMxMDM3YWE0OGIyYmZmYjAzOWM1YjQ5OTE5N2E0ZTQzMDk0YjYzZGU0MjRhOTczNGZmMzBkNzZjZmQzODg1M2MiLCJpYXQiOjE2NTM1MTg3NzUsIm5iZiI6MTY1MzUxODc3NSwiZXhwIjoxNjg1MDU0Nzc1LCJzdWIiOiI1MTY0Iiwic2NvcGVzIjpbXX0.YKan_GHp0fecswmBH_wszC2HZTbdiYoXtHIJMVddkOb1jY2SaVsewQ_faMqpko8ZYBp5YtrOjRrJKIusne19Kw' +
+            query,
+            headers: { 
+                'Cookie': 'XSRF-TOKEN=eyJpdiI6Ild5MkljSnV5dHJBRG1WOC8zYm9tSmc9PSIsInZhbHVlIjoiRkNCaytyUmYvalJGL2FtbjhaaHJZYTZja0VMak1ZMFplUldtRUpTaW9hUlFKOXpkVXV3K1JIQk9OaktLbDhQZ2RlZU5NLzVqazc2OEdMK1o4K2tZYkNYY0JSTERUcHBtYXhweTl2c2RHTnhDUnVrc1Vxam5vRFo2eVpxcTZMSEMiLCJtYWMiOiJhNWFjN2JjZTdlODI4MDc4ODM5NGNkZTBjYjg3MTdhYzhiNTdkYWIxODQzOGYyZjg5NTc1ODJkNWQzOTRlNWY0In0%3D; flightlabs_session=eyJpdiI6InpQeTZpVlNXcWk4eEtBZWI1T1hUWWc9PSIsInZhbHVlIjoiOFhFdk16YUxDeGJORk50b2hSaCtTNDVpb3ZXNTFGeFVYL2JaTFVDVUxKUTdpZFhpSi93ZzQzSnl6TUpXU3Q0bGVaOW5yRm5hTWdiQUlMQzE2V1RxUXJxc3NPYnc2Vm5ucWJURTBKSDNPbXZqRFBTSUgvcWVJa3UwUEdQcHlVWUoiLCJtYWMiOiIwMjBiODIxMGZiNmQ1NjdmYjE0NmZiMDNkNGEzYmEwODFmNzZiM2ExNjEzMjM3Y2FjMmIwYTYzM2I5NWNkOWZhIn0%3D'
+            }
+        };
+        let result;
+        await axios(config)
+            .then(function (response) {
+                //console.log(JSON.stringify(response.data));
+                result = response.data;
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+        
+        if (result != null){
+            for (const [key, value] of Object.entries(result)) {
+                if ((key != "message")&& (key != "success")){
+                    console.log("Destination IATA: ", value.iata_code);
+                    dest_iata = value.iata_code;
+                }
+            }
+        }
+                 
+    }
+    if (params.destination == "Washington"){
+        dest_iata = "WAS";
+    }
+    if (params.destination == "New York"){
+        dest_iata = "NYC";
+    }
+    if (params.destination == "Chicago"){
+        dest_iata = "ORD";
+    }
+    if (params.destination == "Jacksonville"){
+        dest_iata = "JAX";
+    }
+    return dest_iata;
+}
+
+async function get_flight_info_by_destination(params){
+    console.log("entering get_flight_info_by_destination function");
+    returnobj = {status:"200",statusText:"OK"};
+
+    var query =  "&dep_iata=ATL";
+
+    let today = new Date(Date.now());
+    var today_string = today.toISOString().split('T')[0]
+    query = query + "&arr_scheduled_time_dep=" + today_string; //should be in format "2022-05-28";
+
+    var destination_iata = await getDestinationIata(params);
+    query = query + "&arr_iata=" + destination_iata;
+
+    if (debug) console.log("");
+    if (debug) console.log("query: \n",query);
+    if (debug) console.log("");
+
+    var config = {
+        method: 'get',
+        url: 'https://app.goflightlabs.com/flights?access_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiNmYxODVjNmNjZjQ5NWYyZTMxMDM3YWE0OGIyYmZmYjAzOWM1YjQ5OTE5N2E0ZTQzMDk0YjYzZGU0MjRhOTczNGZmMzBkNzZjZmQzODg1M2MiLCJpYXQiOjE2NTM1MTg3NzUsIm5iZiI6MTY1MzUxODc3NSwiZXhwIjoxNjg1MDU0Nzc1LCJzdWIiOiI1MTY0Iiwic2NvcGVzIjpbXX0.YKan_GHp0fecswmBH_wszC2HZTbdiYoXtHIJMVddkOb1jY2SaVsewQ_faMqpko8ZYBp5YtrOjRrJKIusne19Kw' +
+        query,
+        headers: { 
+            'Cookie': 'XSRF-TOKEN=eyJpdiI6Ild5MkljSnV5dHJBRG1WOC8zYm9tSmc9PSIsInZhbHVlIjoiRkNCaytyUmYvalJGL2FtbjhaaHJZYTZja0VMak1ZMFplUldtRUpTaW9hUlFKOXpkVXV3K1JIQk9OaktLbDhQZ2RlZU5NLzVqazc2OEdMK1o4K2tZYkNYY0JSTERUcHBtYXhweTl2c2RHTnhDUnVrc1Vxam5vRFo2eVpxcTZMSEMiLCJtYWMiOiJhNWFjN2JjZTdlODI4MDc4ODM5NGNkZTBjYjg3MTdhYzhiNTdkYWIxODQzOGYyZjg5NTc1ODJkNWQzOTRlNWY0In0%3D; flightlabs_session=eyJpdiI6InpQeTZpVlNXcWk4eEtBZWI1T1hUWWc9PSIsInZhbHVlIjoiOFhFdk16YUxDeGJORk50b2hSaCtTNDVpb3ZXNTFGeFVYL2JaTFVDVUxKUTdpZFhpSi93ZzQzSnl6TUpXU3Q0bGVaOW5yRm5hTWdiQUlMQzE2V1RxUXJxc3NPYnc2Vm5ucWJURTBKSDNPbXZqRFBTSUgvcWVJa3UwUEdQcHlVWUoiLCJtYWMiOiIwMjBiODIxMGZiNmQ1NjdmYjE0NmZiMDNkNGEzYmEwODFmNzZiM2ExNjEzMjM3Y2FjMmIwYTYzM2I5NWNkOWZhIn0%3D'
+        }
+    };
+
+    let result;
+    await axios(config)
+        .then(function (response) {
+            if (debug) console.log(JSON.stringify(response.data));
+            result = response.data;
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+
+    var flight_list = [];
+    if (result != null){
+        for (const [key, value] of Object.entries(result)) {
+            if ((key != "message")&& (key != "success")){
+
+                var flight_time = new Date(value.departure.scheduled);
+                flight_time.setTime(flight_time.getTime() + (8*60*60*1000));
+                if (debug) console.log("flight_time: ",flight_time.toLocaleString(('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: 'numeric', hour12: true })));
+                dep_time_milli = flight_time.getTime();
+
+                if (debug) console.log("time now is: ", new Date(Date.now()).toLocaleString(('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: 'numeric', hour12: true })));
+
+                if ((dep_time_milli > Date.now()) && (value.flight_status == "scheduled")) {
+                    flight_list.push(value);
+                }
+            }
+        }
+    }
+      
+    flight_list.sort(function(a, b) {
+        return new Date(a.departure.scheduled) - new Date(b.departure.scheduled);
+    });
+    returnobj.num_flights = flight_list.length;
+    flightInfo = flight_list;
+    flightInfoTitle = "Flights to " + params.destination;
+    
+    return returnobj;
+}
+
 
 /* The test sub-function just returns a "success" response.
     This just tests that the round-trip from Watson Assistant to the webhook module
@@ -288,7 +627,7 @@ async function what_sessions_are_next_v2 (params){
         var start_time_json = formatTime(paramTime.hour + ":" + paramTime.minutes);
         var formatted_start_time = start_time_json.hour + ":" + start_time_json.minutes + " " + start_time_json.am_pm;
         
-        sessionInfoTitle = "Conference Sessions coming up after \
+        sessionInfoTitle= "Conference Sessions coming up after \
          " +  formatted_start_time + " today";
 
         returnobj.fields.session_count = session_array.length;
@@ -327,8 +666,11 @@ async function list_session_by_type (params){
   
         // go through list of sessions
         for (i in Sessions) {
+            var thisSessionType = Sessions[i]['Session Type'];
+            if (thisSessionType != null) {
+
                 // check if the session type matches param passed in
-                if (Sessions[i]['Session Type'] == params.session_type)
+                if (thisSessionType == params.session_type)
                 {
                     if (debug) {
                         console.log("Found a session matching the requested type.");
@@ -338,10 +680,14 @@ async function list_session_by_type (params){
                     // push this session in the list
                     session_array.push(Sessions[i]);
                 }
-            //}
-            else {
-                //console.log("Ignoring session dated: ",session_day);
-            }            
+                else if (thisSessionType.includes(params.session_type)){
+                     // push this session in the list
+                    session_array.push(Sessions[i]);
+                }
+                else {
+                    //console.log("Ignoring session dated: ",session_day);
+                }     
+            }
         }
 
         // format the response back for the assistant to say
@@ -355,7 +701,7 @@ async function list_session_by_type (params){
         }
         // stash the session list so that it can be displayed in the browser link
         sessionInfo = session_array;
-        sessionInfoTitle = params.session_type + " Conference Sessions";
+        sessionInfoTitle= params.session_type + " Conference Sessions";
 
         returnobj.fields.session_count = session_array.length;
         returnobj.formatted = formatted_response;
@@ -415,7 +761,7 @@ try {
     }
     // stash the session list so that it can be displayed in the browser link
     sessionInfo = session_array;
-    sessionInfoTitle = params.track + " Conference Sessions";
+    sessionInfoTitle= params.track + " Conference Sessions";
 
     returnobj.fields.session_count = session_array.length;
     returnobj.formatted = formatted_response;
@@ -525,10 +871,10 @@ async function get_session_info (params){
                 if (debug)console.log("sessionLocationString: ",sessionLocationString);
                 
                 if (params.key_type == "session_id") {
-                    sessionInfoTitle = "Session: " + theSession['Session ID'];
+                    sessionInfoTitle= "Session: " + theSession['Session ID'];
                     formatted_response = "Session " + theSession['Session ID'] + " ";
                     if (theSession.Cancelled == "yes"){
-                        sessionInfoTitle = sessionInfoTitle + " NOW CANCELLED";
+                        sessionInfoTitle= sessionInfoTitle+ " NOW CANCELLED";
                         formatted_response = formatted_response + " is now cancelled."
                     }
                     else {
@@ -542,21 +888,21 @@ async function get_session_info (params){
                     if (debug) console.log("formatted response: ",formatted_response);
                 }
                 else if (params.key_type == "session_title"){
-                    sessionInfoTitle = "Session: " + theSession.Title;
+                    sessionInfoTitle= "Session: " + theSession.Title;
                     if (theSession.Cancelled == "yes"){
-                        sessionInfoTitle = sessionInfoTitle + " NOW CANCELLED";
+                        sessionInfoTitle= sessionInfoTitle+ " NOW CANCELLED";
                     }
                     formatted_response = "The session titled " + theSession.Title;
-                    formatted_response = formatted_response + " is session number " + theSession['Session ID'];
-                    formatted_response = formatted_response + " and is scheduled for " + sessionTimeString;
+                   // formatted_response = formatted_response + " is session number " + theSession['Session ID'];
+                    formatted_response = formatted_response + " is scheduled for " + sessionTimeString;
                     formatted_response = formatted_response + " on " + theSession.Date + ". ";
                     if (sessionLocationString !== null){
                         formatted_response = formatted_response + "And is located at " + sessionLocationString;
                     }
                 }
                 else if (params.key_type == "speaker_name"){
-                    sessionInfoTitle = "Sessions for speaker " + theSpeaker['First Name'] + " " + theSpeaker['Last Name'];
-                    formatted_response = "Speaker " + params.speaker_name + ", " + theSpeaker['Title '] + ", ";
+                    sessionInfoTitle= "Sessions for speaker " + theSpeaker['First Name'] + " " + theSpeaker['Last Name'];
+                    formatted_response = "Speaker " + params.speaker_name + ", " + theSpeaker['Title'] + ", ";
                     formatted_response = formatted_response + theSpeaker['Company Name'];
                     
                     var speaker_role = theSpeaker['Role'];
@@ -589,7 +935,7 @@ async function get_session_info (params){
                     }
                     
                     //formatted_response = formatted_response + "session number " + theSession['Session ID'];
-                    formatted_response = formatted_response + " the session titled " + theSession.Title + ".";
+                    formatted_response = formatted_response + "the session titled " + theSession.Title+ ".";
                     formatted_response = formatted_response + " That session is scheduled for " + sessionTimeString;
                     formatted_response = formatted_response + " on " + theSession.Date + ". ";
                     if (sessionLocationString !== null){
@@ -598,9 +944,9 @@ async function get_session_info (params){
                 }
             }
             else { // more than 1 session and keytype must be speaker_name
-                sessionInfoTitle = "Sessions for speaker " + theSpeaker['First Name'] + " " + theSpeaker['Last Name'];
-                formatted_response = "Speaker " + params.speaker_name + ", " + theSpeaker.Title + ", ";
-                formatted_response = formatted_response + theSpeaker.Company + ", is scheduled to speak in ";
+                sessionInfoTitle= "Sessions for speaker " + theSpeaker['First Name'] + " " + theSpeaker['Last Name'];
+                formatted_response = "Speaker " + params.speaker_name + ", " + theSpeaker['Title'] + ", ";
+                formatted_response = formatted_response + theSpeaker['Company Name'] + ", is scheduled to speak in ";
                 formatted_response = formatted_response + session_array.length + " sessions."
             }
                             
@@ -743,7 +1089,7 @@ async function what_sessions_are_scheduled_for (params){
         // stash the session list so that it can be displayed in the browser link
         sessionInfo = session_array;
 
-        // format the title of the dynamic html page
+        // format the Titleof the dynamic html page
         var start_time_json = formatTime(paramTime.hour + ":" + paramTime.minutes);
         var formatted_start_time = start_time_json.hour + ":" + start_time_json.minutes + " " + start_time_json.am_pm;
         var date_string = parsedDate.month + "/" + parsedDate.day + "/" + parsedDate.year;
@@ -751,14 +1097,14 @@ async function what_sessions_are_scheduled_for (params){
             console.log("date for web page display:", date_string);
             console.log("made from: ",parsedDate);
         }
-        sessionInfoTitle = "Conference Sessions going on";
+        sessionInfoTitle= "Conference Sessions going on";
         if (allDay) {
-            sessionInfoTitle = sessionInfoTitle + " all day ";
+            sessionInfoTitle= sessionInfoTitle+ " all day ";
         }
         else {
-            sessionInfoTitle =  sessionInfoTitle + " at " + formatted_start_time;
+            sessionInfoTitle=  sessionInfoTitle+ " at " + formatted_start_time;
         }
-        sessionInfoTitle = sessionInfoTitle + " on " + date_string;
+        sessionInfoTitle= sessionInfoTitle+ " on " + date_string;
         
         returnobj.fields.session_count = session_array.length;
         returnobj.formatted = formatted_response;
@@ -933,7 +1279,7 @@ function build_html (){
         <body>\
             <div id=\"headerdiv\">\
                 <img id=\"topimage\" src=\"https://cos-image-server.mybluemix.net/img/actiac/actiac-logo.png\"/>\
-                <h1 id=\"tabletitle\">" + sessionInfoTitle + "</h1>\
+                <h1 id=\"tabletitle\">" + sessionInfoTitle+ "</h1>\
             </div>\
             <div id=\"tablediv\">\
                 <table>\
@@ -1017,10 +1363,81 @@ function build_html (){
             formatted_response = formatted_response + "Those sessions are: ";       
             for (i in session_array){
                 session_id = session_array[i]['Session ID'];
-                session_title = session_array[i].Title;
+                session_Title= session_array[i].Title;
                 session_location = session_array[i].Location;
                 session_location = session_location.replace(/-/g,'');
                 formatted_response = formatted_response + "Session number " + session_id + ", " + session_title;
                 formatted_response = formatted_response + ", located at " + session_location + ". "
             }
             */
+
+
+
+/*
+The code below is for the dynamic web page that displays a list of flights
+*/
+// --------- begin getFlightInfoHTML function --------------------
+async function getFlightInfoHTML(params){
+    var html;
+    try {
+        html = build_flight_html();
+    }
+    catch (err){
+        console.log("error: ",err);
+    }
+    return html;
+} // --------- end getFlightInfoHTML function --------------------
+
+// --------- begin build_html function --------------------
+function build_flight_html (){
+
+    var html = "<!DOCTYPE html>\
+    <html>\
+        <head>\
+            <title>ATL Virtual Assistant</title>\
+            <link href=\"table.css\" rel=\"stylesheet\" type=\"text/css\">\
+        </head>\
+        <body>\
+            <div id=\"headerdiv\">\
+                <img id=\"topimage\" src=\"https://imageserver.n8eu78rs3sm.us-south.codeengine.appdomain.cloud/img/atl/atl-logo3.png\"/>\
+                <h1 id=\"tabletitle\">" + flightInfoTitle+ "</h1>\
+            </div>\
+            <div id=\"tablediv\">\
+                <table>\
+                    <tr>\
+                        <th>Flight number</th>\
+                        <th class=\"titlecell\">Airline</th>\
+                        <th>Departs</th>\
+                        <th>Gate</th>\
+                        <th>Destination</th>\
+                        <th class=\"location_cell\">Status</th>\
+                    </tr>";
+    
+    for (i in flightInfo){
+        //console.log("Session: ",flightInfo[i]['Session ID']);
+        console.log("Flight: ",flightInfo[i]);
+        var flight_time = new Date(flightInfo[i].departure.scheduled);
+        //console.log("departure time: ",flight_time.toISOString())
+        flight_time.setTime(flight_time.getTime() + (4*60*60*1000));
+        departing_flight_time = flight_time.toLocaleString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: 'numeric', hour12: true });                   
+             
+        html = html + "\
+        <tr>\
+        <td>" + flightInfo[i].flight.iata + "</td>\
+        <td class=\"titlecell\">" + flightInfo[i].airline.name + "</td>\
+        <td>" + departing_flight_time + "</td>\
+        <td>" + flightInfo[i].departure.gate + "</td>\
+        <td>" + flightInfo[i].arrival.airport + "</td>\
+        <td class=\"location_cell\">" + flightInfo[i].flight_status + "</td>\
+        </tr>";
+    }
+
+    html = html + "\
+                </table>\
+            </div>\
+        </body>\
+    </html>\
+    ";
+
+    return html;
+} // --------- end build_html function --------------------

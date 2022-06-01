@@ -79,3 +79,12 @@ var result = await webhook(params);
 //console.log("sessions result = ", result);
 res.send(result);
 });
+
+app.get('/flights', async (req, res) => {
+  console.log("calling flight info logic");
+  var params = req.params;
+  params.command = "getFlightInfoHTML";
+  var result = await webhook(params); 
+  //console.log("sessions result = ", result);
+  res.send(result);
+  });

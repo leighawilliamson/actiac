@@ -6,6 +6,7 @@
             "Date": "5/22/2022",
             "Start Time": "8:30",
             "End Time": "14:30",
+            "Session Type":"Activity",
             "Cancelled": "No"
         },
         {
@@ -14,23 +15,18 @@
             "Date": "5/22/2022",
             "Start Time": "12:30",
             "End Time": "15:00",
+            "Session Type":"Activity",
             "Description": "A 25 mile bike ride beginning at the Harriet Tubman Underground Railroad National Historical Park in Blackwater, MD.",
-            "Cancelled": "No"
-        },
-        {
-            "Session ID": "3",
-            "Title": "Reception",
-            "Date": "5/22/2022",
-            "Start Time": "16:30",
-            "End Time": "17:30",
+            "Location": "Leaving from the Harriett Tubman Underground Railroad Museum Parking Lot (4068 Golden Hill Road, Church Creek, MD).",
             "Cancelled": "No"
         },
         {
             "Session ID": "4",
-            "Title": "Networking Reception",
+            "Title": "Reception",
             "Date": "5/22/2022",
             "Start Time": "17:30",
             "End Time": "18:30",
+            "Session Type":"Reception",
             "Location": "Regatta Pavilion",
             "Cancelled": "No"
         },
@@ -40,17 +36,19 @@
             "Date": "5/22/2022",
             "Start Time": "18:30",
             "End Time": "19:30",
-            "Location": "Chesapeake ABCD",
+            "Session Type":"Dinner",
+            "Location": "Chesapeake A B C & D",
             "Cancelled": "No"
         },
         {
             "Session ID": "6",
-            "Title": "Welcome and Keynote",
+            "Title": "Sunday evening Welcome and Keynote",
             "Date": "5/22/2022",
             "Start Time": "19:30",
             "End Time": "20:15",
+            "Session Type":"Keynote",
             "Description": "From 7:30 to 7:45 will be the Welcome message, followed by a Keynote presentation from Brian Campo, Deputy Chief Information officer and Deputy Assistant Commandant for C 4 IT, US Coast Guard",
-            "Location": "Chesapeake ABCD",
+            "Location": "Chesapeake A B C & D",
             "Cancelled": "No"
         },
         {
@@ -59,33 +57,38 @@
             "Date": "5/22/2022",
             "Start Time": "20:15",
             "End Time": "21:30",
+            "Session Type":"Reception",
             "Location": "Chesapeake Foyer",
             "Cancelled": "No"
         },
         {
             "Session ID": "8",
-            "Title": "Breakfast",
+            "Title": "Monday Breakfast",
             "Date": "5/23/2022",
             "Start Time": "7:15",
             "End Time": "8:15",
+            "Session Type":"Breakfast",
             "Location": "Chesapeake Foyer",
             "Cancelled": "No"
         },
         {
             "Session ID": "9",
-            "Title": "Welcoming Remarks, Overview of Day, and Welcome from ACT-IAC CEO",
+            "Title": "Welcoming Remarks and Overview of Day",
             "Date": "5/23/2022",
             "Start Time": "8:30",
             "End Time": "8:45",
+            "Location": "Chesapeake A B C & D",
             "Description": "Welcoming Remarks from Chairs, Overview of Day, and Welcome from ACT-IAC CEO",
             "Cancelled": "No"
         },
         {
             "Session ID": "10",
-            "Title": "Keynote:  Fireside Chat",
+            "Title": "Monday morning Keynote: Fireside Chat",
             "Date": "5/23/2022",
             "Start Time": "9:00",
             "End Time": "9:30",
+            "Session Type":"Keynote",
+            "Location": "Chesapeake A B C & D",
             "Cancelled": "No"
         },
         {
@@ -95,6 +98,7 @@
             "Date": "5/23/2022",
             "Start Time": "9:45",
             "End Time": "10:30",
+            "Location": "Clipper A B & C",
             "Description": "Google Cloud helps government agencies improve citizen services, increase their operational effectiveness, and deliver proven innovation. Hear from Google Cloud executives on how the company is addressing use cases across civilian, federal healthcare, and defense organizations. Attendees will walk away with an understanding of innovative approaches being used and the future of federal technology.",
             "Cancelled": "No"
         },
@@ -105,6 +109,7 @@
             "Date": "5/23/2022",
             "Start Time": "9:45",
             "End Time": "10:30",
+            "Location": "Cutter A & B",
             "Description": "Discussing how A I capabilities can provide effective distillation of information at scale for improved and timely decision making.",
             "Cancelled": "No"
         },
@@ -115,6 +120,7 @@
             "Date": "5/23/2022",
             "Start Time": "9:45",
             "End Time": "10:30",
+            "Location": "Galleon A B & C",
             "Description": "Innovation comes in many forms, including both process-oriented and technical. With budgets increasingly tight and an ever-expanding workload, government C X Os have become the drivers of innovation across the Federal enterprise.  Join us for a discussion on how a diverse group of leaders from across government are working to foster a culture that promotes and rewards innovation, drives change, and benefits mission performance by empowering employees across their respective organizations.",
             "Cancelled": "No"
         },
@@ -125,15 +131,18 @@
             "Date": "5/23/2022",
             "Start Time": "9:45",
             "End Time": "10:30",
-            "Description": "Federal Shared Service Centers have long sought opportunities to achieve economies of scale and skill. As agency needs evolve and new technologies emerge, what is next for this service delivery model? Join Workday and a panel of distinguished federal leaders and experts from the D O I, G S A, and Treasury as they discuss the challenges and opportunities for optimizing shared services. Panelists will address the unique requirements of shared services providers and how cloud technology platforms for financial management and human resources can support continuous innovation and improvement.",
+            "Location": "Schooner A & B",
+            "Description": "Federal Shared Service Centers have long sought opportunities to achieve economies of scale and skill. As agency needs evolve and new technologies emerge, what is next for this service delivery model? Join Workday, and a panel of distinguished federal leaders and experts from the D O I, G S A, and Treasury as they discuss the challenges and opportunities for optimizing shared services. Panelists will address the unique requirements of shared services providers and how cloud technology platforms for financial management and human resources can support continuous innovation and improvement.",
             "Cancelled": "No"
         },
         {
             "Session ID": "15",
-            "Title": "Networking, Exhibits, Exhibitor Presentations, Automation/Reality Exhibits",
+            "Title": "Networking, Exhibits, Exhibitor Presentations, Automation and Reality Exhibits",
             "Date": "5/23/2022",
             "Start Time": "10:30",
             "End Time": "11:15",
+            "Session Type":"Networking",
+            "Location": "Choptank A B & C",
             "Cancelled": "No"
         },
         {
@@ -143,7 +152,8 @@
             "Date": "5/23/2022",
             "Start Time": "11:30",
             "End Time": "12:15",
-            "Description": "Emerging technologies are accelerators of innovation. They can improve efficiency, power new products and services, enable new business models, and reinvent governments & businesses for the benefit of citizens and consumers alike. More and more, the world is becoming digital. Every successful enterprise will one day be a digital enterprise. How are leading companies and governments making this journey? During this session, government and industry executives, from the U S and internationally, will detail the digital reinvention of their organizations to better serve citizens and consumers in this digital age. They will share how they are taking advantage of new opportunities in A I and automation, robotics, blockchain, 5g, with the reach of cloud and edge and the assurance of cyber, to data-analytics and other areas to transform their organizations, engineer a competitive advantage, and ultimately help governments and businesses enable more efficient, responsive systems to enhance customer experience and accelerate progress.",
+            "Location":"Clipper A B & C",
+            "Description": "Emerging technologies are accelerators of innovation. They can improve efficiency, power new products and services, enable new business models, and reinvent governments & businesses for the benefit of citizens and consumers alike. More and more, the world is becoming digital. Every successful enterprise will one day be a digital enterprise. How are leading companies and governments making this journey? During this session, government and industry executives, from the U S and internationally, will detail the digital reinvention of their organizations to better serve citizens and consumers in this digital age. They will share how they are taking advantage of new opportunities in A I and automation, robotics, blockchain, 5 G, with the reach of cloud and edge and the assurance of cyber, to data-analytics and other areas to transform their organizations, engineer a competitive advantage, and ultimately help governments and businesses enable more efficient, responsive systems to enhance customer experience and accelerate progress.",
             "Cancelled": "No"
         },
         {
@@ -153,7 +163,8 @@
             "Date": "5/23/2022",
             "Start Time": "11:30",
             "End Time": "12:15",
-            "Description": "As healthcare is put in the hands of the patient, it has also created opportunities for employers to look at wellness in a new way.  Hear from Doctor Kapil Parakh, who is Fitbit's Medical Leader about the new innovations and changes to the healthcare space with digital technologies.",
+            "Location":"Schooner A & B",
+            "Description": "As healthcare is put in the hands of the patient, it has also created opportunities for employers to look at wellness in a new way.  Hear about the new innovations and changes to the healthcare space with digital technologies.",
             "Cancelled": "No"
         },
         {
@@ -163,6 +174,7 @@
             "Date": "5/23/2022",
             "Start Time": "11:30",
             "End Time": "12:15",
+            "Location":"Galleon A B & C",
             "Description": "As more and more workloads move to the cloud, government agencies are grappling with how to offer cloud services efficiently while maintaining maximum choice for individual programs. Giving more choice to programs through IDIQs, and other contract vehicles, means that agency and government leaders must work across programs to make sure that data does not stay siloed and is shared across agencies and across the federal government. Multicloud management is critical to sharing and securing data as agencies continue to move to a distributed cloud approach, taking advantage of edge and 5 G technologies.",
             "Cancelled": "No"
         },
@@ -173,6 +185,7 @@
             "Date": "5/23/2022",
             "Start Time": "11:30",
             "End Time": "12:15",
+            "Location":"Cutter A & B",
             "Description": "The Future Relies on Collaborative Innovation of Digital Supply Chains Across Mission Ecosystems:  An Executive Dialogue on Risk, Policy and Collaboration. The mission supply chain must be the lens through which technology improvements are viewd.  Executives (in Healthcare and Aviation) share challenges and insights from their Mission Ecosystems, including how information and data enablement fuel platforms of innovation to accelerate Mission Ecosystems' supply chain security and integrity.  They address the issues of risk, policy, and technology to securely collaborate across mission-critical supply chains.  Executives share the challenges and insights from their Mission Ecosystems.",
             "Cancelled": "No"
         },
@@ -182,17 +195,28 @@
             "Date": "5/23/2022",
             "Start Time": "12:30",
             "End Time": "13:15",
-            "Location": "Chesapeake ABCD",
+            "Session Type":"Lunch",
+            "Location": "Chesapeake A B C & D",
             "Cancelled": "No"
         },
         {
             "Session ID": "21",
-            "Title": "Keynotes and Voyagers Graduation",
+            "Title": "Monday afternoon Keynotes",
             "Date": "5/23/2022",
             "Start Time": "13:15",
+            "End Time": "14:15",
+            "Session Type":"Keynote",
+            "Description": "There will be a Keynote, Introduced by Paresh Patel, Vice President, Management Consulting, C G I Federal. The Keynote speaker is Doctor Raj Iyer, Chief Information Officer, US Army. After that, Malcolm Harden, from Microsoft, will introduce the second Keynote speaker, David Larrimore, Chief Technology Officer, US Department of Homeland Security",
+            "Location": "Chesapeake A B C & D",
+            "Cancelled": "No"
+        },
+        {
+            "Session ID": "21",
+            "Title": "Voyagers Graduation",
+            "Date": "5/23/2022",
+            "Start Time": "14:15",
             "End Time": "14:30",
-            "Description": "There will be a Keynote, Introduced by Paresh Patel, Vice President, Management Consulting, C G I Federal. The Keynote speaker is Doctor Raj Iyer, Chief Information Officer, US Army. After that, Malcolm Harden, from Microsoft, will introduce the second Keynote speaker, Randolph D. (Tex) Alles, Acting Under Secretary, Department of Homeland Security",
-            "Location": "Chesapeake ABCD",
+            "Location": "Chesapeake A B C & D",
             "Cancelled": "No"
         },
         {
@@ -202,6 +226,7 @@
             "Date": "5/23/2022",
             "Start Time": "14:45",
             "End Time": "15:30",
+            "Location":"Galleon A B & C",
             "Description": "In this session we'll examine the strategic imperatives facing the C-Suite, approaches needed to achieve mission outcomes, and how to foster innovation within the Agency. We'll take a closer look at how to bridge the gap between mission and innovation. The leaders will also share thoughts how to influence cultural change, ranging from empowering decision-makers to building a customer experience mindset.",
             "Cancelled": "No"
         },
@@ -212,6 +237,7 @@
             "Date": "5/23/2022",
             "Start Time": "14:45",
             "End Time": "15:30",
+            "Location":"Schooner A & B",
             "Description": "Microsoft Executive Vice President of Strategic Missions and Technology joins Microsoft Vice President of Federal Civilian, for a discussion of practical ways for Government to harness emerging and experimental technologies.",
             "Cancelled": "No"
         },
@@ -222,6 +248,7 @@
             "Date": "5/23/2022",
             "Start Time": "14:45",
             "End Time": "15:30",
+            "Location":"Clipper A B & C",
             "Description": "Quantum Technologies have impacted our world greatly, and we are poised for further benefits in sensing, medicine, science, technology, communications, computing and more, as research, funding and competition continue to accelerate this exciting realm.  While realization of meaningfully commercialized quantum computing may still be years away, government and industry must still pay attention to the cybersecurity threats exposed by quantum computing that already exist today. This panel will explore the realities, misconceptions and practical guidance of experts in the quantum and cybersecurity space to help attendees understand where to focus, how to prioritize, and what steps to take next.",
             "Cancelled": "No"
         },
@@ -232,6 +259,7 @@
             "Date": "5/23/2022",
             "Start Time": "14:45",
             "End Time": "15:30",
+            "Location":"Cutter A & B",
             "Description": "What if R O I was not in a spreadsheet or financial ledger, but it was the constituent experience and the satisfaction of a job done well. Not just well done even - amazingly done. We, with a partnership of industry and public sector, must focus on the experience of the actual people we need to serve and reduce the burden on our public sector workforce.  State governments are harnessing the momentum of change to focus on the citizen experience and enabling agencies to innovate and modernize the way we serve customers. State agencies are propelling the path to production, while Central I T is utilizing strategic technologies to empower agencies to act faster and mitigate the unforeseen risk inherent in I T operations.  How do we realize Public R O I? By removing the barriers to innovation, owning the hurdles that slow operations down, and embracing the momentum of change.",
             "Cancelled": "No"
         },
@@ -241,15 +269,18 @@
             "Date": "5/23/2022",
             "Start Time": "15:30",
             "End Time": "16:45",
-            "Location": "Choptank ABC",
+            "Session Type":"Networking",
+            "Location": "Choptank A B & C",
             "Cancelled": "No"
         },
         {
             "Session ID": "27",
-            "Title": "Hospitality Receptions",
+            "Title": "Reception",
             "Date": "5/23/2022",
-            "Start Time": "17:00",
+            "Start Time": "17:30",
             "End Time": "18:30",
+            "Session Type":"Reception",
+            "Location":"Chesapeake Foyer",
             "Cancelled": "No"
         },
         {
@@ -258,24 +289,28 @@
             "Date": "5/23/2022",
             "Start Time": "18:30",
             "End Time": "20:00",
-            "Location": "Chesapeake ABCD",
+            "Session Type":"Dinner",
+            "Location": "Chesapeake A B C & D",
             "Cancelled": "No"
         },
         {
             "Session ID": "29",
-            "Title": "Hyatt Lawn Event/Tent/Band",
+            "Title": "Evening Event",
             "Date": "5/23/2022",
             "Start Time": "20:00",
             "End Time": "22:00",
+            "Session Type":"Activity",
             "Location": "Grand Fireplace Patio",
+            "Description": "S'mores Reception - Sponsored by TekSynap",
             "Cancelled": "No"
         },
         {
             "Session ID": "30",
-            "Title": "Breakfast",
+            "Title": "Tuesday Breakfast",
             "Date": "5/24/2022",
             "Start Time": "7:45",
-            "End Time": "8:45",
+            "End Time": "8:30",
+            "Session Type":"Breakfast",
             "Location": "Chesapeake Foyer",
             "Cancelled": "No"
         },
@@ -285,17 +320,18 @@
             "Date": "5/24/2022",
             "Start Time": "8:30",
             "End Time": "8:45",
-            "Location": "Chesapeake ABCD",
+            "Location": "Chesapeake A B C & D",
             "Cancelled": "No"
         },
         {
             "Session ID": "32",
-            "Title": "Keynotes",
+            "Title": "Tuesday morning Keynotes",
             "Date": "5/24/2022",
             "Start Time": "8:45",
             "End Time": "9:45",
-            "Description": "The Keynote speaker is Sonny Hashmi, F A S Commissioner, General Services Administration.",
-            "Location": "Chesapeake ABCD",
+            "Session Type":"Keynote",
+            "Description": "The first Keynote speaker is Sonny Hashmi, F A S Commissioner, General Services Administration. After his Keynote, Laurie Locascio, Undersecretary for Standards and Technology, US Department of Commerce, will deliver the second Keynote address.",
+            "Location": "Chesapeake A B C & D",
             "Cancelled": "No"
         },
         {
@@ -304,7 +340,8 @@
             "Date": "5/24/2022",
             "Start Time": "9:45",
             "End Time": "11:15",
-            "Location": "Chesapeake ABCD",
+            "Session Type":"Awards",
+            "Location": "Chesapeake A B C & D",
             "Cancelled": "No"
         },
         {
@@ -313,7 +350,7 @@
             "Date": "5/24/2022",
             "Start Time": "11:15",
             "End Time": "12:00",
-            "Location": "Chesapeake ABCD",
+            "Location": "Chesapeake A B C & D",
             "Cancelled": "No"
         },
         {
@@ -322,7 +359,7 @@
             "Date": "5/24/2022",
             "Start Time": "11:45",
             "End Time": "12:00",
-            "Location": "Chesapeake ABCD",
+            "Location": "Chesapeake A B C & D",
             "Cancelled": "No"
         },
         {
@@ -331,6 +368,7 @@
             "Date": "5/24/2022",
             "Start Time": "12:00",
             "End Time": "12:00",
+            "Session Type":"Lunch",
             "Location": "Chesapeake Foyer",
             "Cancelled": "No"
         }
