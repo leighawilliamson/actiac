@@ -13,8 +13,11 @@
 var debug = false;
 var sessionInfo;
 var sessionInfoTitle;
-var session_json = require('./sessions.json');
-var speaker_json = require('./speakers.json');
+//var session_json = require('./sessions.json');
+var session_json = require('./tasscc_sessions.json');
+//var speaker_json = require('./speakers.json');
+var speaker_json = require('./tasscc_sessions.json');
+var bwi_flights = require('./flights.json');
 var flightInfo;
 var flightInfoTitle;
 var axios = require('axios');
@@ -50,6 +53,22 @@ module.exports = function (params) {
         console.log('Command recognized: ' + command );
         return what_sessions_are_scheduled_for(params);
     }
+    else if (command === "when_is_speaker_session_tasscc"){
+        console.log('Command recognized: ' + command );
+        return when_is_speaker_session_tasscc(params);
+    } 
+    else if (command === "what_sessions_are_next_tasscc"){
+        console.log('Command recognized: ' + command );
+        return what_sessions_are_next_tasscc(params);
+    }
+    else if (command === "what_sessions_are_now_tasscc"){
+        console.log('Command recognized: ' + command );
+        return what_sessions_are_now_tasscc(params);
+    }
+    else if (command === "what_sessions_are_scheduled_for_tasscc"){
+        console.log('Command recognized: ' + command );
+        return what_sessions_are_scheduled_for_tasscc(params);
+    }
     else if (command === "get_session_info"){
         console.log('Command recognized: ' + command );
         return get_session_info(params);
@@ -57,6 +76,14 @@ module.exports = function (params) {
     else if (command === "list_session_by_type"){
         console.log('Command recognized: ' + command );
         return list_session_by_type(params);
+    }
+    else if (command === "get_session_info_tasscc"){
+        console.log('Command recognized: ' + command );
+        return get_session_info_tasscc(params);
+    }
+    else if (command === "list_session_by_type_tasscc"){
+        console.log('Command recognized: ' + command );
+        return list_session_by_type_tasscc(params);
     }
     else if (command === "getSessionInfo"){
         console.log('Command recognized: ' + command );
@@ -70,6 +97,14 @@ module.exports = function (params) {
         console.log('Command recognized: ' + command );
         return list_session_by_track(params);
     }
+    else if (command === "get_speaker_info"){
+        console.log('Command recognized: ' + command );
+        return get_speaker_info(params);
+    }
+    else if (command === "list_session_by_track_tasscc"){
+        console.log('Command recognized: ' + command );
+        return list_session_by_track_tasscc(params);
+    }
     else if (command === "get_flight_info"){
         console.log('Command recognized: ' + command );
         return get_flight_info(params);
@@ -78,12 +113,21 @@ module.exports = function (params) {
         console.log('Command recognized: ' + command );
         return get_flight_info_by_destination(params);
     }
+    else if (command === "get_flight_info_bwi"){
+        console.log('Command recognized: ' + command );
+        return get_flight_info_bwi(params);
+    }
+    else if (command === "get_flight_info_by_destination_bwi"){
+        console.log('Command recognized: ' + command );
+        return get_flight_info_by_destination_bwi(params);
+    }
     else {
 	    return { message: 'Command not recognized: ' + command };
     }
 }
 
-
+//=================== Start of airport demo functions ==================================
+//======================================================================================
 function filter_flight_number(flight_num){
     var filtered_number = flight_num;
 
@@ -102,6 +146,9 @@ function get_status(raw_status, direction){
     status_json.end_of_response = false;
     var formatted_status = raw_status;
     switch (raw_status){
+        case "on time":
+            formatted_status = " is scheduled to depart for ";
+            break;
         case "scheduled":
             if (direction == "departing"){
                 formatted_status = " is scheduled to depart for ";
@@ -110,6 +157,7 @@ function get_status(raw_status, direction){
                 formatted_status = " is scheduled to arrive from ";
             }
             break;
+        case "departed":
         case "active":
             if (direction == "departing"){
                 formatted_status = " has already departed to ";
@@ -144,6 +192,7 @@ function get_status(raw_status, direction){
     status_json.formatted_response = formatted_status;
     return status_json;
 }
+
 
 function get_airline_iata(airline_name){
     var iata = "";
@@ -292,6 +341,73 @@ async function get_flight_info (params){
     return returnobj;
 }
 
+async function get_flight_info_bwi (params){
+    console.log("entering get_flight_info function");
+    returnobj = {status:"200",statusText:"OK"};
+    
+    if (debug) console.log("params: ",params);
+    var departing_flight_list = [];
+    var departing_flight = {};
+    var departure_response = "";
+   
+    var value = null;
+    switch (params.flight_number){
+        case 3534:
+        case "3534":
+            value = bwi_flights[0];
+            break;
+        case 1283:
+        case "1283":
+            value = bwi_flights[1];
+            break;
+        case 4340:
+        case "4340":
+            value = bwi_flights[2];
+            break;
+        case 4021:
+        case "4021":
+            value = bwi_flights[3];
+            break;
+        default:
+            value = bwi_flights[3];
+            break;
+    }
+           
+    // --------- process departing flight --------------------
+    var flight_time = new Date(value.departure.scheduled);
+    //console.log("departure time: ",flight_time.toISOString())
+    flight_time.setTime(flight_time.getTime() + (4*60*60*1000));
+    departing_flight.time = flight_time.toLocaleString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: 'numeric', hour12: true });                   
+    departing_flight.flight_iata = value.flight.iata;
+    departing_flight.airline = value.airline.name;
+    departing_flight.status = value.flight_status;
+    departing_flight.gate = value.departure.gate;                   
+    departing_flight.to = value.arrival.airport;
+
+    departure_response = "Departing " + value.airline.name + " flight " + value.flight.iata; // Departing Delta Airline flight DL2323
+    var status_json = get_status(value.flight_status, "departing");
+    departure_response = departure_response + status_json.formatted_response;
+
+    if (! status_json.end_of_response) {
+        departure_response = departure_response + departing_flight.to;
+        if (value.flight_status == "departed"){ departure_response = departure_response + "."}
+        else {
+            departure_response = departure_response + " from gate " +
+            value.departure.gate + " at " + departing_flight.time + ".";
+        }                       
+    }
+
+    departing_flight_list.push(value);            
+                
+    returnobj.departing_flights = 1;
+    returnobj.departing_flight_list = departing_flight_list;
+    returnobj.departing_flight = departing_flight;
+    returnobj.departure_response = departure_response;
+    return returnobj;
+}
+
+
+
 async function getDestinationIata(params){
     var dest_iata = "BOS";
     if ((params.destination != null) && (params.destination != "")){
@@ -405,6 +521,33 @@ async function get_flight_info_by_destination(params){
     return returnobj;
 }
 
+async function get_flight_info_by_destination_bwi(params){
+    console.log("entering get_flight_info_by_destination_bwi function");
+    returnobj = {status:"200",statusText:"OK"};
+
+    var flight_list = [];
+    var i = 0;
+    var value
+    while (i < 4 ) 
+    {
+        value = bwi_flights[i];
+        flight_list.push(value);
+        i = i +1;
+    }
+    
+      /*
+    flight_list.sort(function(a, b) {
+        return new Date(a.departure.scheduled) - new Date(b.departure.scheduled);
+    }); */
+    returnobj.num_flights = 4;
+    flightInfo = flight_list;
+    flightInfoTitle = "Flights to " + params.destination;
+    
+    return returnobj;
+}
+
+//================= End of Airport Demo functions ================================
+//================================================================================
 
 /* The test sub-function just returns a "success" response.
     This just tests that the round-trip from Watson Assistant to the webhook module
@@ -774,6 +917,42 @@ return returnobj;
 } // --------- end list_session_by_track function --------------------
 
 
+async function get_speaker_info (params){
+    console.log("entering get_speaker_info function");
+  
+    var returnobj = {
+      "status": "200",
+      "statusText": "OK",
+      "errorCode": "",
+      "errorMessage": "",
+      "formatted": "",
+      "fields": {},
+      "raw": ""
+      };
+  
+    var Speakers = speaker_json.Sessions;
+    var theSpeaker = {};
+
+    try {
+        for (i in Speakers){
+            //console.log("Speaker: ",JSON.stringify(Speakers[i]));
+
+            if (params.speaker_name.includes(Speakers[i]['First Name'])) {
+                if (params.speaker_name.includes(Speakers[i]['Last Name'])) {
+                    if (debug) console.log("Found the speaker ", JSON.stringify(Speakers[i]));
+                    returnobj.formatted = params.speaker_name + " is a speaker at this conference and is " + Speakers[i]['Role'] + ", " + Speakers[i]['Organization'];
+                    break;
+                }
+            }
+        }      
+    }
+    catch (error) {
+        console.error(`An error occurred during get_speaker_info processing: ${error}`);
+    }
+    
+    return returnobj;
+
+}
 
 /* The get_session_info sub-function returns information about a specific session based on its session ID.
     @params.key_type = required parameter to tell the function which field in the session data to search.
@@ -1161,11 +1340,19 @@ function parseSessions(sessionList){
 
 // --------- begin parseDate function --------------------
 function parseDate (datestring) {
-    console.log("Parsing: ",datestring);
+    console.log("function parseData, Parsing: ",datestring);
+
     var date = new Date(datestring);
+    if (debug) console.log("function parseDate, date = ",date.toISOString());
+    
     var dash_loc = datestring.indexOf("-");
     var year = datestring.substring(0,dash_loc);
-    var month = ("0" + (date.getMonth() + 1)).slice(-2);
+
+   // var month = ("0" + (date.getMonth() + 1)).slice(-2);
+    var month = datestring.substring(dash_loc +1, dash_loc +3);
+    if (debug) console.log("function parseDate, month = ", month);
+
+
     var day = datestring.substring(dash_loc +4, dash_loc +6);
 
     //var monthInt = parseInt(month,10) -1;
@@ -1208,15 +1395,15 @@ function parseTime (time){
 
 // --------- begin parseTime2 function --------------------
 function parseTime2 (time){
-    //console.log("Parsing: ",time);
+    if (debug) console.log("function parseTime2, Parsing: ",time);
 
     var colon_loc = time.indexOf(":");
 
     var hour = time.substring(0,colon_loc);
-    //console.log(hour);
+    if (debug) console.log("function parseTime2, hour = ",hour);
 
     var minutes = time.substring(colon_loc + 1,colon_loc + 3);
-    //console.log(minutes);
+    if (debug) console.log("function parseTime2, minutes = ",minutes);
 
     var parsedTime = {
         "hour": hour,
@@ -1237,8 +1424,8 @@ function formatTime (time){
     var minutes = time.substring(colon_loc + 1,colon_loc + 3);
     var am_pm = "AM";
 
-    if (hourInt > 12){
-        hourInt = hourInt - 12;
+    if (hourInt >= 12){
+        if (hourInt > 12) hourInt = hourInt - 12;
         hour = hourInt.toString();
         am_pm = "PM";
     }
@@ -1273,12 +1460,12 @@ function build_html (){
     var html = "<!DOCTYPE html>\
     <html>\
         <head>\
-            <title>ACT-IAC Virtual Assistant</title>\
+            <title>TASSCC Virtual Assistant</title>\
             <link href=\"table.css\" rel=\"stylesheet\" type=\"text/css\">\
         </head>\
         <body>\
             <div id=\"headerdiv\">\
-                <img id=\"topimage\" src=\"https://cos-image-server.mybluemix.net/img/actiac/actiac-logo.png\"/>\
+                <img id=\"topimage\" src=\"https://imageserver.n8eu78rs3sm.us-south.codeengine.appdomain.cloud/img/tasscc/july-conference-banner.jpg\"/>\
                 <h1 id=\"tabletitle\">" + sessionInfoTitle+ "</h1>\
             </div>\
             <div id=\"tablediv\">\
@@ -1318,34 +1505,6 @@ function build_html (){
         <td>" + end_time_string + "</td>\
         <td class=\"location_cell\">" + sessionLocationString + "</td>\
         </tr>";
-/*
-
-                    <tr>\
-                        <th>Session</th>\
-                        <th>Date</th>\
-                        <th>Start</th>\
-                        <th>End</th>\
-                        <th>Location</th>\
-                        <th class=\"titlecell\">Title</th>\
-                    </tr>";
-
-        <tr>\
-        <td>" + sessionInfo[i]['Session ID'] + "</td>\
-        <td class=\"titlecell\">" + sessionInfo[i]['Title'] + "</td>\
-        <td>" + start_time_string + "</td>\
-        <td>" + sessionInfo[i]['Location'] + "</td>\
-        <td>" + sessionInfo[i]['Date'] + "</td>\
-        <td>" + end_time_string + "</td>\
-        </tr>";
-
-            <tr>
-                <td>6073</td>
-                <td>02/01/2022</td>
-                <td>14:15:00</td>
-                <td>ACC - Level 4 - 12A</td>
-                <td>8 Action Steps to Foster an Equitable Workplace </td>
-            </tr> 
-*/
     }
 
     html = html + "\
@@ -1358,18 +1517,65 @@ function build_html (){
     return html;
 } // --------- end build_html function --------------------
 
-           //formatted_response2 =  "Click on the link to my right and take a look at the list of sessions. Tell me if there is a session that you'd like more information about.";
-            /*
-            formatted_response = formatted_response + "Those sessions are: ";       
-            for (i in session_array){
-                session_id = session_array[i]['Session ID'];
-                session_Title= session_array[i].Title;
-                session_location = session_array[i].Location;
-                session_location = session_location.replace(/-/g,'');
-                formatted_response = formatted_response + "Session number " + session_id + ", " + session_title;
-                formatted_response = formatted_response + ", located at " + session_location + ". "
-            }
-            */
+// --------- begin build_html function --------------------
+function build_html_body (){
+
+/*
+            <div id=\"headerdiv\">\
+                <img id=\"topimage\" src=\"https://imageserver.n8eu78rs3sm.us-south.codeengine.appdomain.cloud/img/tasscc/july-conference-banner.jpg\"/>\
+                <h1 id=\"tabletitle\">" + sessionInfoTitle+ "</h1>\
+            </div>\
+*/
+
+    var html = "\
+            <div id=\"tablediv\">\
+                <table>\
+                    <tr>\
+                        <th>Session</th>\
+                        <th class=\"titlecell\">Title</th>\
+                        <th>Date</th>\
+                        <th>Start</th>\
+                        <th>End</th>\
+                        <th class=\"location_cell\">Location</th>\
+                    </tr>";
+    
+    for (i in sessionInfo){
+        //console.log("Session: ",sessionInfo[i]['Session ID']);
+        console.log("Session: ",sessionInfo[i]);
+        var sessionTitleString = sessionInfo[i]['Title'];
+        if (sessionInfo[i]['Cancelled'] == 'yes'){
+            if (debug) console.log("Session cancelled.");
+            sessionTitleString = "CANCELLED - " + sessionTitleString;
+        }
+        var sessionLocationString = sessionInfo[i]['Location'];
+        if (sessionLocationString == null) {
+            sessionLocationString = "";
+        }
+        if (debug) console.log("Title: ",sessionTitleString);
+        var start_time = formatTime(sessionInfo[i]['Start Time']);
+        var end_time = formatTime(sessionInfo[i]['End Time']);
+        var start_time_string = start_time.hour + ":" + start_time.minutes + " " + start_time.am_pm;
+        var end_time_string = end_time.hour + ":" + end_time.minutes + " " + end_time.am_pm;
+        html = html + "\
+        <tr>\
+        <td>" + sessionInfo[i]['Session ID'] + "</td>\
+        <td class=\"titlecell\">" + sessionTitleString + "</td>\
+        <td>" + sessionInfo[i].Date + "</td>\
+        <td>" + start_time_string + "</td>\
+        <td>" + end_time_string + "</td>\
+        <td class=\"location_cell\">" + sessionLocationString + "</td>\
+        </tr>";
+    }
+
+    html = html + "\
+                </table>\
+            </div>\
+    ";
+
+    console.log("html string: ");
+    console.log(html);
+    return html;
+} // --------- end build_html_body function --------------------
 
 
 
@@ -1394,12 +1600,12 @@ function build_flight_html (){
     var html = "<!DOCTYPE html>\
     <html>\
         <head>\
-            <title>ATL Virtual Assistant</title>\
+            <title>BWI Virtual Assistant</title>\
             <link href=\"table.css\" rel=\"stylesheet\" type=\"text/css\">\
         </head>\
         <body>\
             <div id=\"headerdiv\">\
-                <img id=\"topimage\" src=\"https://imageserver.n8eu78rs3sm.us-south.codeengine.appdomain.cloud/img/atl/atl-logo3.png\"/>\
+                <img id=\"topimage\" src=\"https://imageserver.n8eu78rs3sm.us-south.codeengine.appdomain.cloud/img/bwi/bwi-logo1.png\"/>\
                 <h1 id=\"tabletitle\">" + flightInfoTitle+ "</h1>\
             </div>\
             <div id=\"tablediv\">\
@@ -1441,3 +1647,760 @@ function build_flight_html (){
 
     return html;
 } // --------- end build_html function --------------------
+
+//=================================================================================
+//======================= Start TASSCC functions ==================================
+//=================================================================================
+
+
+/* The when_is_speaker_session_tasscc sub-function returns the session record for a given speaker.
+    @params.speaker = the speaker name used as the lookup key
+*/
+async function when_is_speaker_session_tasscc (params){
+    console.log("entering when_is_speaker_session_tasscc function");
+  
+    var returnobj = {
+      "status": "200",
+      "statusText": "OK",
+      "errorCode": "",
+      "errorMessage": "",
+      "formatted": "",
+      "sessions": [],
+      "speaker": ""
+      };
+  
+      try {
+                  
+        var sessionList;
+        var session_array =[];
+
+        // get speaker record and session id
+        for (i in session_json.Sessions) {
+            console.log("Session: ",session_json.Sessions[i]['Session ID']);
+            if (session_json.Sessions[i]['Last Name'] != null) {
+                if (params.speaker.includes(session_json.Sessions[i]['Last Name']))
+                {
+                    if (debug) console.log("Found Last Name.");
+                    if (params.speaker.includes(session_json.Sessions[i]['First Name'])){
+                        if (debug) console.log("Found First Name.");
+                        // this is the speaker and the session record
+                        session_array.push(session_json.Sessions[i]);
+                        break;
+                    }
+                }
+            }
+        }
+        
+        returnobj.sessions = session_array;
+        returnobj.title = params.speaker + " Conference Sessions";
+        returnobj.session_list = session_array;
+
+    }
+    catch (error) {
+        console.error(`An error occurred during when_is_speaker_session_tasscc processing: ${error}`);
+    }
+  
+    return returnobj;
+} // --------- end when_is_speaker_session_tasscc function --------------------
+  
+ /* The what_sessions_are_now_tasscc sub-function returns information about the currently underway sessions.
+    "now" is based on the current time. However, the function does accept test input if params.use_params is true.
+    @params.use_params = tells the function whether to use the current date/time or else use passed in test data.
+    @params.day = date to be used for the current date/time ("now"). Only used if use_params is true, ignored otherwise.
+    @params.time = time to be used for the current date/time ("now"). Only used if use_params is true, ignored otherwise.
+*/
+async function what_sessions_are_now_tasscc (params){
+    console.log("entering what_sessions_are_now_tasscc function");
+
+    if (params.use_params == "true") {
+        //console.log("Use passed in params.");
+        //console.log(JSON.stringify(params));
+        return what_sessions_are_scheduled_for_tasscc(params);
+    }
+    else {
+        params.use_params = "true";
+        var target_session_time = new Date(Date.now());
+        var monthString = ("0" + (target_session_time.getMonth() + 1)).slice(-2);
+        var dayString = ("0" + target_session_time.getDate()).slice(-2);
+        params.day = target_session_time.getFullYear() + "-" + monthString + "-" + dayString;
+        params.time = target_session_time.getHours() + ":" + target_session_time.getMinutes();
+
+        return what_sessions_are_scheduled_for_tasscc(params);
+    }
+  } // --------- end what_sessions_are_now_tasscc function --------------------
+ 
+/* The what_sessions_are_next_tasscc sub-function returns information about the next sessions in the conference schedule.
+    "now" is based on the current time. However, the function does accept test input if params.use_params is true.
+    @params.use_params = tells the function whether to use the current date/time or else use passed in test data.
+    @params.day = date to be used for the current date/time ("now"). Only used if use_params is true, ignored otherwise.
+    @params.time = time to be used for the current date/time ("now"). Only used if use_params is true, ignored otherwise.
+*/
+async function what_sessions_are_next_tasscc (params){
+    console.log("entering what_sessions_are_next_tasscc function");
+  
+    var returnobj = {
+      "status": "200",
+      "statusText": "OK",
+      "errorCode": "",
+      "errorMessage": "",
+      "formatted": "",
+      "fields": {},
+      "raw": ""
+      };
+  
+    try {
+        var Sessions = session_json.Sessions;
+        //var Speakers = speaker_json.Speakers;
+
+        var paramTime;
+        var now;
+        if (params.use_params == "true"){
+            now = new Date(params.day);
+            paramTime = parseTime2(params.time);
+            if (debug) console.log("now time is: ",JSON.stringify(paramTime));
+            now.setHours(paramTime.hour,paramTime.minutes);
+        }
+        else {
+            now = new Date(Date.now());
+            paramTime = {
+                "hours": now.getHours(),
+                "minutes": now.getMinutes()
+            }
+        }
+        var now_plus_90_minutes = new Date(now.getTime() + (90 * 60000));
+        if (debug) {
+            console.log("Now is: ",now);
+            console.log("Day is: ", now.getDay());
+            console.log("Now +90 is:", now_plus_90_minutes);
+        }
+        var session_array = [];
+  
+        // go through list of sessions
+        for (i in Sessions) {
+            if (typeof Sessions[i]['Session ID'] != 'undefined') {           
+                console.log("checking session: ",Sessions[i]['Session ID']);
+            }
+
+            if (typeof Sessions[i]['Start Time'] != 'undefined') {
+
+            var session_day = new Date(Sessions[i].Date); // create a date object with no time set
+            var session_start = new Date(Sessions[i].Date);
+            var session_end = new Date(Sessions[i].Date);
+
+            // only process sessions that scheduled for today
+            if (session_day.getDay() == now.getDay()){
+                console.log("Checking session: ",Sessions[i].Date, Sessions[i]['Start Time']);
+
+                // set times for this session's start and end Date objects
+                var session_start_time = parseTime2(Sessions[i]['Start Time']);
+                session_start.setHours(session_start_time.hour,session_start_time.minutes); // add in session start time
+                var session_end_time = parseTime2(Sessions[i]['End Time']);
+                session_end.setHours(session_end_time.hour,session_end_time.minutes);
+
+                if (debug){
+                    console.log("Now time = ",now.getTime());
+                    console.log("Session start = ",session_start.getTime());
+                    console.log("Session end = ",session_end.getTime());
+                }
+
+                // check if the session start time is within 1.5 hours of now (meaining it is one of the "next" sessions)
+                var time_diff = session_start.getTime() - now.getTime();
+                if (debug) console.log("Time diff = ",time_diff);
+                if ((time_diff > 0) && (time_diff < 5400000)) {
+                    if (debug) {
+                        console.log("Found a session within the next 90 minutes.");
+                        console.log(JSON.stringify(Sessions[i]));
+                    }
+
+                    // push this session in the list
+                    session_array.push(Sessions[i]);
+                }
+            }
+            else {
+                //console.log("Ignoring session dated: ",session_day);
+            }  
+            }          
+        }
+
+        // format the response back for the assistant to say
+        var session_id, session_title, session_location;
+        var formatted_response = "";
+        if (session_array.length > 0) {
+            if (session_array.length == 1){
+                formatted_response = "There is " + session_array.length + " session coming up next. ";
+            }
+            else
+            var formatted_response = "There are " + session_array.length + " sessions coming up next. ";
+        }
+        else {
+            formatted_response = "There are no more upcoming sessions today."
+        }
+     
+        // stash the session list so that it can be displayed in the browser link
+        sessionInfo = session_array;
+        var start_time_json = formatTime(paramTime.hour + ":" + paramTime.minutes);
+        var formatted_start_time = start_time_json.hour + ":" + start_time_json.minutes + " " + start_time_json.am_pm;
+        
+        sessionInfoTitle= "Conference Sessions coming up after \
+         " +  formatted_start_time + " today";
+
+        returnobj.fields.session_count = session_array.length;
+        returnobj.raw = session_array;
+        returnobj.formatted = formatted_response;
+        returnobj.title = sessionInfoTitle;
+        returnobj.session_list = session_array;
+    }
+    catch (error) {
+        console.error(`An error occurred during what_sessions_are_next_tasscc processing: ${error}`);
+    }
+  
+    
+    return returnobj;
+} // --------- end what_sessions_are_next_tasscc function --------------------
+
+/* The list_session_by_type_tasscc sub-function returns information about the conference thought leadership sessions.
+    @params.day = date to be used for the current date/time ("now"). Only used if use_params is true, ignored otherwise.
+    @params.time = time to be used for the current date/time ("now"). Only used if use_params is true, ignored otherwise.
+*/
+async function list_session_by_type_tasscc (params){
+    console.log("entering list_session_by_type_tasscc function");
+  
+    var returnobj = {
+      "status": "200",
+      "statusText": "OK",
+      "errorCode": "",
+      "errorMessage": "",
+      "formatted": "",
+      "fields": {},
+      "raw": ""
+      };
+  
+    try {
+        
+        var Sessions = session_json.Sessions;
+        var session_array = [];
+  
+        // go through list of sessions
+        for (i in Sessions) {
+            if (typeof Sessions[i]['Session Type'] != 'undefined') {
+
+            var thisSessionType = Sessions[i]['Session Type'];
+            if (thisSessionType != null) {
+
+                // check if the session type matches param passed in
+                if (thisSessionType == params.session_type)
+                {
+                    if (debug) {
+                        console.log("Found a session matching the requested type.");
+                        console.log(JSON.stringify(Sessions[i]));
+                    }
+
+                    // push this session in the list
+                    session_array.push(Sessions[i]);
+                }
+                else if (thisSessionType.includes(params.session_type)){
+                     // push this session in the list
+                    session_array.push(Sessions[i]);
+                }
+                else {
+                    //console.log("Ignoring session dated: ",session_day);
+                }     
+            }
+            }
+        }
+
+        // format the response back for the assistant to say
+        var session_id, session_title, session_location,formatted_response;
+
+        if (session_array.length > 0) {
+            if (session_array.length == 1){
+                formatted_response = "There is " + session_array.length + " session of that type. ";
+            }
+            else
+            formatted_response = "There are " + session_array.length + " sessions of that type. ";
+        }
+        else {
+            formatted_response = "I could not find any sessions of that type. Is there another session type that I can search for?"
+        }
+        // stash the session list so that it can be displayed in the browser link
+        sessionInfo = session_array;
+        sessionInfoTitle= params.session_type + " Conference Sessions";
+
+        returnobj.fields.session_count = session_array.length;
+        returnobj.formatted = formatted_response;
+        returnobj.title = sessionInfoTitle;
+        returnobj.session_list = session_array;
+    }
+    catch (error) {
+        console.error(`An error occurred during list_session_by_type_tasscc processing: ${error}`);
+    }
+    
+    return returnobj;
+  } // --------- end list_session_by_type_tasscc function --------------------
+
+
+/* The list_session_by_track_tasscc sub-function returns the list of sessions for a specific conference track.
+@params.track = track name to be used as the key for building the list.
+*/
+async function list_session_by_track_tasscc (params){
+console.log("entering list_session_by_track_tasscc function");
+
+var returnobj = {
+  "status": "200",
+  "statusText": "OK",
+  "errorCode": "",
+  "errorMessage": "",
+  "formatted": "",
+  "fields": {},
+  "raw": ""
+  };
+
+try {
+    
+    var Sessions = session_json.Sessions;
+    var session_array = [];
+
+    // go through list of sessions
+    for (i in Sessions) {
+        if (typeof Sessions[i]['Session Type'] != 'undefined') {
+
+            // check if the session track matches param passed in
+            if (Sessions[i]['Session Type'] == params.track)
+            {
+                if (debug) {
+                    console.log("Found a session matching the requested track.");
+                    console.log(JSON.stringify(Sessions[i]));
+                }
+
+                // push this session in the list
+                session_array.push(Sessions[i]);
+            }    
+        }        
+    }
+
+    // format the response back for the assistant to say
+    var formatted_response;
+
+    if (session_array.length > 0) {
+        if (session_array.length == 1){
+            formatted_response = "There is " + session_array.length + " session in that track. ";
+        }
+        else
+        formatted_response = "There are " + session_array.length + " sessions in that track. ";
+    }
+    else {
+        formatted_response = "I could not find any sessions for that track. Is there another conference track that I can search for?"
+    }
+    // stash the session list so that it can be displayed in the browser link
+    sessionInfo = session_array;
+    sessionInfoTitle= params.track + " Conference Sessions";
+
+    returnobj.fields.session_count = session_array.length;
+    returnobj.formatted = formatted_response;
+    returnobj.title = sessionInfoTitle;
+    returnobj.session_list = session_array;
+}
+catch (error) {
+    console.error(`An error occurred during list_session_by_track_tasscc processing: ${error}`);
+}
+
+return returnobj;
+} // --------- end list_session_by_track_tasscc function --------------------
+
+
+
+/* The get_session_info_tasscc sub-function returns information about a specific session based on its session ID.
+    @params.key_type = required parameter to tell the function which field in the session data to search.
+    @params.session_id = used to look up the specific session record
+*/
+async function get_session_info_tasscc (params){
+    console.log("entering get_session_info_tasscc function");
+  
+    var returnobj = {
+      "status": "200",
+      "statusText": "OK",
+      "errorCode": "",
+      "errorMessage": "",
+      "formatted": "",
+      "fields": {},
+      "raw": ""
+      };
+  
+    // check for required keytype parameter
+    if ((params.key_type == null) || (params.key_type == "")) {
+        returnobj.status = "500";
+        returnobj.statusText = "Failed - missing parameter"
+        returnobj.errorCode = "1000";
+        returnobj.errorMessage = "No keytype parameter supplied!";
+        return returnobj;
+    }
+
+    try {
+        var Speakers = speaker_json.Sessions;    
+        var session_array = [];
+        var sessions_found = false;
+        var theSpeaker = {};
+        var theSpeakerSession = {};
+        var theSpeakerSessionID = null;
+        var formatted_response = "";
+
+        if (params.key_type == "speaker_name"){
+            for (i in Speakers){
+                if (Speakers[i]['First Name'] != null){
+                    if (params.speaker_name.includes(Speakers[i]['First Name'])) {
+                        if (params.speaker_name.includes(Speakers[i]['Last Name']))
+                        {
+                        if (debug) console.log("Found the speaker ", params.speaker_name);
+                        theSpeaker = Speakers[i];    
+                        theSpeakerSessionID = Speakers[i]['Session ID'];     
+                        if (debug) console.log("Speaker session: ", theSpeakerSessionID);               
+                        }
+                    }
+                }
+            }
+        }
+
+        // go through list of sessions
+        var Sessions = session_json.Sessions;
+        for (i in Sessions) {
+            if (typeof Sessions[i]['Session ID'] != 'undefined') {
+            
+                console.log(Sessions[i]['Session ID']);
+               
+                if (params.key_type == "speaker_name"){
+                    if (((Sessions[i]['Session ID'] == theSpeakerSessionID)) && (Sessions[i]['Start Time'] != null)) {
+                        if (debug) console.log("Got full session info:", JSON.stringify(Sessions[i]));
+                        session_array.push(Sessions[i]);
+                        sessions_found = true;
+                        break;
+                    }
+                } 
+                else if (params.key_type == "session_id") { // check session ID
+                    if (Sessions[i]['Session ID'] == params.session_id) {
+                        if (debug) console.log("Found a session: ", JSON.stringify(Sessions[i]));
+                        sessions_found = true;
+                        session_array.push(Sessions[i]);
+                        break;
+                    }              
+                }
+                else if (params.key_type == "session_title"){
+                    if (typeof Sessions[i]['Title'] != 'undefined') {
+                        var thisTitle = Sessions[i]['Title'];
+                        if (thisTitle.includes(params.title)){
+                            if (debug) console.log("Found a session: ", JSON.stringify(Sessions[i]));
+                            sessions_found = true;
+                            session_array.push(Sessions[i]);
+                            break;
+                        }
+                    }
+                }
+                else if (params.key_type == "session_sponsor"){
+                    if (typeof Sessions[i]['Sponsor'] != 'undefined') {
+                        var thisSponsor = Sessions[i]['Sponsor'];
+                        if (thisSponsor.includes(params.sponsor)){
+                            if (debug) console.log("Found a session: ", JSON.stringify(Sessions[i]));
+                            sessions_found = true;
+                            session_array.push(Sessions[i]);
+                            //break; (don't break out when searching for session sponsors - there could be more than one session!)
+                        }
+                    }
+                }
+            }   
+        }    
+
+        if (sessions_found) { // format response for verbal reply
+            if (session_array.length == 1) {
+                console.log("Just one session found.");
+                var theSession = session_array[0];
+                var sessionTimeJson = formatTime(theSession['Start Time']);
+                var sessionTimeString = sessionTimeJson.hour;
+                var minuteInt = parseInt(sessionTimeJson.minutes,10);
+                if (minuteInt > 0){
+                    sessionTimeString = sessionTimeString + ":" + sessionTimeJson.minutes;
+                }
+                sessionTimeString = sessionTimeString + " " + sessionTimeJson.am_pm;
+                 // the replace function below was used for the TASA conference because the audio playback couldn't deal with locations with dashes
+                //var sessionLocationString = theSession.Location.replace(/-/g,',');
+                if (debug) console.log("location: ",theSession.Location);
+                var sessionLocationString = theSession.Location;
+                if (typeof theSession.Location == 'undefined')
+                {
+                    sessionLocationString = null;
+                }
+                if (debug)console.log("sessionLocationString: ",sessionLocationString);
+                
+                if (params.key_type == "session_id") {
+                    sessionInfoTitle= "Session: " + theSession['Session ID'];
+                    formatted_response = "Session " + theSession['Session ID'] + " ";
+                    if (theSession.Cancelled == "yes"){
+                        sessionInfoTitle= sessionInfoTitle+ " NOW CANCELLED";
+                        formatted_response = formatted_response + " is now cancelled."
+                    }
+                    else {
+                        formatted_response = formatted_response + "is titled " + theSession.Title;
+                        formatted_response = formatted_response + " and is scheduled for " + sessionTimeString;
+                        formatted_response = formatted_response + " on " + theSession.Date + ".";
+                        if (sessionLocationString !== null){
+                            formatted_response = formatted_response + " And is located at " + sessionLocationString + ".";
+                        }
+                    }
+                    if (debug) console.log("formatted response: ",formatted_response);
+                }
+                else if (params.key_type == "session_title"){
+                    sessionInfoTitle = "Session: " + theSession.Title;
+                    if (theSession.Cancelled == "yes"){
+                        sessionInfoTitle= sessionInfoTitle+ " NOW CANCELLED";
+                    }
+                    formatted_response = "The session titled " + theSession.Title;
+                   // formatted_response = formatted_response + " is session number " + theSession['Session ID'];
+                    formatted_response = formatted_response + " is scheduled for " + sessionTimeString;
+                    formatted_response = formatted_response + " on " + theSession.Date + ". ";
+                    if (sessionLocationString !== null){
+                        formatted_response = formatted_response + "And is located at " + sessionLocationString + ".";
+                    }
+                }
+                else if (params.key_type == "speaker_name"){
+                    sessionInfoTitle= "Sessions for speaker " + theSpeaker['First Name'] + " " + theSpeaker['Last Name'];
+                    formatted_response = "Speaker " + params.speaker_name + ", " + theSpeaker['Role'] + ", ";
+                    if (theSpeaker['Suffix'] != null){
+                        formatted_response = formatted_response + theSpeaker['Suffix'] + ", ";
+                    }
+                    formatted_response = formatted_response + theSpeaker['Organization'];
+                    
+                    var speaker_role = theSpeaker['Role'];
+                    if (speaker_role == "Moderator"){
+                        formatted_response = formatted_response  + ", will be the Moderator for ";
+                    }
+                    else if (speaker_role == "Interviewer"){
+                        formatted_response = formatted_response  + ", will be the Interviewer for ";
+                    }
+                    else if (speaker_role == "Keynote"){
+                        formatted_response = formatted_response  + ", will be the Keynote speaker for ";
+                    }
+                    else if (speaker_role == "Introducer"){
+                        formatted_response = formatted_response  + ", will be introducing ";
+                    }
+                    else if (speaker_role == "Government Co-Chair"){
+                        formatted_response = formatted_response  + ", will be the Government Co-Chair for ";
+                    }
+                    else if (speaker_role == "Moderator & Industry Co-Chair"){
+                        formatted_response = formatted_response  + ", will be the moderator and industry Co-Chair for ";
+                    }
+                    else if (speaker_role == "Interviewer & Industry Co-Chair"){
+                        formatted_response = formatted_response  + ", will be the interviewer and industry Co-Chair for ";
+                    }
+                    else if (speaker_role == "Panelist"){
+                        formatted_response = formatted_response  + ", will be a panelist in ";
+                    }
+                    else {
+                        formatted_response = formatted_response  + ", will be speaking in ";
+                    }
+                    
+                    //formatted_response = formatted_response + "session number " + theSession['Session ID'];
+                    formatted_response = formatted_response + "the session titled " + theSession.Title + ".";
+                    formatted_response = formatted_response + " That session is scheduled for " + sessionTimeString;
+                    formatted_response = formatted_response + " on " + theSession.Date + ". ";
+                    if (sessionLocationString !== null){
+                        formatted_response = formatted_response + "And is located at " + sessionLocationString + ".";
+                    }
+                }
+                else if (params.key_type == "session_sponsor"){
+                    sessionInfoTitle = "Session sponsored by " + params.sponsor;
+                    formatted_response = params.sponsor + " is sponsoring one session. ";
+                    formatted_response = formatted_response + "That session is titled " + theSession.Title;
+                    formatted_response = formatted_response + " and is scheduled for " + sessionTimeString;
+                    formatted_response = formatted_response + " on " + theSession.Date + ". ";
+                    if (sessionLocationString !== null){
+                        if (sessionLocationString == "Online Only"){
+                            formatted_response = formatted_response + "And is " + sessionLocationString + ".";
+                        }
+                        else 
+                        formatted_response = formatted_response + "And is located at " + sessionLocationString + ".";
+                    }
+                }
+            }
+            else { // more than 1 session and keytype could be either speaker_name or session_sponsor
+                if (params.key_type == "session_sponsor"){
+                    sessionInfoTitle= "Sessions sponsored by " + params.sponsor;
+                    formatted_response = params.sponsor + " is sponsoring " + session_array.length + " sessions.";
+                }
+                else if (params.key_type == "speaker_name"){
+                    sessionInfoTitle= "Sessions for speaker " + theSpeaker['First Name'] + " " + theSpeaker['Last Name'];
+                    formatted_response = "Speaker " + params.speaker_name + ", " + theSpeaker['Title'] + ", ";
+                    formatted_response = formatted_response + theSpeaker['Company Name'] + ", is scheduled to speak in ";
+                    formatted_response = formatted_response + session_array.length + " sessions."
+                }
+
+            }
+                            
+            returnobj.formatted = formatted_response;          
+        }  
+    }
+    catch (error) {
+        console.error(`An error occurred during get_session_info_tasscc processing: ${error}`);
+    }
+    
+    sessionInfo = session_array; // stash session data for dynamic web page display
+    returnobj.raw = session_array;
+    returnobj.fields.session_count = session_array.length;
+    if (session_array.length > 0){
+        returnobj.fields.session_description = session_array[0].Description;
+    }
+    returnobj.title = sessionInfoTitle;
+    returnobj.session_list = session_array;
+    return returnobj;
+  } // --------- end get_session_info_tasscc function --------------------
+ 
+
+
+/* The what_sessions_are_scheduled_for_tasscc sub-function returns information about the sessions scheduled for a specific date & time.
+    @params.day = date to be used for the current date/time ("now"). Only used if use_params is true, ignored otherwise.
+    @params.time = time to be used for the current date/time ("now"). Only used if use_params is true, ignored otherwise.
+*/
+async function what_sessions_are_scheduled_for_tasscc (params){
+    console.log("entering what_sessions_are_scheduled_for_tasscc function");
+  
+    var returnobj = {
+      "status": "200",
+      "statusText": "OK",
+      "errorCode": "",
+      "errorMessage": "",
+      "formatted": "",
+      "fields": {},
+      "raw": ""
+      };
+  
+    try {
+        var Sessions = session_json.Sessions;
+        var target_session_time;
+        var paramTime = {};
+        var parsedDate = {};
+        var allDay = false;
+
+        // process passed in day and time parameters
+        if (params.day == null) { // no date provided, make target date today
+            if (debug) console.log("no params.day passed in");
+            target_session_time = new Date(Date.now());
+            var monthInt = parseInt(target_session_time.getMonth(),10) + 1;  
+            parsedDate.month = monthInt.toString();;
+            parsedDate.year = target_session_time.getFullYear();
+            parsedDate.day = target_session_time.getDate();
+        }
+        else { // set target date to passed in value & get json parsed equivalent
+            if (debug) console.log("date passed in: ",params.day);
+            target_session_time = new Date(params.day + "T13:24:00");
+            parsedDate = parseDate(params.day);
+        } 
+
+        if ((params.time == null) || (params.time == '')) {
+            // if no time passed in, then make it all day
+            if (debug) console.log("no params.time passed in");
+            allDay = true;
+            paramTime.hour = target_session_time.getHours();
+            paramTime.minutes = target_session_time.getMinutes();
+        }
+        else { // use passed in time
+            if (debug) console.log("time passed in: ",params.time);
+            paramTime = parseTime2(params.time);
+            target_session_time.setHours(paramTime.hour,paramTime.minutes);
+        }
+        
+        
+        if (debug) {
+            console.log("target session time is: ",target_session_time.toLocaleString());
+        }
+        var session_array = [];
+  
+        // go through list of sessions
+        for (i in Sessions) {
+
+            var session_day = new Date(Sessions[i].Date); // create a date object with no time set
+            var session_start = new Date(Sessions[i].Date);
+            var session_end = new Date(Sessions[i].Date);
+
+            // only process sessions that scheduled for the target day
+            if ((session_day.getDay() == target_session_time.getDay()) && (Sessions[i]['Start Time'] != null))
+            {
+                console.log("Checking session: ",Sessions[i].Date, Sessions[i]['Start Time']);
+
+                // set times for this session's start and end Date objects
+                var session_start_time = parseTime2(Sessions[i]['Start Time']);
+                session_start.setHours(session_start_time.hour,session_start_time.minutes); // add in session start time
+                var session_end_time = parseTime2(Sessions[i]['End Time']);
+                session_end.setHours(session_end_time.hour,session_end_time.minutes);
+
+                if (false){
+                    console.log("Session start = ",session_start.getTime());
+                    console.log("Target start = ",target_session_time.getTime());
+                }
+
+                // if only the date was supplied, push all sessions into the array
+                if (allDay) {
+                    // push this session in the list
+                    session_array.push(Sessions[i]);
+                }
+                else 
+                // check if the target time falls in between the session start and end times
+                if ( (target_session_time.getTime() >= session_start.getTime()) && (target_session_time.getTime() < session_end.getTime()) )
+                {
+                    if (debug) {
+                        console.log("Found a session scheduled during the target time.");
+                        console.log(JSON.stringify(Sessions[i]));
+                    }
+
+                    // push this session in the list
+                    session_array.push(Sessions[i]);
+                }
+            }
+            else {
+                //console.log("Ignoring session dated: ",session_day);
+            }            
+        }
+
+        // format the response back for the assistant to say
+        var session_id, session_title, session_location,formatted_response;
+
+        if (session_array.length > 0) {
+            if (session_array.length == 1){
+                formatted_response = "There is " + session_array.length + " session scheduled during that time. ";
+            }
+            else {
+                formatted_response = "There are " + session_array.length + " sessions scheduled during that time. ";
+            }
+        }
+        else {
+            formatted_response = "I could not find any sessions scheduled for that day and time. Is there another time that I can search for?"
+        }
+
+        // stash the session list so that it can be displayed in the browser link
+        sessionInfo = session_array;
+
+        // format the Titleof the dynamic html page
+        var start_time_json = formatTime(paramTime.hour + ":" + paramTime.minutes);
+        var formatted_start_time = start_time_json.hour + ":" + start_time_json.minutes + " " + start_time_json.am_pm;
+        var date_string = parsedDate.month + "/" + parsedDate.day + "/" + parsedDate.year;
+        if (debug) {
+            console.log("date for web page display:", date_string);
+            console.log("made from: ",parsedDate);
+        }
+        sessionInfoTitle= "Conference Sessions going on";
+        if (allDay) {
+            sessionInfoTitle= sessionInfoTitle+ " all day ";
+        }
+        else {
+            sessionInfoTitle=  sessionInfoTitle+ " at " + formatted_start_time;
+        }
+        sessionInfoTitle= sessionInfoTitle+ " on " + date_string;
+        
+        returnobj.fields.session_count = session_array.length;
+        returnobj.formatted = formatted_response;
+        returnobj.title = sessionInfoTitle;
+        returnobj.session_list = session_array;
+    }
+    catch (error) {
+        console.error(`An error occurred during what_sessions_are_scheduled_for_tasscc processing: ${error}`);
+    }
+    //returnobj.html_string = build_html_body();
+    return returnobj;
+  } // --------- end what_sessions_are_scheduled_for_tasscc function --------------------
+ 

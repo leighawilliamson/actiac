@@ -1,0 +1,48 @@
+[
+    {
+        "flight_date": "2022-05-31",
+        "flight_status": "scheduled",
+        "departure": {
+            "airport": "Hartsfield-jackson Atlanta International",
+            "timezone": "America/New_York",
+            "iata": "ATL",
+            "icao": "KATL",
+            "terminal": "S",
+            "gate": "A30",
+            "delay": 3,
+            "scheduled": "2022-05-31T09:40:00+00:00",
+            "estimated": "2022-05-31T09:40:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "arrival": {
+            "airport": "Logan International",
+            "timezone": "America/New_York",
+            "iata": "BOS",
+            "icao": "KBOS",
+            "terminal": "A",
+            "gate": "A16",
+            "baggage": "3",
+            "delay": null,
+            "scheduled": "2022-05-31T12:18:00+00:00",
+            "estimated": "2022-05-31T12:18:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Delta Air Lines",
+            "iata": "DL",
+            "icao": "DAL"
+        },
+        "flight": {
+            "number": "1409",
+            "iata": "DL1409",
+            "icao": "DAL1409",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    }
+]

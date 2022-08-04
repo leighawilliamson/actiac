@@ -1,6 +1,6 @@
 /*eslint-env node*/
 const HOST = '0.0.0.0';
-const PORT = 8080;
+const PORT = 8082;
 
 // This application uses express as its web server
 // for more info, see: http://expressjs.com
@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
 
 //start the server
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8082;
 app.listen(port, () => {
   console.log(`server starting on http://localhost:${port}`);
 });

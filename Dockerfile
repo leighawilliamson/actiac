@@ -11,6 +11,6 @@ COPY ./public/. /public/
 
 RUN ls -la /public/img/*
 
-EXPOSE 8080
+EXPOSE 8082
 
 CMD ["node", "app.js"]

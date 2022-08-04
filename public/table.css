@@ -15,7 +15,7 @@ body{
 
 #topimage{
   top: 0;
-  height: 90px;
+  height: 170px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -28,7 +28,7 @@ body{
 
 #tablediv{
   padding:10px;
-  width: 1200px;
+  width: 1300px;
   overflow: scroll;
 }
 
